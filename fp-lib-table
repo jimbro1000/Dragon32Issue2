@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "Dragon")(type "KiCad")(uri "${KIPRJMOD}/Dragon.pretty")(options "")(descr ""))
+)
