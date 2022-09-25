@@ -4,6 +4,14 @@
 
   (paper "A3")
 
+  (title_block
+    (title "Dragon 32 CPU UK Issue 2")
+    (date "2022-09-25")
+    (rev "1")
+    (company "Dragon Data")
+    (comment 1 "Reproduced and Modified by Julian Brown")
+  )
+
   (lib_symbols
     (symbol "74xx:74LS00" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at 0 1.27 0)

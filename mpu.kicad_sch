@@ -4,6 +4,10 @@
 
   (paper "A3")
 
+  (title_block
+    (date "2022-09-25")
+  )
+
   (lib_symbols
     (symbol "CPU_NXP_6800:MC6809E" (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at -7.62 34.544 0)
