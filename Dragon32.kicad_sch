@@ -3003,6 +3003,9 @@
     (path "/c0eaba02-6b8d-4a7f-b51d-5746c573781a/d61a5b20-b894-4416-9820-406f5bfc6c72"
       (reference "#PWR0156") (unit 1) (value "GND") (footprint "")
     )
+    (path "/c0eaba02-6b8d-4a7f-b51d-5746c573781a/d40e7a14-7c72-4079-89d9-7b21d77ccf2d"
+      (reference "#PWR0157") (unit 1) (value "GND") (footprint "")
+    )
     (path "/c0eaba02-6b8d-4a7f-b51d-5746c573781a/bcc89797-aacc-42b8-a5df-8aa7d601176a"
       (reference "#PWR0158") (unit 1) (value "+5V") (footprint "")
     )
@@ -3216,9 +3219,6 @@
     (path "/28dac1c2-804e-40fd-9ff5-acdb4226ab76/aa4d1040-61c4-4ed7-89b6-0ebf3808804c"
       (reference "#PWR0228") (unit 1) (value "GND") (footprint "")
     )
-    (path "/28dac1c2-804e-40fd-9ff5-acdb4226ab76/b84ead6e-a211-4807-9a73-98c30c0b9c8f"
-      (reference "#PWR0229") (unit 1) (value "+5V") (footprint "")
-    )
     (path "/28dac1c2-804e-40fd-9ff5-acdb4226ab76/9d2b3028-51e3-4e6c-970d-d6199cd96b29"
       (reference "#PWR0230") (unit 1) (value "GND") (footprint "")
     )
@@ -3363,7 +3363,10 @@
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/eeff32f2-3b7d-4435-8706-08ffc77770ad"
       (reference "#PWR0277") (unit 1) (value "GND") (footprint "")
     )
-    (path "/c0eaba02-6b8d-4a7f-b51d-5746c573781a/d40e7a14-7c72-4079-89d9-7b21d77ccf2d"
+    (path "/28dac1c2-804e-40fd-9ff5-acdb4226ab76/1f5ff255-a218-4fda-a721-2cf7fb5d9528"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/28dac1c2-804e-40fd-9ff5-acdb4226ab76/b361e17a-3a56-4385-b45d-aedf4e8448a5"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/64d8d7b7-14ab-4042-9ee8-f1aec24a139c/4818ed6d-32a2-406d-951d-2e9a9511d8c8"
@@ -3785,6 +3788,9 @@
     )
     (path "/c0eaba02-6b8d-4a7f-b51d-5746c573781a/f82693e6-1aa7-4891-a46d-14873ecee5da"
       (reference "JP7-8") (unit 1) (value "16k/32k") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+    )
+    (path "/28dac1c2-804e-40fd-9ff5-acdb4226ab76/9f231fba-00ce-4905-863e-59447b7d5a70"
+      (reference "JP9-10") (unit 1) (value "16k/32k") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/28dac1c2-804e-40fd-9ff5-acdb4226ab76/d2e8879b-ed23-44a1-bcb1-f1c38b6f7e2f"
       (reference "JP11-12") (unit 1) (value "printer/comms") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
