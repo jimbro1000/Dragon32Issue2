@@ -812,7 +812,7 @@
     (uuid 5aa0e0d8-ecac-4ee4-a032-8f86322b439c)
     (property "Reference" "C36" (id 0) (at 156.7561 58.42 90))
     (property "Value" "100uF" (id 1) (at 156.7561 60.96 90))
-    (property "Footprint" "Capacitor_THT:CP_Radial_D7.5mm_P2.50mm" (id 2) (at 156.21 65.405 0)
+    (property "Footprint" "Capacitor_SMD:CP_Elec_8x5.4" (id 2) (at 156.21 65.405 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 156.21 65.405 0)
