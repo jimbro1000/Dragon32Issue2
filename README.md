@@ -47,3 +47,15 @@ The two extra buttons can also be disabled by omitting L3 and L4
 An extra jumper has been introduced to bypass the logic inverter
 on the STROBE line. When bypassed the parallel port should 
 operate as a communication port for DRIVEWIRE
+
+### Memory Addressing ###
+
+The board is configurable between 32k and 64k ram addressing
+using jumper 13/14. Position 13 is for original 32k ram
+configuration, position 14 is for an upgraded 64k ram. Note
+that this then requires removal of some additional passive 
+components and assumes that suitable 64k x 1 ram chips are 
+fitted in IC1 to IC8.
+
+See [World of Dragon: Dragon 32 - 64k Upgrade]
+(http://archive.worldofdragon.org/index.php?title=Dragon_32_-_64K_Upgrade)
