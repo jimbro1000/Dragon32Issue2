@@ -57,5 +57,9 @@ that this then requires removal of some additional passive
 components and assumes that suitable 64k x 1 ram chips are 
 fitted in IC1 to IC8.
 
+Jumper 9/10 has been added for consistency with some of the
+other early designs and for compatibility with the 64k
+upgrade.
+
 See [World of Dragon: Dragon 32 - 64k Upgrade]
 (http://archive.worldofdragon.org/index.php?title=Dragon_32_-_64K_Upgrade)

@@ -5,7 +5,8 @@
   (paper "A3")
 
   (title_block
-    (date "2022-09-25")
+    (date "2022-09-26")
+    (rev "1.2")
   )
 
   (lib_symbols
@@ -4618,7 +4619,7 @@
   (symbol (lib_id "power:GND") (at 119.253 195.707 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid d40e7a14-7c72-4079-89d9-7b21d77ccf2d)
-    (property "Reference" "#PWR?" (id 0) (at 125.603 195.707 0)
+    (property "Reference" "#PWR0157" (id 0) (at 125.603 195.707 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 121.666 194.945 90)
