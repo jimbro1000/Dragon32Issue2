@@ -3520,7 +3520,7 @@
       (reference "C44") (unit 1) (value "0.02uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/64d8d7b7-14ab-4042-9ee8-f1aec24a139c/7702cf20-2514-41dc-89f8-a67b9626bd35"
-      (reference "C45") (unit 1) (value "0.1uF") (footprint "C45")
+      (reference "C45") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/4667f0d3-cd5f-447a-aba1-6b97ef3599e3"
       (reference "C46") (unit 1) (value "180pF") (footprint "Capacitor_SMD:C_0805_2012Metric")
@@ -3700,7 +3700,7 @@
       (reference "IC23") (unit 3) (value "74HC74") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
     )
     (path "/64d8d7b7-14ab-4042-9ee8-f1aec24a139c/68551524-5d23-4a54-a0a7-07cbb43d361d"
-      (reference "IC24") (unit 1) (value "74LS244") (footprint "Package_DIP:DIP-20_W7.62mm")
+      (reference "IC24") (unit 1) (value "74HC244") (footprint "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm")
     )
     (path "/28dac1c2-804e-40fd-9ff5-acdb4226ab76/da14aa70-b66c-485a-901c-d477a5d9f2a0"
       (reference "IC25") (unit 1) (value "LM393") (footprint "Package_DIP:DIP-8_W7.62mm")
@@ -4093,16 +4093,16 @@
       (reference "SW2") (unit 1) (value "SW_DIP_x02") (footprint "Package_DIP:DIP-4_W7.62mm")
     )
     (path "/28dac1c2-804e-40fd-9ff5-acdb4226ab76/31d3792e-9c4c-42c7-8ee1-37b8e1889e95"
-      (reference "TR1") (unit 1) (value "BC141") (footprint "Package_TO_SOT_THT:TO-92_Inline")
+      (reference "TR1") (unit 1) (value "2PD601") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/43961f25-75c7-4b88-ad7f-4c307331fd77"
-      (reference "TR2") (unit 1) (value "2N2369") (footprint "Package_TO_SOT_THT:TO-92_Inline")
+      (reference "TR2") (unit 1) (value "SMBT3904") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/13c5da2f-8910-406c-9926-a4838ad5bc1a"
-      (reference "TR3") (unit 1) (value "2N2369") (footprint "Package_TO_SOT_THT:TO-92_Inline")
+      (reference "TR3") (unit 1) (value "SMBT3904") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/88f5a2b0-f2c3-4d7e-9f3a-e9a894a3d94d"
-      (reference "TR4") (unit 1) (value "BC212") (footprint "Package_TO_SOT_THT:TO-92_Inline")
+      (reference "TR4") (unit 1) (value "SST3906") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/6307c07a-e337-43d7-b9e5-9a4024edc71d"
       (reference "XL1") (unit 1) (value "4.433619MHz") (footprint "Crystal:Crystal_HC18-U_Horizontal")
