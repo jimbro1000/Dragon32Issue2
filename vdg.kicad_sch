@@ -5,8 +5,9 @@
   (paper "A3")
 
   (title_block
-    (date "2022-09-26")
-    (rev "1.2")
+    (date "2022-09-28")
+    (rev "1.x1")
+    (comment 2 "Experimental adoption of SMD")
   )
 
   (lib_symbols

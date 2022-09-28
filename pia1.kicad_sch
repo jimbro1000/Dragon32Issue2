@@ -5,8 +5,9 @@
   (paper "A3")
 
   (title_block
-    (date "2022-09-26")
-    (rev "1.2")
+    (date "2022-09-28")
+    (rev "1.x1")
+    (comment 2 "Experimental adoption of SMD")
   )
 
   (lib_symbols
@@ -3537,9 +3538,14 @@
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf" (id 3) (at 258.064 154.432 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 30afc152-d713-45dd-866d-fb29f141e06a))
+    (pin "2" (uuid 9053b2da-9860-455b-b839-cbe5642a9495))
+    (pin "3" (uuid aec92ed1-8082-4789-8c7d-4efc0f8885e5))
     (pin "5" (uuid 1f9b7a80-577e-4269-a32a-e5ec18d84904))
     (pin "6" (uuid 5dddccbc-0a5f-4e5f-8a62-8e819b0ef588))
     (pin "7" (uuid 20e1d596-1c9a-404a-ac83-83eabb849631))
+    (pin "4" (uuid 8937fe38-d414-4eda-8cf1-0892e3f40428))
+    (pin "8" (uuid 3b2f1179-1b93-48c4-9f1b-3b810dbdb8a4))
   )
 
   (symbol (lib_id "power:GND") (at 197.866 153.162 0) (unit 1)

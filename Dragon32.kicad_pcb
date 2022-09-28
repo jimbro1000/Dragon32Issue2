@@ -7,12 +7,13 @@
   (paper "A3")
   (title_block
     (title "Dragon 32 CPU UK Issue 2 Mainboard")
-    (date "2022-09-26")
-    (rev "1.2")
+    (date "2022-09-28")
+    (rev "1.x1")
     (company "Dragon Data")
     (comment 1 "Revised and Modified by Julian Brown")
     (comment 2 "Jumper for 64k wiring added")
     (comment 3 "Jumper 9/10 added")
+    (comment 4 "Experimental adoption of SMD")
   )
 
   (layers
