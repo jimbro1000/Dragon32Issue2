@@ -18,6 +18,18 @@ components
 The variable resistor (RV1), motor relay (RL1) and trim capacitor
 (C7) are adjusted for modern, available components
 
+## Experimental Revision ##
+
+This update attempts to convert as many components as possible to
+modern SMD while rearranging the board to try and minimise routing.
+This has not been completely successful but has freed up a large
+chunk of real estate on the board. Further refinement may follow
+to convert the RAM section to modern SRAM
+
+This update also converts the two roms to a single EEPROM with
+switchable banks (effectively 4 different ROMS can be selected
+from the EEPROM)
+
 ## Caveat ##
 
 The scans on the original SA2120 schematics are not always clear
