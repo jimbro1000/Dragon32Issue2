@@ -3848,7 +3848,7 @@
       (reference "IC32") (unit 3) (value "74HC390") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
     )
     (path "/c0eaba02-6b8d-4a7f-b51d-5746c573781a/5162dce3-c3f5-48db-9ff8-a0a0be7036d0"
-      (reference "IC33") (unit 1) (value "74HC138") (footprint "Package_SO:SOP-16_3.9x9.9mm_P1.27mm")
+      (reference "IC33") (unit 1) (value "74HC138") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
     )
     (path "/28dac1c2-804e-40fd-9ff5-acdb4226ab76/74f3c9ee-5354-4d29-a1b8-44d2bb726965"
       (reference "IC34") (unit 1) (value "74HC245") (footprint "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm")

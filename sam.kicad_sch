@@ -3776,7 +3776,7 @@
     (property "Value" "74HC138" (id 1) (at 124.0664 153.67 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_SO:SOP-16_3.9x9.9mm_P1.27mm" (id 2) (at 122.047 166.116 0)
+    (property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" (id 2) (at 122.047 166.116 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS138" (id 3) (at 122.047 166.116 0)
