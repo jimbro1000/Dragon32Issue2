@@ -382,10 +382,7 @@
           "+12V",
           "+5V",
           "-5V",
-          "GND",
-          "RAM VBB",
-          "RAM VCC",
-          "RAM VDD"
+          "GND"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",

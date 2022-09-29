@@ -5,8 +5,8 @@
   (paper "A3")
 
   (title_block
-    (date "2022-09-28")
-    (rev "1.x1")
+    (date "2022-09-29")
+    (rev "1.x2")
     (comment 2 "Experimental adoption of SMD")
   )
 
