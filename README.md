@@ -5,10 +5,8 @@ for the 1982 Dragon Data **Dragon 32**
 
 Everything (excluding modifications) is taken from the SA2120
 schematics. Component positioning is as close to the original
-too *but* the memory ICs (1-8) are rotated 180 degrees and may 
-not be the same spacing. IC16s position is unchecked. Using an
-original expansion board for memory will result in the, already
-delicate, chips being fried. Use 4164s instead and set the
+too. The DRAM positions are as close as possible to the 1982
+board but in preference use 4164s instead and set the
 memory configuration jumpers appropriately
 
 The two ROMS will need to be sourced from original boards or an
