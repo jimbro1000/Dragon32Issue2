@@ -2,17 +2,17 @@
 <export version="E">
   <design>
     <source>C:\Users\Julian\Documents\KiCad\6.0\projects\Dragon32\Dragon32.kicad_sch</source>
-    <date>26/09/2022 13:18:26</date>
+    <date>30/09/2022 13:04:46</date>
     <tool>Eeschema (6.0.1)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Dragon 32 CPU UK Issue 2</title>
         <company>Dragon Data</company>
-        <rev>1</rev>
-        <date>2022-09-25</date>
+        <rev>1.3</rev>
+        <date>2022-09-30</date>
         <source>Dragon32.kicad_sch</source>
         <comment number="1" value="Reproduced and Modified by Julian Brown"/>
-        <comment number="2" value=""/>
+        <comment number="2" value="Reposition dram and buffer"/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
         <comment number="5" value=""/>
@@ -26,11 +26,11 @@
       <title_block>
         <title/>
         <company/>
-        <rev/>
-        <date>2022-09-25</date>
+        <rev>1.3</rev>
+        <date>2022-09-30</date>
         <source>mpu.kicad_sch</source>
         <comment number="1" value=""/>
-        <comment number="2" value=""/>
+        <comment number="2" value="Reposition dram and buffer"/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
         <comment number="5" value=""/>
@@ -44,11 +44,11 @@
       <title_block>
         <title/>
         <company/>
-        <rev/>
-        <date>2022-09-25</date>
+        <rev>1.3</rev>
+        <date>2022-09-30</date>
         <source>rom.kicad_sch</source>
         <comment number="1" value=""/>
-        <comment number="2" value=""/>
+        <comment number="2" value="Reposition dram and buffer"/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
         <comment number="5" value=""/>
@@ -62,11 +62,11 @@
       <title_block>
         <title/>
         <company/>
-        <rev/>
-        <date>2022-09-25</date>
+        <rev>1.3</rev>
+        <date>2022-09-30</date>
         <source>sam.kicad_sch</source>
         <comment number="1" value=""/>
-        <comment number="2" value=""/>
+        <comment number="2" value="Reposition dram and buffer"/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
         <comment number="5" value=""/>
@@ -80,11 +80,11 @@
       <title_block>
         <title/>
         <company/>
-        <rev/>
-        <date>2022-09-25</date>
+        <rev>1.3</rev>
+        <date>2022-09-30</date>
         <source>vdg.kicad_sch</source>
         <comment number="1" value=""/>
-        <comment number="2" value=""/>
+        <comment number="2" value="Reposition dram and buffer"/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
         <comment number="5" value=""/>
@@ -98,11 +98,11 @@
       <title_block>
         <title/>
         <company/>
-        <rev/>
-        <date>2022-09-25</date>
+        <rev>1.3</rev>
+        <date>2022-09-30</date>
         <source>pia1.kicad_sch</source>
         <comment number="1" value=""/>
-        <comment number="2" value=""/>
+        <comment number="2" value="Reposition dram and buffer"/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
         <comment number="5" value=""/>
@@ -116,11 +116,11 @@
       <title_block>
         <title/>
         <company/>
-        <rev/>
-        <date>2022-09-25</date>
+        <rev>1.3</rev>
+        <date>2022-09-30</date>
         <source>pia2.kicad_sch</source>
         <comment number="1" value=""/>
-        <comment number="2" value=""/>
+        <comment number="2" value="Reposition dram and buffer"/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
         <comment number="5" value=""/>
@@ -134,11 +134,11 @@
       <title_block>
         <title/>
         <company/>
-        <rev/>
-        <date>2022-09-25</date>
+        <rev>1.3</rev>
+        <date>2022-09-30</date>
         <source>video.kicad_sch</source>
         <comment number="1" value=""/>
-        <comment number="2" value=""/>
+        <comment number="2" value="Reposition dram and buffer"/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
         <comment number="5" value=""/>

@@ -5,8 +5,9 @@
   (paper "A3")
 
   (title_block
-    (date "2022-09-26")
-    (rev "1.2")
+    (date "2022-09-30")
+    (rev "1.3")
+    (comment 2 "Reposition dram and buffer")
   )
 
   (lib_symbols
