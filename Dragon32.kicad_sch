@@ -3563,10 +3563,10 @@
       (reference "D1") (unit 1) (value "1N914") (footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal")
     )
     (path "/28dac1c2-804e-40fd-9ff5-acdb4226ab76/bb2b18a9-5ecf-4db5-8707-526d77489d1e"
-      (reference "D2") (unit 1) (value "16V") (footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal")
+      (reference "D2") (unit 1) (value "1N914") (footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal")
     )
     (path "/28dac1c2-804e-40fd-9ff5-acdb4226ab76/cd544ed5-a170-4c8e-8ac6-9619a3cb9f5b"
-      (reference "D3") (unit 1) (value "16V") (footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal")
+      (reference "D3") (unit 1) (value "1N914") (footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal")
     )
     (path "/02be2094-fd60-4d2f-9ad9-43f982c1e650/a64a9583-277b-47d2-8e1e-72c3280f02a2"
       (reference "D4") (unit 1) (value "1N914") (footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal")
@@ -3932,13 +3932,13 @@
       (reference "R32") (unit 1) (value "4K7") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/aec2a2aa-218c-4a7b-a72f-88b21232ab86"
-      (reference "R33") (unit 1) (value "1K8") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R33") (unit 1) (value "3K3") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/05f8a837-db1f-4053-9c7c-1a9e2c6fc2c5"
-      (reference "R34") (unit 1) (value "8K2") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R34") (unit 1) (value "6K8") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/61d41ee1-6f4e-4cda-940f-d39f41615f84"
-      (reference "R35") (unit 1) (value "12K") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R35") (unit 1) (value "15K") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/02be2094-fd60-4d2f-9ad9-43f982c1e650/73c922f7-203e-4726-b324-818cc8ad5371"
       (reference "R36") (unit 1) (value "100k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
@@ -4028,7 +4028,7 @@
       (reference "R64") (unit 1) (value "100K") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/b8c7db91-7ac4-4181-8bb6-c1aa0448d0df"
-      (reference "R65") (unit 1) (value "680R") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R65") (unit 1) (value "2K7") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/c0eaba02-6b8d-4a7f-b51d-5746c573781a/a1aa6ff3-37a1-4674-91e1-b87f7ddcba8a"
       (reference "R66") (unit 1) (value "1K5") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
@@ -4042,9 +4042,6 @@
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/ffbeda67-0fd8-4e46-829f-53842ea4ea07"
       (reference "R69") (unit 1) (value "330R") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
-    (path "/28dac1c2-804e-40fd-9ff5-acdb4226ab76/d923325d-91c1-4e44-9bbe-df33cc10d9d8"
-      (reference "R71") (unit 1) (value "270R-470R") (footprint "Varistor:RV_Disc_D7mm_W3.4mm_P5mm")
-    )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/a85e0140-6765-4fa6-b534-f6a7dadcbb9d"
       (reference "R76") (unit 1) (value "10R") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
@@ -4053,6 +4050,9 @@
     )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/bd858468-5f85-422e-90d4-c2954e21bd13"
       (reference "RV1") (unit 1) (value "10K") (footprint "Potentiometer_THT:Potentiometer_ACP_CA9-H5_Horizontal")
+    )
+    (path "/28dac1c2-804e-40fd-9ff5-acdb4226ab76/d923325d-91c1-4e44-9bbe-df33cc10d9d8"
+      (reference "RV3") (unit 1) (value "270R-470R") (footprint "Varistor:RV_Disc_D7mm_W3.4mm_P5mm")
     )
     (path "/02be2094-fd60-4d2f-9ad9-43f982c1e650/a6fa7d41-148e-46a6-824a-afc345091146"
       (reference "SW1") (unit 1) (value "RESET") (footprint "Dragon:Button_AlpsAlpine_SPUN190900")
