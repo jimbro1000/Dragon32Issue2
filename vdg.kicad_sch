@@ -761,7 +761,7 @@
     (property "Reference" "IC13" (id 0) (at 113.2714 62.992 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "74LS273" (id 1) (at 113.2714 65.532 0)
+    (property "Value" "74LS273N" (id 1) (at 113.2714 65.532 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_DIP:DIP-20_W7.62mm" (id 2) (at 111.252 83.312 0)

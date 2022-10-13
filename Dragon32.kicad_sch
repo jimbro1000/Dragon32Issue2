@@ -2281,7 +2281,7 @@
     (property "Reference" "IC25" (id 0) (at 96.52 49.7839 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "LM393" (id 1) (at 96.52 52.3239 0)
+    (property "Value" "LM393P" (id 1) (at 96.52 52.3239 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_DIP:DIP-8_W7.62mm" (id 2) (at 98.425 51.054 0)
@@ -2334,7 +2334,7 @@
     (property "Reference" "IC28" (id 0) (at 73.025 96.6469 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "74LS393" (id 1) (at 73.025 99.1869 0)
+    (property "Value" "74LS393N" (id 1) (at 73.025 99.1869 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_DIP:DIP-14_W7.62mm" (id 2) (at 67.056 97.917 0)
@@ -2369,7 +2369,7 @@
     (property "Reference" "IC22" (id 0) (at 74.93 142.8749 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "74LS00" (id 1) (at 74.93 145.4149 0)
+    (property "Value" "74LS00N" (id 1) (at 74.93 145.4149 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_DIP:DIP-14_W7.62mm" (id 2) (at 68.072 144.145 0)
@@ -2422,7 +2422,7 @@
     (property "Reference" "IC23" (id 0) (at 40.64 94.8689 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "74LS74" (id 1) (at 40.64 97.4089 0)
+    (property "Value" "74ALS74N" (id 1) (at 40.64 97.4089 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_DIP:DIP-14_W7.62mm" (id 2) (at 33.655 96.139 0)
@@ -2457,13 +2457,16 @@
     (property "Reference" "IC31" (id 0) (at 71.755 48.6409 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "74LS02" (id 1) (at 71.755 51.1809 0)
+    (property "Value" "74LS02N" (id 1) (at 71.755 51.1809 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_DIP:DIP-14_W7.62mm" (id 2) (at 65.913 49.911 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/sn74ls02" (id 3) (at 65.913 49.911 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "DigiKey" "296-1627-5-ND" (id 4) (at 65.913 49.911 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "14" (uuid 2b80e0a1-2846-4aa0-8319-48c82f6f5610))
@@ -2632,13 +2635,13 @@
     (property "Reference" "IC14" (id 0) (at 37.973 45.2119 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "74LS86" (id 1) (at 37.973 47.7519 0)
+    (property "Value" "74LS86N" (id 1) (at 37.973 47.7519 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_DIP:DIP-14_W7.62mm" (id 2) (at 31.877 46.482 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "74xx/74ls86.pdf" (id 3) (at 31.877 46.482 0)
+    (property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/DM74LS86.pdf" (id 3) (at 31.877 46.482 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "14" (uuid 03a24617-13e6-4922-ab6c-5cb103d61f18))
@@ -3623,28 +3626,28 @@
       (reference "IC12") (unit 1) (value "MC6847") (footprint "Package_DIP:DIP-40_W15.24mm")
     )
     (path "/bad72f01-5d56-4b17-b882-ee331bb76ff2/10935d3a-77f4-4a18-948e-fc28d570e008"
-      (reference "IC13") (unit 1) (value "74LS273") (footprint "Package_DIP:DIP-20_W7.62mm")
+      (reference "IC13") (unit 1) (value "74LS273N") (footprint "Package_DIP:DIP-20_W7.62mm")
     )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/196e3808-2076-45b5-b9a7-10beae505375"
-      (reference "IC14") (unit 1) (value "74LS86") (footprint "Package_DIP:DIP-14_W7.62mm")
+      (reference "IC14") (unit 1) (value "74LS86N") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/c13c8aab-3734-4a53-a0b6-c9ca16e10550"
-      (reference "IC14") (unit 2) (value "74LS86") (footprint "Package_DIP:DIP-14_W7.62mm")
+      (reference "IC14") (unit 2) (value "74LS86N") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/601346dd-773e-4783-b4fa-51ba92db080f"
-      (reference "IC14") (unit 3) (value "74LS86") (footprint "Package_DIP:DIP-14_W7.62mm")
+      (reference "IC14") (unit 3) (value "74LS86N") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/5339dafe-c49d-4052-a8a5-614f5f68aa4a"
-      (reference "IC14") (unit 4) (value "74LS86") (footprint "Package_DIP:DIP-14_W7.62mm")
+      (reference "IC14") (unit 4) (value "74LS86N") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/e6601025-e11a-4f37-84ae-d48e6efd271e"
-      (reference "IC14") (unit 5) (value "74LS86") (footprint "Package_DIP:DIP-14_W7.62mm")
+      (reference "IC14") (unit 5) (value "74LS86N") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/c0eaba02-6b8d-4a7f-b51d-5746c573781a/f83f27f8-c025-4260-a1f2-eabec9a98706"
       (reference "IC15") (unit 1) (value "MC6883") (footprint "Package_DIP:DIP-40_W15.24mm")
     )
     (path "/c0eaba02-6b8d-4a7f-b51d-5746c573781a/1b571375-c045-4e41-8ff4-549eba584c75"
-      (reference "IC16") (unit 1) (value "74LS244") (footprint "Package_DIP:DIP-20_W7.62mm")
+      (reference "IC16") (unit 1) (value "74LS244N") (footprint "Package_DIP:DIP-20_W7.62mm")
     )
     (path "/b703dfac-1bd0-40ba-a9f2-83b10c17ef1d/8459e90b-491a-40d2-b839-38ade384dbdd"
       (reference "IC17") (unit 1) (value "68A364") (footprint "Package_DIP:DIP-24_W15.24mm")
@@ -3659,109 +3662,109 @@
       (reference "IC20") (unit 1) (value "MC14529B") (footprint "Package_DIP:DIP-16_W7.62mm")
     )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/a4810410-b504-4c51-bcb1-420b8194d15e"
-      (reference "IC21") (unit 1) (value "74LS123") (footprint "Package_DIP:DIP-16_W7.62mm")
+      (reference "IC21") (unit 1) (value "74LS123N") (footprint "Package_DIP:DIP-16_W7.62mm")
     )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/607d1da9-8383-4847-8778-b9e4de1a3ec3"
-      (reference "IC21") (unit 2) (value "74LS123") (footprint "Package_DIP:DIP-16_W7.62mm")
+      (reference "IC21") (unit 2) (value "74LS123N") (footprint "Package_DIP:DIP-16_W7.62mm")
     )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/983fab00-d7e8-42b7-9f62-b060734280f0"
-      (reference "IC21") (unit 3) (value "74LS123") (footprint "Package_DIP:DIP-16_W7.62mm")
+      (reference "IC21") (unit 3) (value "74LS123N") (footprint "Package_DIP:DIP-16_W7.62mm")
     )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/8942d0a7-bc0d-4c63-ae34-902bc1709e06"
-      (reference "IC22") (unit 1) (value "74LS00") (footprint "Package_DIP:DIP-14_W7.62mm")
+      (reference "IC22") (unit 1) (value "74LS00N") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/4b41745e-7b0b-4b2b-90df-878e1b84dad9"
-      (reference "IC22") (unit 2) (value "74LS00") (footprint "Package_DIP:DIP-14_W7.62mm")
+      (reference "IC22") (unit 2) (value "74LS00N") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/cc53be5c-da58-4b38-9112-a7c04b9327af"
-      (reference "IC22") (unit 3) (value "74LS00") (footprint "Package_DIP:DIP-14_W7.62mm")
+      (reference "IC22") (unit 3) (value "74LS00N") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/a24a0705-005d-4cbc-bbba-22e741b077a1"
-      (reference "IC22") (unit 4) (value "74LS00") (footprint "Package_DIP:DIP-14_W7.62mm")
+      (reference "IC22") (unit 4) (value "74LS00N") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/46b078b7-e653-4215-a847-f1dceee41aef"
-      (reference "IC22") (unit 5) (value "74LS00") (footprint "Package_DIP:DIP-14_W7.62mm")
+      (reference "IC22") (unit 5) (value "74LS00N") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/360e8947-588a-4af7-add2-2da94998cb09"
-      (reference "IC23") (unit 1) (value "74LS74") (footprint "Package_DIP:DIP-14_W7.62mm")
+      (reference "IC23") (unit 1) (value "74ALS74N") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/cbd78e49-f1f8-4d84-a58c-e5d55a1b6a37"
-      (reference "IC23") (unit 2) (value "74LS74") (footprint "Package_DIP:DIP-14_W7.62mm")
+      (reference "IC23") (unit 2) (value "74ALS74N") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/81015247-fe9d-46bd-8c07-1e6253d0aea4"
-      (reference "IC23") (unit 3) (value "74LS74") (footprint "Package_DIP:DIP-14_W7.62mm")
+      (reference "IC23") (unit 3) (value "74ALS74N") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/64d8d7b7-14ab-4042-9ee8-f1aec24a139c/68551524-5d23-4a54-a0a7-07cbb43d361d"
-      (reference "IC24") (unit 1) (value "74LS244") (footprint "Package_DIP:DIP-20_W7.62mm")
+      (reference "IC24") (unit 1) (value "74LS244N") (footprint "Package_DIP:DIP-20_W7.62mm")
     )
     (path "/28dac1c2-804e-40fd-9ff5-acdb4226ab76/da14aa70-b66c-485a-901c-d477a5d9f2a0"
-      (reference "IC25") (unit 1) (value "LM393") (footprint "Package_DIP:DIP-8_W7.62mm")
+      (reference "IC25") (unit 1) (value "LM393P") (footprint "Package_DIP:DIP-8_W7.62mm")
     )
     (path "/64d8d7b7-14ab-4042-9ee8-f1aec24a139c/d2311558-8f96-4016-9bab-e647b3e8baa3"
-      (reference "IC25") (unit 2) (value "LM393") (footprint "Package_DIP:DIP-8_W7.62mm")
+      (reference "IC25") (unit 2) (value "LM393P") (footprint "Package_DIP:DIP-8_W7.62mm")
     )
     (path "/154e1d99-ad64-4600-81c7-feb2f74df8b4"
-      (reference "IC25") (unit 3) (value "LM393") (footprint "Package_DIP:DIP-8_W7.62mm")
+      (reference "IC25") (unit 3) (value "LM393P") (footprint "Package_DIP:DIP-8_W7.62mm")
     )
     (path "/64d8d7b7-14ab-4042-9ee8-f1aec24a139c/0359b9a0-08f9-40cc-89a0-75de82fb29d3"
       (reference "IC26") (unit 1) (value "MC6821") (footprint "Package_DIP:DIP-40_W15.24mm")
     )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/79763bac-bd94-4b61-981b-26fb6440c1fd"
-      (reference "IC27") (unit 1) (value "74LS20") (footprint "Package_DIP:DIP-14_W7.62mm")
+      (reference "IC27") (unit 1) (value "74LS20N") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/0a64d4d5-5f6d-4bbb-8af7-06e406753679"
-      (reference "IC27") (unit 2) (value "74LS20") (footprint "Package_DIP:DIP-14_W7.62mm")
+      (reference "IC27") (unit 2) (value "74LS20N") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/fb0fe1e5-77ab-48e1-8e55-194be166cec7"
-      (reference "IC27") (unit 3) (value "74LS20") (footprint "Package_DIP:DIP-14_W7.62mm")
+      (reference "IC27") (unit 3) (value "74LS20N") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/c3aa1a0f-e73a-4800-b9d3-9bcec10abeb6"
-      (reference "IC28") (unit 1) (value "74LS393") (footprint "Package_DIP:DIP-14_W7.62mm")
+      (reference "IC28") (unit 1) (value "74LS393N") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/fde219d4-4f31-40a1-8e8c-c9c17843ae73"
-      (reference "IC28") (unit 2) (value "74LS393") (footprint "Package_DIP:DIP-14_W7.62mm")
+      (reference "IC28") (unit 2) (value "74LS393N") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/2f58fb13-0fd6-41c8-b9d6-ac7c982df2c7"
-      (reference "IC28") (unit 3) (value "74LS393") (footprint "Package_DIP:DIP-14_W7.62mm")
+      (reference "IC28") (unit 3) (value "74LS393N") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/f59c1634-6eb2-4f26-98cc-0e4a737dd0ea"
-      (reference "IC29") (unit 1) (value "74LS393") (footprint "Package_DIP:DIP-14_W7.62mm")
+      (reference "IC29") (unit 1) (value "74LS393N") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/4fc6b82d-73c0-4d15-a372-aa5b9ffad75a"
-      (reference "IC29") (unit 2) (value "74LS393") (footprint "Package_DIP:DIP-14_W7.62mm")
+      (reference "IC29") (unit 2) (value "74LS393N") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/550b19f4-512c-4c3d-915c-1009d4ca21fa"
-      (reference "IC29") (unit 3) (value "74LS393") (footprint "Package_DIP:DIP-14_W7.62mm")
+      (reference "IC29") (unit 3) (value "74LS393N") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/ad9c236e-bc99-4c14-a98d-6497c553eb20"
-      (reference "IC30") (unit 1) (value "74LS32") (footprint "Package_DIP:DIP-14_W7.62mm")
+      (reference "IC30") (unit 1) (value "74LS32N") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/ef5cd4d4-677b-409e-90f1-7646056b3a08"
-      (reference "IC30") (unit 2) (value "74LS32") (footprint "Package_DIP:DIP-14_W7.62mm")
+      (reference "IC30") (unit 2) (value "74LS32N") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/e7c6388f-2b44-4a8c-8d29-c0c474e5ace4"
-      (reference "IC30") (unit 3) (value "74LS32") (footprint "Package_DIP:DIP-14_W7.62mm")
+      (reference "IC30") (unit 3) (value "74LS32N") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/4e9b3a30-09b6-48a7-bd8a-8094c67852ca"
-      (reference "IC30") (unit 4) (value "74LS32") (footprint "Package_DIP:DIP-14_W7.62mm")
+      (reference "IC30") (unit 4) (value "74LS32N") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/2eeb83d6-e586-4798-9225-07d8d79320ff"
-      (reference "IC30") (unit 5) (value "74LS32") (footprint "Package_DIP:DIP-14_W7.62mm")
+      (reference "IC30") (unit 5) (value "74LS32N") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/c0eaba02-6b8d-4a7f-b51d-5746c573781a/874d9926-d0ca-4759-922c-3bfaa7161447"
-      (reference "IC31") (unit 1) (value "74LS02") (footprint "Package_DIP:DIP-14_W7.62mm")
+      (reference "IC31") (unit 1) (value "74LS02N") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/c0eaba02-6b8d-4a7f-b51d-5746c573781a/77018629-65ad-4faa-bd78-410ba7c95fa2"
-      (reference "IC31") (unit 2) (value "74LS02") (footprint "Package_DIP:DIP-14_W7.62mm")
+      (reference "IC31") (unit 2) (value "74LS02N") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/28dac1c2-804e-40fd-9ff5-acdb4226ab76/cf7747b0-9c22-43ff-a892-299dc836c793"
-      (reference "IC31") (unit 3) (value "74LS02") (footprint "Package_DIP:DIP-14_W7.62mm")
+      (reference "IC31") (unit 3) (value "74LS02N") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/c0eaba02-6b8d-4a7f-b51d-5746c573781a/48067185-42c4-449e-9245-9ee6c2a6c10f"
-      (reference "IC31") (unit 4) (value "74LS02") (footprint "Package_DIP:DIP-14_W7.62mm")
+      (reference "IC31") (unit 4) (value "74LS02N") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/851d1dc3-32a8-4561-a582-9b17e636ca0c"
-      (reference "IC31") (unit 5) (value "74LS02") (footprint "Package_DIP:DIP-14_W7.62mm")
+      (reference "IC31") (unit 5) (value "74LS02N") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/7f591585-6237-472b-9074-177af2f895e7"
       (reference "IC32") (unit 1) (value "74LS390") (footprint "Package_DIP:DIP-16_W7.62mm")
@@ -3773,7 +3776,7 @@
       (reference "IC32") (unit 3) (value "74LS390") (footprint "Package_DIP:DIP-16_W7.62mm")
     )
     (path "/c0eaba02-6b8d-4a7f-b51d-5746c573781a/5162dce3-c3f5-48db-9ff8-a0a0be7036d0"
-      (reference "IC33") (unit 1) (value "74LS138") (footprint "Package_DIP:DIP-16_W7.62mm")
+      (reference "IC33") (unit 1) (value "74LS138N") (footprint "Package_DIP:DIP-16_W7.62mm")
     )
     (path "/28dac1c2-804e-40fd-9ff5-acdb4226ab76/ca6319e4-cee6-4caa-ad2c-a64f263a96c5"
       (reference "IC34") (unit 1) (value "MC14050BCP") (footprint "Package_DIP:DIP-16_W7.62mm")
