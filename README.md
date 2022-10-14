@@ -13,8 +13,9 @@ The two ROMS will need to be sourced from original boards or an
 adapter used to allow the use of modern, available EPROM or EEPROM
 components
 
-The variable resistor (RV1), motor relay (RL1) and trim capacitor
-(C7) are adjusted for modern, available components
+The variable resistor (RV1) and motor relay (RL1) are adjusted 
+for modern, available components. The cartridge port is based
+on a modern design but may still be hard to source
 
 ## Caveat ##
 
@@ -23,8 +24,9 @@ and it has taken a fair amount of careful study to get everything
 correct but there is no guarantee at this time that the board 
 design is as intended
 
-All unpolarised capacitor positions are using a simple bead type
-footprint which should suffice for modern components
+The values of passive components are taken from observation of
+an original production board, in most cases those values do
+match the schematics, but not always
 
 Revision 1 of this board is effectively untested and unproven
 
