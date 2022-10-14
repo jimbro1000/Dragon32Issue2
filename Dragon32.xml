@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\Users\Julian\Documents\KiCad\6.0\projects\Dragon32\Dragon32.kicad_sch</source>
-    <date>30/09/2022 13:04:46</date>
+    <date>14/10/2022 15:14:26</date>
     <tool>Eeschema (6.0.1)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -151,69 +151,100 @@
   </design>
   <components>
     <comp ref="IC14">
-      <value>74LS86</value>
+      <value>74LS86AN</value>
       <footprint>Package_DIP:DIP-14_W7.62mm</footprint>
-      <datasheet>74xx/74ls86.pdf</datasheet>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/DM74LS86.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">296-1669-5-ND</field>
+      </fields>
       <libsource lib="74xx" part="74LS86" description="Quad 2-input XOR"/>
+      <property name="DigiKey" value="296-1669-5-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Dragon32.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>e6601025-e11a-4f37-84ae-d48e6efd271e</tstamps>
     </comp>
     <comp ref="IC22">
-      <value>74LS00</value>
+      <value>74LS00N</value>
       <footprint>Package_DIP:DIP-14_W7.62mm</footprint>
       <datasheet>http://www.ti.com/lit/gpn/sn74ls00</datasheet>
+      <fields>
+        <field name="DigiKey">296-1626-ND</field>
+      </fields>
       <libsource lib="74xx" part="74LS00" description="quad 2-input NAND gate"/>
+      <property name="DigiKey" value="296-1626-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Dragon32.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>46b078b7-e653-4215-a847-f1dceee41aef</tstamps>
     </comp>
     <comp ref="IC23">
-      <value>74LS74</value>
+      <value>74ALS74N</value>
       <footprint>Package_DIP:DIP-14_W7.62mm</footprint>
-      <datasheet>74xx/74hc_hct74.pdf</datasheet>
+      <datasheet>https://www.ti.com/lit/ds/symlink/sn74als74a.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">296-1506-5-ND</field>
+        <field name="Note">LS74 no longer produced, ALS or HCT instead</field>
+      </fields>
       <libsource lib="74xx" part="74LS74" description="Dual D Flip-flop, Set &amp; Reset"/>
+      <property name="DigiKey" value="296-1506-5-ND"/>
+      <property name="Note" value="LS74 no longer produced, ALS or HCT instead"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Dragon32.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>81015247-fe9d-46bd-8c07-1e6253d0aea4</tstamps>
     </comp>
     <comp ref="IC25">
-      <value>LM393</value>
+      <value>LM393P</value>
       <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/lm393.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">296-1398-5-ND</field>
+      </fields>
       <libsource lib="Comparator" part="LM393" description="Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"/>
+      <property name="DigiKey" value="296-1398-5-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Dragon32.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>154e1d99-ad64-4600-81c7-feb2f74df8b4</tstamps>
     </comp>
     <comp ref="IC28">
-      <value>74LS393</value>
+      <value>74LS393N</value>
       <footprint>Package_DIP:DIP-14_W7.62mm</footprint>
-      <datasheet>74xx\74LS393.pdf</datasheet>
+      <datasheet>https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74ls390</datasheet>
+      <fields>
+        <field name="DigiKey">296-1665-5-ND</field>
+      </fields>
       <libsource lib="74xx" part="74LS393" description="Dual BCD 4-bit counter"/>
+      <property name="DigiKey" value="296-1665-5-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Dragon32.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>2f58fb13-0fd6-41c8-b9d6-ac7c982df2c7</tstamps>
     </comp>
     <comp ref="IC31">
-      <value>74LS02</value>
+      <value>74LS02N</value>
       <footprint>Package_DIP:DIP-14_W7.62mm</footprint>
       <datasheet>http://www.ti.com/lit/gpn/sn74ls02</datasheet>
+      <fields>
+        <field name="DigiKey">296-1627-5-ND</field>
+      </fields>
       <libsource lib="74xx" part="74LS02" description="quad 2-input NOR gate"/>
+      <property name="DigiKey" value="296-1627-5-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Dragon32.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>851d1dc3-32a8-4561-a582-9b17e636ca0c</tstamps>
     </comp>
     <comp ref="PL7">
-      <value>Expansion Connector</value>
+      <value>EDAC 342-040-558-212 x02</value>
       <footprint>Dragon:Edge_2x20_P2.54mm_Horizontal</footprint>
+      <datasheet>https://files.edac.net/edac/content/342/342-040-558-212%20-%20EDAC%20Card%20Edge%20Connector.PDF</datasheet>
+      <fields>
+        <field name="EDAC">342-040-558-212</field>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_01x40" description="Generic connector, single row, 01x40, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="EDAC" value="342-040-558-212"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Dragon32.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -221,8 +252,13 @@
     </comp>
     <comp ref="C4">
       <value>0.1uF</value>
-      <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <datasheet>https://www.vishay.com/docs/45171/kseries.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">BC1101CT-ND</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="DigiKey" value="BC1101CT-ND"/>
       <property name="Sheetname" value="MPU"/>
       <property name="Sheetfile" value="mpu.kicad_sch"/>
       <sheetpath names="/MPU/" tstamps="/02be2094-fd60-4d2f-9ad9-43f982c1e650/"/>
@@ -231,7 +267,12 @@
     <comp ref="C22">
       <value>100uF</value>
       <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/860010372006.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">732-8598-1-ND</field>
+      </fields>
       <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="DigiKey" value="732-8598-1-ND"/>
       <property name="Sheetname" value="MPU"/>
       <property name="Sheetfile" value="mpu.kicad_sch"/>
       <sheetpath names="/MPU/" tstamps="/02be2094-fd60-4d2f-9ad9-43f982c1e650/"/>
@@ -240,7 +281,12 @@
     <comp ref="C23">
       <value>1uF</value>
       <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/860020772005.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">732-8966-1-ND</field>
+      </fields>
       <libsource lib="Device" part="CP_Small" description=""/>
+      <property name="DigiKey" value="732-8966-1-ND"/>
       <property name="Sheetname" value="MPU"/>
       <property name="Sheetfile" value="mpu.kicad_sch"/>
       <sheetpath names="/MPU/" tstamps="/02be2094-fd60-4d2f-9ad9-43f982c1e650/"/>
@@ -250,7 +296,11 @@
       <value>1N914</value>
       <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
       <datasheet>http://www.vishay.com/docs/85622/1n914.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">1N914FS-ND</field>
+      </fields>
       <libsource lib="Diode" part="1N914" description="100V 0.3A Small Signal Fast Switching Diode, DO-35"/>
+      <property name="DigiKey" value="1N914FS-ND"/>
       <property name="Sheetname" value="MPU"/>
       <property name="Sheetfile" value="mpu.kicad_sch"/>
       <sheetpath names="/MPU/" tstamps="/02be2094-fd60-4d2f-9ad9-43f982c1e650/"/>
@@ -260,7 +310,11 @@
       <value>1N914</value>
       <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
       <datasheet>http://www.vishay.com/docs/85622/1n914.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">1N914FS-ND</field>
+      </fields>
       <libsource lib="Diode" part="1N914" description="100V 0.3A Small Signal Fast Switching Diode, DO-35"/>
+      <property name="DigiKey" value="1N914FS-ND"/>
       <property name="Sheetname" value="MPU"/>
       <property name="Sheetfile" value="mpu.kicad_sch"/>
       <sheetpath names="/MPU/" tstamps="/02be2094-fd60-4d2f-9ad9-43f982c1e650/"/>
@@ -270,7 +324,11 @@
       <value>1N914</value>
       <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
       <datasheet>http://www.vishay.com/docs/85622/1n914.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">1N914FS-ND</field>
+      </fields>
       <libsource lib="Diode" part="1N914" description="100V 0.3A Small Signal Fast Switching Diode, DO-35"/>
+      <property name="DigiKey" value="1N914FS-ND"/>
       <property name="Sheetname" value="MPU"/>
       <property name="Sheetfile" value="mpu.kicad_sch"/>
       <sheetpath names="/MPU/" tstamps="/02be2094-fd60-4d2f-9ad9-43f982c1e650/"/>
@@ -280,7 +338,11 @@
       <value>MC6809E</value>
       <footprint>Package_DIP:DIP-40_W15.24mm</footprint>
       <datasheet>http://pdf.datasheetcatalog.com/datasheet/motorola/MC68B09S.pdf</datasheet>
+      <fields>
+        <field name="Note">donor</field>
+      </fields>
       <libsource lib="CPU_NXP_6800" part="MC6809E" description="8-Bit Microprocessing unit 1.0MHz, DIP-40"/>
+      <property name="Note" value="donor"/>
       <property name="Sheetname" value="MPU"/>
       <property name="Sheetfile" value="mpu.kicad_sch"/>
       <sheetpath names="/MPU/" tstamps="/02be2094-fd60-4d2f-9ad9-43f982c1e650/"/>
@@ -343,7 +405,12 @@
     <comp ref="SW1">
       <value>RESET</value>
       <footprint>Dragon:Button_AlpsAlpine_SPUN190900</footprint>
+      <datasheet>https://www.ckswitches.com/media/1402/fpush.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">401-1225-ND</field>
+      </fields>
       <libsource lib="Switch" part="SW_Push_DPDT" description="Momentary Switch, dual pole double throw"/>
+      <property name="DigiKey" value="401-1225-ND"/>
       <property name="Sheetname" value="MPU"/>
       <property name="Sheetfile" value="mpu.kicad_sch"/>
       <sheetpath names="/MPU/" tstamps="/02be2094-fd60-4d2f-9ad9-43f982c1e650/"/>
@@ -352,7 +419,12 @@
     <comp ref="IC17">
       <value>68A364</value>
       <footprint>Package_DIP:DIP-24_W15.24mm</footprint>
+      <fields>
+        <field name="Note">donor only</field>
+      </fields>
       <libsource lib="Memory_ROM_Dragon" part="BASIC_8K" description=""/>
+      <property name="DigiKey" value=""/>
+      <property name="Note" value="donor only"/>
       <property name="Sheetname" value="ROM"/>
       <property name="Sheetfile" value="rom.kicad_sch"/>
       <sheetpath names="/ROM/" tstamps="/b703dfac-1bd0-40ba-a9f2-83b10c17ef1d/"/>
@@ -361,7 +433,12 @@
     <comp ref="IC18">
       <value>68A364</value>
       <footprint>Package_DIP:DIP-24_W15.24mm</footprint>
+      <fields>
+        <field name="Note">donor only</field>
+      </fields>
       <libsource lib="Memory_ROM_Dragon" part="BASIC_8K" description=""/>
+      <property name="DigiKey" value=""/>
+      <property name="Note" value="donor only"/>
       <property name="Sheetname" value="ROM"/>
       <property name="Sheetfile" value="rom.kicad_sch"/>
       <sheetpath names="/ROM/" tstamps="/b703dfac-1bd0-40ba-a9f2-83b10c17ef1d/"/>
@@ -369,26 +446,41 @@
     </comp>
     <comp ref="C10">
       <value>4.7uF</value>
-      <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <datasheet>https://datasheets.kyocera-avx.com/tap.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">478-8984-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="DigiKey" value="478-8984-1-ND"/>
       <property name="Sheetname" value="SAM"/>
       <property name="Sheetfile" value="sam.kicad_sch"/>
       <sheetpath names="/SAM/" tstamps="/c0eaba02-6b8d-4a7f-b51d-5746c573781a/"/>
-      <tstamps>41e50dc1-8528-4a4c-82cd-dc4c45789c27</tstamps>
+      <tstamps>29c08d24-6e67-48a4-a672-7bf02c71cc04</tstamps>
     </comp>
     <comp ref="C11">
       <value>4.7uF</value>
-      <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <datasheet>https://datasheets.kyocera-avx.com/tap.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">478-8984-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="DigiKey" value="478-8984-1-ND"/>
       <property name="Sheetname" value="SAM"/>
       <property name="Sheetfile" value="sam.kicad_sch"/>
       <sheetpath names="/SAM/" tstamps="/c0eaba02-6b8d-4a7f-b51d-5746c573781a/"/>
-      <tstamps>25060261-e36a-4503-91ba-c51cf8415ed4</tstamps>
+      <tstamps>dbb04b76-d0a8-4988-9e67-3ce83d44f1da</tstamps>
     </comp>
     <comp ref="C12">
       <value>0.1uF</value>
-      <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <datasheet>https://www.vishay.com/docs/45171/kseries.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">BC1101CT-ND</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="DigiKey" value="BC1101CT-ND"/>
       <property name="Sheetname" value="SAM"/>
       <property name="Sheetfile" value="sam.kicad_sch"/>
       <sheetpath names="/SAM/" tstamps="/c0eaba02-6b8d-4a7f-b51d-5746c573781a/"/>
@@ -396,17 +488,27 @@
     </comp>
     <comp ref="C13">
       <value>10uF</value>
-      <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/860010372001.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">732-8593-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="DigiKey" value="732-8593-1-ND"/>
       <property name="Sheetname" value="SAM"/>
       <property name="Sheetfile" value="sam.kicad_sch"/>
       <sheetpath names="/SAM/" tstamps="/c0eaba02-6b8d-4a7f-b51d-5746c573781a/"/>
-      <tstamps>e2493578-2092-42b1-b5b8-79b6bd8fa69f</tstamps>
+      <tstamps>d2e6dbf5-3016-4673-b658-544309c12335</tstamps>
     </comp>
     <comp ref="C14">
       <value>0.1uF</value>
-      <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <datasheet>https://www.vishay.com/docs/45171/kseries.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">BC1101CT-ND</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="DigiKey" value="BC1101CT-ND"/>
       <property name="Sheetname" value="SAM"/>
       <property name="Sheetfile" value="sam.kicad_sch"/>
       <sheetpath names="/SAM/" tstamps="/c0eaba02-6b8d-4a7f-b51d-5746c573781a/"/>
@@ -414,8 +516,13 @@
     </comp>
     <comp ref="C15">
       <value>0.1uF</value>
-      <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <datasheet>https://www.vishay.com/docs/45171/kseries.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">BC1101CT-ND</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="DigiKey" value="BC1101CT-ND"/>
       <property name="Sheetname" value="SAM"/>
       <property name="Sheetfile" value="sam.kicad_sch"/>
       <sheetpath names="/SAM/" tstamps="/c0eaba02-6b8d-4a7f-b51d-5746c573781a/"/>
@@ -423,8 +530,13 @@
     </comp>
     <comp ref="C16">
       <value>0.1uF</value>
-      <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <datasheet>https://www.vishay.com/docs/45171/kseries.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">BC1101CT-ND</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="DigiKey" value="BC1101CT-ND"/>
       <property name="Sheetname" value="SAM"/>
       <property name="Sheetfile" value="sam.kicad_sch"/>
       <sheetpath names="/SAM/" tstamps="/c0eaba02-6b8d-4a7f-b51d-5746c573781a/"/>
@@ -432,8 +544,13 @@
     </comp>
     <comp ref="C17">
       <value>0.1uF</value>
-      <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <datasheet>https://www.vishay.com/docs/45171/kseries.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">BC1101CT-ND</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="DigiKey" value="BC1101CT-ND"/>
       <property name="Sheetname" value="SAM"/>
       <property name="Sheetfile" value="sam.kicad_sch"/>
       <sheetpath names="/SAM/" tstamps="/c0eaba02-6b8d-4a7f-b51d-5746c573781a/"/>
@@ -441,8 +558,13 @@
     </comp>
     <comp ref="C18">
       <value>0.1uF</value>
-      <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <datasheet>https://www.vishay.com/docs/45171/kseries.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">BC1101CT-ND</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="DigiKey" value="BC1101CT-ND"/>
       <property name="Sheetname" value="SAM"/>
       <property name="Sheetfile" value="sam.kicad_sch"/>
       <sheetpath names="/SAM/" tstamps="/c0eaba02-6b8d-4a7f-b51d-5746c573781a/"/>
@@ -450,8 +572,13 @@
     </comp>
     <comp ref="C19">
       <value>0.1uF</value>
-      <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <datasheet>https://www.vishay.com/docs/45171/kseries.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">BC1101CT-ND</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="DigiKey" value="BC1101CT-ND"/>
       <property name="Sheetname" value="SAM"/>
       <property name="Sheetfile" value="sam.kicad_sch"/>
       <sheetpath names="/SAM/" tstamps="/c0eaba02-6b8d-4a7f-b51d-5746c573781a/"/>
@@ -459,8 +586,13 @@
     </comp>
     <comp ref="C20">
       <value>0.1uF</value>
-      <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <datasheet>https://www.vishay.com/docs/45171/kseries.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">BC1101CT-ND</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="DigiKey" value="BC1101CT-ND"/>
       <property name="Sheetname" value="SAM"/>
       <property name="Sheetfile" value="sam.kicad_sch"/>
       <sheetpath names="/SAM/" tstamps="/c0eaba02-6b8d-4a7f-b51d-5746c573781a/"/>
@@ -468,8 +600,13 @@
     </comp>
     <comp ref="C21">
       <value>0.1uF</value>
-      <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <datasheet>https://www.vishay.com/docs/45171/kseries.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">BC1101CT-ND</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="DigiKey" value="BC1101CT-ND"/>
       <property name="Sheetname" value="SAM"/>
       <property name="Sheetfile" value="sam.kicad_sch"/>
       <sheetpath names="/SAM/" tstamps="/c0eaba02-6b8d-4a7f-b51d-5746c573781a/"/>
@@ -477,17 +614,27 @@
     </comp>
     <comp ref="C37">
       <value>4.7uF</value>
-      <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <datasheet>https://datasheets.kyocera-avx.com/tap.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">478-8984-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="DigiKey" value="478-8984-1-ND"/>
       <property name="Sheetname" value="SAM"/>
       <property name="Sheetfile" value="sam.kicad_sch"/>
       <sheetpath names="/SAM/" tstamps="/c0eaba02-6b8d-4a7f-b51d-5746c573781a/"/>
-      <tstamps>02606243-a7ce-4ab0-97dd-0807fac99085</tstamps>
+      <tstamps>4f93e9fe-f8d4-4f76-92c8-cdc0ed23c638</tstamps>
     </comp>
     <comp ref="C40">
       <value>22pF</value>
       <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <datasheet>https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C315C220K2G5TA7301</datasheet>
+      <fields>
+        <field name="DigiKey">399-13930-1-ND</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="DigiKey" value="399-13930-1-ND"/>
       <property name="Sheetname" value="SAM"/>
       <property name="Sheetfile" value="sam.kicad_sch"/>
       <sheetpath names="/SAM/" tstamps="/c0eaba02-6b8d-4a7f-b51d-5746c573781a/"/>
@@ -496,7 +643,12 @@
     <comp ref="C41">
       <value>33pF</value>
       <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <datasheet>https://www.vishay.com/docs/45171/kseries.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">BC1007CT-ND</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="DigiKey" value="BC1007CT-ND"/>
       <property name="Sheetname" value="SAM"/>
       <property name="Sheetfile" value="sam.kicad_sch"/>
       <sheetpath names="/SAM/" tstamps="/c0eaba02-6b8d-4a7f-b51d-5746c573781a/"/>
@@ -504,8 +656,13 @@
     </comp>
     <comp ref="C50">
       <value>0.1uF</value>
-      <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <datasheet>https://www.vishay.com/docs/45171/kseries.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">BC1101CT-ND</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="DigiKey" value="BC1101CT-ND"/>
       <property name="Sheetname" value="SAM"/>
       <property name="Sheetfile" value="sam.kicad_sch"/>
       <sheetpath names="/SAM/" tstamps="/c0eaba02-6b8d-4a7f-b51d-5746c573781a/"/>
@@ -513,8 +670,13 @@
     </comp>
     <comp ref="C51">
       <value>0.1uF</value>
-      <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <datasheet>https://www.vishay.com/docs/45171/kseries.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">BC1101CT-ND</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="DigiKey" value="BC1101CT-ND"/>
       <property name="Sheetname" value="SAM"/>
       <property name="Sheetfile" value="sam.kicad_sch"/>
       <sheetpath names="/SAM/" tstamps="/c0eaba02-6b8d-4a7f-b51d-5746c573781a/"/>
@@ -522,8 +684,13 @@
     </comp>
     <comp ref="C52">
       <value>0.1uF</value>
-      <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <datasheet>https://www.vishay.com/docs/45171/kseries.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">BC1101CT-ND</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="DigiKey" value="BC1101CT-ND"/>
       <property name="Sheetname" value="SAM"/>
       <property name="Sheetfile" value="sam.kicad_sch"/>
       <sheetpath names="/SAM/" tstamps="/c0eaba02-6b8d-4a7f-b51d-5746c573781a/"/>
@@ -531,8 +698,13 @@
     </comp>
     <comp ref="C53">
       <value>0.1uF</value>
-      <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <datasheet>https://www.vishay.com/docs/45171/kseries.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">BC1101CT-ND</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="DigiKey" value="BC1101CT-ND"/>
       <property name="Sheetname" value="SAM"/>
       <property name="Sheetfile" value="sam.kicad_sch"/>
       <sheetpath names="/SAM/" tstamps="/c0eaba02-6b8d-4a7f-b51d-5746c573781a/"/>
@@ -540,8 +712,13 @@
     </comp>
     <comp ref="C54">
       <value>0.1uF</value>
-      <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <datasheet>https://www.vishay.com/docs/45171/kseries.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">BC1101CT-ND</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="DigiKey" value="BC1101CT-ND"/>
       <property name="Sheetname" value="SAM"/>
       <property name="Sheetfile" value="sam.kicad_sch"/>
       <sheetpath names="/SAM/" tstamps="/c0eaba02-6b8d-4a7f-b51d-5746c573781a/"/>
@@ -549,8 +726,13 @@
     </comp>
     <comp ref="C55">
       <value>0.1uF</value>
-      <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <datasheet>https://www.vishay.com/docs/45171/kseries.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">BC1101CT-ND</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="DigiKey" value="BC1101CT-ND"/>
       <property name="Sheetname" value="SAM"/>
       <property name="Sheetfile" value="sam.kicad_sch"/>
       <sheetpath names="/SAM/" tstamps="/c0eaba02-6b8d-4a7f-b51d-5746c573781a/"/>
@@ -558,8 +740,13 @@
     </comp>
     <comp ref="C56">
       <value>0.1uF</value>
-      <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <datasheet>https://www.vishay.com/docs/45171/kseries.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">BC1101CT-ND</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="DigiKey" value="BC1101CT-ND"/>
       <property name="Sheetname" value="SAM"/>
       <property name="Sheetfile" value="sam.kicad_sch"/>
       <sheetpath names="/SAM/" tstamps="/c0eaba02-6b8d-4a7f-b51d-5746c573781a/"/>
@@ -567,17 +754,27 @@
     </comp>
     <comp ref="C57">
       <value>0.1uF</value>
-      <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <datasheet>https://www.vishay.com/docs/45171/kseries.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">BC1101CT-ND</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="DigiKey" value="BC1101CT-ND"/>
       <property name="Sheetname" value="SAM"/>
       <property name="Sheetfile" value="sam.kicad_sch"/>
       <sheetpath names="/SAM/" tstamps="/c0eaba02-6b8d-4a7f-b51d-5746c573781a/"/>
       <tstamps>e3d0a082-de0a-42b7-b83b-2dfa90d060ef</tstamps>
     </comp>
     <comp ref="C58">
-      <value>0.1uF</value>
-      <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <value>0.01uF</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <datasheet>https://www.vishay.com/docs/45171/kseries.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">BC2662CT-ND</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="DigiKey" value="BC2662CT-ND"/>
       <property name="Sheetname" value="SAM"/>
       <property name="Sheetfile" value="sam.kicad_sch"/>
       <sheetpath names="/SAM/" tstamps="/c0eaba02-6b8d-4a7f-b51d-5746c573781a/"/>
@@ -586,7 +783,12 @@
     <comp ref="C59">
       <value>33pF</value>
       <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <datasheet>https://www.vishay.com/docs/45171/kseries.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">BC1007CT-ND</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="DigiKey" value="BC1007CT-ND"/>
       <property name="Sheetname" value="SAM"/>
       <property name="Sheetfile" value="sam.kicad_sch"/>
       <sheetpath names="/SAM/" tstamps="/c0eaba02-6b8d-4a7f-b51d-5746c573781a/"/>
@@ -596,7 +798,11 @@
       <value>HYB4116</value>
       <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
       <datasheet>https://4donline.ihs.com/images/VipMasterIC/IC/INFN/INFNS18263/INFNS18263-1.pdf</datasheet>
+      <fields>
+        <field name="Note">use general 4164 with suitable timing</field>
+      </fields>
       <libsource lib="Memory_RAM_Siemens" part="HYB4116" description=""/>
+      <property name="Note" value="use general 4164 with suitable timing"/>
       <property name="Sheetname" value="SAM"/>
       <property name="Sheetfile" value="sam.kicad_sch"/>
       <sheetpath names="/SAM/" tstamps="/c0eaba02-6b8d-4a7f-b51d-5746c573781a/"/>
@@ -606,7 +812,11 @@
       <value>HYB4116</value>
       <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
       <datasheet>https://4donline.ihs.com/images/VipMasterIC/IC/INFN/INFNS18263/INFNS18263-1.pdf</datasheet>
+      <fields>
+        <field name="Note">use general 4164 with suitable timing</field>
+      </fields>
       <libsource lib="Memory_RAM_Siemens" part="HYB4116" description=""/>
+      <property name="Note" value="use general 4164 with suitable timing"/>
       <property name="Sheetname" value="SAM"/>
       <property name="Sheetfile" value="sam.kicad_sch"/>
       <sheetpath names="/SAM/" tstamps="/c0eaba02-6b8d-4a7f-b51d-5746c573781a/"/>
@@ -616,7 +826,11 @@
       <value>HYB4116</value>
       <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
       <datasheet>https://4donline.ihs.com/images/VipMasterIC/IC/INFN/INFNS18263/INFNS18263-1.pdf</datasheet>
+      <fields>
+        <field name="Note">use general 4164 with suitable timing</field>
+      </fields>
       <libsource lib="Memory_RAM_Siemens" part="HYB4116" description=""/>
+      <property name="Note" value="use general 4164 with suitable timing"/>
       <property name="Sheetname" value="SAM"/>
       <property name="Sheetfile" value="sam.kicad_sch"/>
       <sheetpath names="/SAM/" tstamps="/c0eaba02-6b8d-4a7f-b51d-5746c573781a/"/>
@@ -626,7 +840,11 @@
       <value>HYB4116</value>
       <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
       <datasheet>https://4donline.ihs.com/images/VipMasterIC/IC/INFN/INFNS18263/INFNS18263-1.pdf</datasheet>
+      <fields>
+        <field name="Note">use general 4164 with suitable timing</field>
+      </fields>
       <libsource lib="Memory_RAM_Siemens" part="HYB4116" description=""/>
+      <property name="Note" value="use general 4164 with suitable timing"/>
       <property name="Sheetname" value="SAM"/>
       <property name="Sheetfile" value="sam.kicad_sch"/>
       <sheetpath names="/SAM/" tstamps="/c0eaba02-6b8d-4a7f-b51d-5746c573781a/"/>
@@ -636,7 +854,11 @@
       <value>HYB4116</value>
       <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
       <datasheet>https://4donline.ihs.com/images/VipMasterIC/IC/INFN/INFNS18263/INFNS18263-1.pdf</datasheet>
+      <fields>
+        <field name="Note">use general 4164 with suitable timing</field>
+      </fields>
       <libsource lib="Memory_RAM_Siemens" part="HYB4116" description=""/>
+      <property name="Note" value="use general 4164 with suitable timing"/>
       <property name="Sheetname" value="SAM"/>
       <property name="Sheetfile" value="sam.kicad_sch"/>
       <sheetpath names="/SAM/" tstamps="/c0eaba02-6b8d-4a7f-b51d-5746c573781a/"/>
@@ -646,7 +868,11 @@
       <value>HYB4116</value>
       <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
       <datasheet>https://4donline.ihs.com/images/VipMasterIC/IC/INFN/INFNS18263/INFNS18263-1.pdf</datasheet>
+      <fields>
+        <field name="Note">use general 4164 with suitable timing</field>
+      </fields>
       <libsource lib="Memory_RAM_Siemens" part="HYB4116" description=""/>
+      <property name="Note" value="use general 4164 with suitable timing"/>
       <property name="Sheetname" value="SAM"/>
       <property name="Sheetfile" value="sam.kicad_sch"/>
       <sheetpath names="/SAM/" tstamps="/c0eaba02-6b8d-4a7f-b51d-5746c573781a/"/>
@@ -656,7 +882,11 @@
       <value>HYB4116</value>
       <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
       <datasheet>https://4donline.ihs.com/images/VipMasterIC/IC/INFN/INFNS18263/INFNS18263-1.pdf</datasheet>
+      <fields>
+        <field name="Note">use general 4164 with suitable timing</field>
+      </fields>
       <libsource lib="Memory_RAM_Siemens" part="HYB4116" description=""/>
+      <property name="Note" value="use general 4164 with suitable timing"/>
       <property name="Sheetname" value="SAM"/>
       <property name="Sheetfile" value="sam.kicad_sch"/>
       <sheetpath names="/SAM/" tstamps="/c0eaba02-6b8d-4a7f-b51d-5746c573781a/"/>
@@ -666,7 +896,11 @@
       <value>HYB4116</value>
       <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
       <datasheet>https://4donline.ihs.com/images/VipMasterIC/IC/INFN/INFNS18263/INFNS18263-1.pdf</datasheet>
+      <fields>
+        <field name="Note">use general 4164 with suitable timing</field>
+      </fields>
       <libsource lib="Memory_RAM_Siemens" part="HYB4116" description=""/>
+      <property name="Note" value="use general 4164 with suitable timing"/>
       <property name="Sheetname" value="SAM"/>
       <property name="Sheetfile" value="sam.kicad_sch"/>
       <sheetpath names="/SAM/" tstamps="/c0eaba02-6b8d-4a7f-b51d-5746c573781a/"/>
@@ -676,27 +910,39 @@
       <value>MC6883</value>
       <footprint>Package_DIP:DIP-40_W15.24mm</footprint>
       <datasheet>http://www.colorcomputerarchive.com/coco/Documents/Datasheets/MC6883 Synchronous Address Multiplexer (Motorola).pdf</datasheet>
+      <fields>
+        <field name="Note">donor</field>
+      </fields>
       <libsource lib="Memory_Controller_Motorola" part="MC6883" description=""/>
+      <property name="Note" value="donor"/>
       <property name="Sheetname" value="SAM"/>
       <property name="Sheetfile" value="sam.kicad_sch"/>
       <sheetpath names="/SAM/" tstamps="/c0eaba02-6b8d-4a7f-b51d-5746c573781a/"/>
       <tstamps>f83f27f8-c025-4260-a1f2-eabec9a98706</tstamps>
     </comp>
     <comp ref="IC16">
-      <value>74LS244</value>
+      <value>74LS244N</value>
       <footprint>Package_DIP:DIP-20_W7.62mm</footprint>
-      <datasheet>http://www.ti.com/lit/gpn/sn74LS244</datasheet>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn74ls244.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">296-1653-5-ND</field>
+      </fields>
       <libsource lib="74xx" part="74LS244" description="Octal Buffer and Line Driver With 3-State Output, active-low enables, non-inverting outputs"/>
+      <property name="DigiKey" value="296-1653-5-ND"/>
       <property name="Sheetname" value="SAM"/>
       <property name="Sheetfile" value="sam.kicad_sch"/>
       <sheetpath names="/SAM/" tstamps="/c0eaba02-6b8d-4a7f-b51d-5746c573781a/"/>
       <tstamps>1b571375-c045-4e41-8ff4-549eba584c75</tstamps>
     </comp>
     <comp ref="IC33">
-      <value>74LS138</value>
+      <value>74LS138N</value>
       <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
       <datasheet>http://www.ti.com/lit/gpn/sn74LS138</datasheet>
+      <fields>
+        <field name="DigiKey">296-1639-5-ND</field>
+      </fields>
       <libsource lib="74xx" part="74LS138" description="Decoder 3 to 8 active low outputs"/>
+      <property name="DigiKey" value="296-1639-5-ND"/>
       <property name="Sheetname" value="SAM"/>
       <property name="Sheetfile" value="sam.kicad_sch"/>
       <sheetpath names="/SAM/" tstamps="/c0eaba02-6b8d-4a7f-b51d-5746c573781a/"/>
@@ -875,8 +1121,13 @@
     </comp>
     <comp ref="XL2">
       <value>14.31818MHz</value>
-      <footprint>Crystal:Crystal_HC18-U_Horizontal</footprint>
+      <footprint>Crystal:Crystal_HC49-U_Horizontal</footprint>
+      <datasheet>https://www.ctscorp.com/wp-content/uploads/MP.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">CTX088-ND</field>
+      </fields>
       <libsource lib="Device" part="Crystal_Small" description="Two pin crystal, small symbol"/>
+      <property name="DigiKey" value="CTX088-ND"/>
       <property name="Sheetname" value="SAM"/>
       <property name="Sheetfile" value="sam.kicad_sch"/>
       <sheetpath names="/SAM/" tstamps="/c0eaba02-6b8d-4a7f-b51d-5746c573781a/"/>
@@ -884,8 +1135,13 @@
     </comp>
     <comp ref="C36">
       <value>100uF</value>
-      <footprint>Capacitor_THT:CP_Radial_D7.5mm_P2.50mm</footprint>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/860010372006.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">732-8598-1-ND</field>
+      </fields>
       <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="DigiKey" value="732-8598-1-ND"/>
       <property name="Sheetname" value="VDG"/>
       <property name="Sheetfile" value="vdg.kicad_sch"/>
       <sheetpath names="/VDG/" tstamps="/bad72f01-5d56-4b17-b882-ee331bb76ff2/"/>
@@ -894,62 +1150,96 @@
     <comp ref="IC12">
       <value>MC6847</value>
       <footprint>Package_DIP:DIP-40_W15.24mm</footprint>
+      <fields>
+        <field name="Note">donor</field>
+      </fields>
       <libsource lib="vdg" part="MC6847" description=""/>
+      <property name="Note" value="donor"/>
       <property name="Sheetname" value="VDG"/>
       <property name="Sheetfile" value="vdg.kicad_sch"/>
       <sheetpath names="/VDG/" tstamps="/bad72f01-5d56-4b17-b882-ee331bb76ff2/"/>
       <tstamps>becb0ed1-ffd4-484b-886e-b44799b33ffd</tstamps>
     </comp>
     <comp ref="IC13">
-      <value>74LS273</value>
+      <value>74LS273N</value>
       <footprint>Package_DIP:DIP-20_W7.62mm</footprint>
       <datasheet>http://www.ti.com/lit/gpn/sn74LS273</datasheet>
+      <fields>
+        <field name="DigiKey">296-1657-5-ND</field>
+      </fields>
       <libsource lib="74xx" part="74LS273" description="8-bit D Flip-Flop, reset"/>
+      <property name="Note" value=""/>
+      <property name="DigiKey" value="296-1657-5-ND"/>
       <property name="Sheetname" value="VDG"/>
       <property name="Sheetfile" value="vdg.kicad_sch"/>
       <sheetpath names="/VDG/" tstamps="/bad72f01-5d56-4b17-b882-ee331bb76ff2/"/>
       <tstamps>10935d3a-77f4-4a18-948e-fc28d570e008</tstamps>
     </comp>
     <comp ref="C1">
-      <value>0.1uF</value>
-      <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <value>0.01uF</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <datasheet>https://www.vishay.com/docs/45171/kseries.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">BC2662CT-ND</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="DigiKey" value="BC2662CT-ND"/>
       <property name="Sheetname" value="PIA1"/>
       <property name="Sheetfile" value="pia1.kicad_sch"/>
       <sheetpath names="/PIA1/" tstamps="/64d8d7b7-14ab-4042-9ee8-f1aec24a139c/"/>
       <tstamps>4818ed6d-32a2-406d-951d-2e9a9511d8c8</tstamps>
     </comp>
     <comp ref="C30">
-      <value>0.02uF</value>
-      <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <value>22nF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>https://www.vishay.com/docs/45171/kseries.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">BC2677CT-ND</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="DigiKey" value="BC2677CT-ND"/>
       <property name="Sheetname" value="PIA1"/>
       <property name="Sheetfile" value="pia1.kicad_sch"/>
       <sheetpath names="/PIA1/" tstamps="/64d8d7b7-14ab-4042-9ee8-f1aec24a139c/"/>
       <tstamps>f076a6e5-4e08-4f1f-8dc6-7e2bee495b9d</tstamps>
     </comp>
     <comp ref="C31">
-      <value>0.02uF</value>
-      <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <value>22nF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>https://www.vishay.com/docs/45171/kseries.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">BC2677CT-ND</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="DigiKey" value="BC2677CT-ND"/>
       <property name="Sheetname" value="PIA1"/>
       <property name="Sheetfile" value="pia1.kicad_sch"/>
       <sheetpath names="/PIA1/" tstamps="/64d8d7b7-14ab-4042-9ee8-f1aec24a139c/"/>
       <tstamps>c6e604b7-a2c3-4a97-b5af-8aded89888e4</tstamps>
     </comp>
     <comp ref="C32">
-      <value>0.02uF</value>
-      <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <value>22nF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>https://www.vishay.com/docs/45171/kseries.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">BC2677CT-ND</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="DigiKey" value="BC2677CT-ND"/>
       <property name="Sheetname" value="PIA1"/>
       <property name="Sheetfile" value="pia1.kicad_sch"/>
       <sheetpath names="/PIA1/" tstamps="/64d8d7b7-14ab-4042-9ee8-f1aec24a139c/"/>
       <tstamps>9c56590c-4054-4c69-aa3a-f0cbe8988a43</tstamps>
     </comp>
     <comp ref="C33">
-      <value>0.02uF</value>
-      <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <value>22nF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>https://www.vishay.com/docs/45171/kseries.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">BC2677CT-ND</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="DigiKey" value="BC2677CT-ND"/>
       <property name="Sheetname" value="PIA1"/>
       <property name="Sheetfile" value="pia1.kicad_sch"/>
       <sheetpath names="/PIA1/" tstamps="/64d8d7b7-14ab-4042-9ee8-f1aec24a139c/"/>
@@ -957,8 +1247,13 @@
     </comp>
     <comp ref="C38">
       <value>0.1uF</value>
-      <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <datasheet>https://www.vishay.com/docs/45171/kseries.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">BC1101CT-ND</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="DigiKey" value="BC1101CT-ND"/>
       <property name="Sheetname" value="PIA1"/>
       <property name="Sheetfile" value="pia1.kicad_sch"/>
       <sheetpath names="/PIA1/" tstamps="/64d8d7b7-14ab-4042-9ee8-f1aec24a139c/"/>
@@ -966,26 +1261,41 @@
     </comp>
     <comp ref="C39">
       <value>0.1uF</value>
-      <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <datasheet>https://www.vishay.com/docs/45171/kseries.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">BC1101CT-ND</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="DigiKey" value="BC1101CT-ND"/>
       <property name="Sheetname" value="PIA1"/>
       <property name="Sheetfile" value="pia1.kicad_sch"/>
       <sheetpath names="/PIA1/" tstamps="/64d8d7b7-14ab-4042-9ee8-f1aec24a139c/"/>
       <tstamps>eb75ce7a-4eaa-442c-b107-9c4203f96948</tstamps>
     </comp>
     <comp ref="C43">
-      <value>0.1uF</value>
-      <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <value>0.01uF</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <datasheet>https://www.vishay.com/docs/45171/kseries.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">BC2662CT-ND</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="DigiKey" value="BC2662CT-ND"/>
       <property name="Sheetname" value="PIA1"/>
       <property name="Sheetfile" value="pia1.kicad_sch"/>
       <sheetpath names="/PIA1/" tstamps="/64d8d7b7-14ab-4042-9ee8-f1aec24a139c/"/>
       <tstamps>b0edaf45-9707-435b-9214-8dabf612278e</tstamps>
     </comp>
     <comp ref="C45">
-      <value>0.1uF</value>
-      <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <value>0.01uF</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <datasheet>https://www.vishay.com/docs/45171/kseries.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">BC2662CT-ND</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="DigiKey" value="BC2662CT-ND"/>
       <property name="Sheetname" value="PIA1"/>
       <property name="Sheetfile" value="pia1.kicad_sch"/>
       <sheetpath names="/PIA1/" tstamps="/64d8d7b7-14ab-4042-9ee8-f1aec24a139c/"/>
@@ -993,8 +1303,13 @@
     </comp>
     <comp ref="C68">
       <value>0.1uF</value>
-      <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <datasheet>https://www.vishay.com/docs/45171/kseries.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">BC1101CT-ND</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="DigiKey" value="BC1101CT-ND"/>
       <property name="Sheetname" value="PIA1"/>
       <property name="Sheetfile" value="pia1.kicad_sch"/>
       <sheetpath names="/PIA1/" tstamps="/64d8d7b7-14ab-4042-9ee8-f1aec24a139c/"/>
@@ -1002,8 +1317,13 @@
     </comp>
     <comp ref="C69">
       <value>0.1uF</value>
-      <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <datasheet>https://www.vishay.com/docs/45171/kseries.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">BC1101CT-ND</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="DigiKey" value="BC1101CT-ND"/>
       <property name="Sheetname" value="PIA1"/>
       <property name="Sheetfile" value="pia1.kicad_sch"/>
       <sheetpath names="/PIA1/" tstamps="/64d8d7b7-14ab-4042-9ee8-f1aec24a139c/"/>
@@ -1012,7 +1332,12 @@
     <comp ref="D8">
       <value>1N914</value>
       <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/85622/1n914.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">1N914FS-ND</field>
+      </fields>
       <libsource lib="Device" part="D_Small_Filled" description="Diode, small symbol, filled shape"/>
+      <property name="DigiKey" value="1N914FS-ND"/>
       <property name="Sheetname" value="PIA1"/>
       <property name="Sheetfile" value="pia1.kicad_sch"/>
       <sheetpath names="/PIA1/" tstamps="/64d8d7b7-14ab-4042-9ee8-f1aec24a139c/"/>
@@ -1021,7 +1346,12 @@
     <comp ref="D9">
       <value>1N914</value>
       <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/85622/1n914.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">1N914FS-ND</field>
+      </fields>
       <libsource lib="Device" part="D_Small_Filled" description="Diode, small symbol, filled shape"/>
+      <property name="DigiKey" value="1N914FS-ND"/>
       <property name="Sheetname" value="PIA1"/>
       <property name="Sheetfile" value="pia1.kicad_sch"/>
       <sheetpath names="/PIA1/" tstamps="/64d8d7b7-14ab-4042-9ee8-f1aec24a139c/"/>
@@ -1037,10 +1367,14 @@
       <tstamps>7e607138-fa2c-4632-93b7-82e929c43652</tstamps>
     </comp>
     <comp ref="IC24">
-      <value>74LS244</value>
+      <value>74LS244N</value>
       <footprint>Package_DIP:DIP-20_W7.62mm</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/sn74ls244.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">296-1653-5-ND</field>
+      </fields>
       <libsource lib="74xx" part="74LS244" description="Octal Buffer and Line Driver With 3-State Output, active-low enables, non-inverting outputs"/>
+      <property name="DigiKey" value="296-1653-5-ND"/>
       <property name="Sheetname" value="PIA1"/>
       <property name="Sheetfile" value="pia1.kicad_sch"/>
       <sheetpath names="/PIA1/" tstamps="/64d8d7b7-14ab-4042-9ee8-f1aec24a139c/"/>
@@ -1103,7 +1437,14 @@
     <comp ref="PL2">
       <value>Conn_02x10_Top_Bottom</value>
       <footprint>Connector_IDC:IDC-Header_2x10-1MP_P2.54mm_Latch_Horizontal</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/CW%20Industries%20PDFs/CWN-300%20Ordering.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">CHR20G-ND</field>
+        <field name="Note">or 1195-1707-ND with latches</field>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_02x10_Top_Bottom" description="Generic connector, double row, 02x10, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="DigiKey" value="CHR20G-ND"/>
+      <property name="Note" value="or 1195-1707-ND with latches"/>
       <property name="Sheetname" value="PIA1"/>
       <property name="Sheetfile" value="pia1.kicad_sch"/>
       <sheetpath names="/PIA1/" tstamps="/64d8d7b7-14ab-4042-9ee8-f1aec24a139c/"/>
@@ -1112,7 +1453,7 @@
     <comp ref="PL3">
       <value>DIN-6 J/S R</value>
       <footprint>Dragon:DIN-6_DELTRON_671-0601_Horizontal</footprint>
-      <datasheet>http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf</datasheet>
+      <datasheet>https://www.dem-uk.com/deltron-components/Data/Product_Downloads/deltron-671-0501-5-way-din-socket-data.pdf</datasheet>
       <libsource lib="Connector" part="DIN-6" description="6-pin DIN connector"/>
       <property name="Sheetname" value="PIA1"/>
       <property name="Sheetfile" value="pia1.kicad_sch"/>
@@ -1122,7 +1463,7 @@
     <comp ref="PL5">
       <value>DIN-6 J/S L</value>
       <footprint>Dragon:DIN-6_DELTRON_671-0601_Horizontal</footprint>
-      <datasheet>http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf</datasheet>
+      <datasheet>https://www.dem-uk.com/deltron-components/Data/Product_Downloads/deltron-671-0501-5-way-din-socket-data.pdf</datasheet>
       <libsource lib="Connector" part="DIN-6" description="6-pin DIN connector"/>
       <property name="Sheetname" value="PIA1"/>
       <property name="Sheetfile" value="pia1.kicad_sch"/>
@@ -1202,18 +1543,28 @@
       <tstamps>218f2b8b-be8c-40e5-87df-c9ec0841b2ca</tstamps>
     </comp>
     <comp ref="C26">
-      <value>0.002uF</value>
+      <value>2.2nF</value>
       <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <datasheet>https://www.vishay.com/docs/45171/kseries.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">BC1074CT-ND</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="DigiKey" value="BC1074CT-ND"/>
       <property name="Sheetname" value="PIA2"/>
       <property name="Sheetfile" value="pia2.kicad_sch"/>
       <sheetpath names="/PIA2/" tstamps="/28dac1c2-804e-40fd-9ff5-acdb4226ab76/"/>
       <tstamps>3b8bde54-f70b-456a-8975-197a3d1c73b1</tstamps>
     </comp>
     <comp ref="C27">
-      <value>.01uF</value>
-      <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <value>0.1uF</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <datasheet>https://www.vishay.com/docs/45171/kseries.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">BC1101CT-ND</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="DigiKey" value="BC1101CT-ND"/>
       <property name="Sheetname" value="PIA2"/>
       <property name="Sheetfile" value="pia2.kicad_sch"/>
       <sheetpath names="/PIA2/" tstamps="/28dac1c2-804e-40fd-9ff5-acdb4226ab76/"/>
@@ -1222,25 +1573,40 @@
     <comp ref="C35">
       <value>10uF</value>
       <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/860010372001.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">732-8593-1-ND</field>
+      </fields>
       <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="DigiKey" value="732-8593-1-ND"/>
       <property name="Sheetname" value="PIA2"/>
       <property name="Sheetfile" value="pia2.kicad_sch"/>
       <sheetpath names="/PIA2/" tstamps="/28dac1c2-804e-40fd-9ff5-acdb4226ab76/"/>
       <tstamps>de51aa43-d1a8-4a39-bda7-e663c7b1e1e0</tstamps>
     </comp>
     <comp ref="C42">
-      <value>0.1uF</value>
+      <value>10uF</value>
       <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/860010372001.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">732-8593-1-ND</field>
+      </fields>
       <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="DigiKey" value="732-8593-1-ND"/>
       <property name="Sheetname" value="PIA2"/>
       <property name="Sheetfile" value="pia2.kicad_sch"/>
       <sheetpath names="/PIA2/" tstamps="/28dac1c2-804e-40fd-9ff5-acdb4226ab76/"/>
       <tstamps>7b29515c-a311-4162-9007-355440f24f88</tstamps>
     </comp>
     <comp ref="C44">
-      <value>0.02uF</value>
-      <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <value>22nF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>https://www.vishay.com/docs/45171/kseries.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">BC2677CT-ND</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="DigiKey" value="BC2677CT-ND"/>
       <property name="Sheetname" value="PIA2"/>
       <property name="Sheetfile" value="pia2.kicad_sch"/>
       <sheetpath names="/PIA2/" tstamps="/28dac1c2-804e-40fd-9ff5-acdb4226ab76/"/>
@@ -1249,7 +1615,12 @@
     <comp ref="C48">
       <value>22pF</value>
       <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <datasheet>https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C315C220K2G5TA7301</datasheet>
+      <fields>
+        <field name="DigiKey">399-13930-1-ND</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="DigiKey" value="399-13930-1-ND"/>
       <property name="Sheetname" value="PIA2"/>
       <property name="Sheetfile" value="pia2.kicad_sch"/>
       <sheetpath names="/PIA2/" tstamps="/28dac1c2-804e-40fd-9ff5-acdb4226ab76/"/>
@@ -1258,25 +1629,40 @@
     <comp ref="D1">
       <value>1N914</value>
       <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/85622/1n914.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">1N914FS-ND</field>
+      </fields>
       <libsource lib="Device" part="D_Small_Filled" description="Diode, small symbol, filled shape"/>
+      <property name="DigiKey" value="1N914FS-ND"/>
       <property name="Sheetname" value="PIA2"/>
       <property name="Sheetfile" value="pia2.kicad_sch"/>
       <sheetpath names="/PIA2/" tstamps="/28dac1c2-804e-40fd-9ff5-acdb4226ab76/"/>
       <tstamps>438c4d4e-fead-49b1-9449-a274f9267115</tstamps>
     </comp>
     <comp ref="D2">
-      <value>16V</value>
+      <value>1N914</value>
       <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/85622/1n914.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">1N914FS-ND</field>
+      </fields>
       <libsource lib="Device" part="D_Small_Filled" description="Diode, small symbol, filled shape"/>
+      <property name="DigiKey" value="1N914FS-ND"/>
       <property name="Sheetname" value="PIA2"/>
       <property name="Sheetfile" value="pia2.kicad_sch"/>
       <sheetpath names="/PIA2/" tstamps="/28dac1c2-804e-40fd-9ff5-acdb4226ab76/"/>
       <tstamps>bb2b18a9-5ecf-4db5-8707-526d77489d1e</tstamps>
     </comp>
     <comp ref="D3">
-      <value>16V</value>
+      <value>1N914</value>
       <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/85622/1n914.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">1N914FS-ND</field>
+      </fields>
       <libsource lib="Device" part="D_Small_Filled" description="Diode, small symbol, filled shape"/>
+      <property name="DigiKey" value="1N914FS-ND"/>
       <property name="Sheetname" value="PIA2"/>
       <property name="Sheetfile" value="pia2.kicad_sch"/>
       <sheetpath names="/PIA2/" tstamps="/28dac1c2-804e-40fd-9ff5-acdb4226ab76/"/>
@@ -1285,7 +1671,12 @@
     <comp ref="D7">
       <value>1N914</value>
       <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/85622/1n914.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">1N914FS-ND</field>
+      </fields>
       <libsource lib="Device" part="D_Small_Filled" description="Diode, small symbol, filled shape"/>
+      <property name="DigiKey" value="1N914FS-ND"/>
       <property name="Sheetname" value="PIA2"/>
       <property name="Sheetfile" value="pia2.kicad_sch"/>
       <sheetpath names="/PIA2/" tstamps="/28dac1c2-804e-40fd-9ff5-acdb4226ab76/"/>
@@ -1294,7 +1685,14 @@
     <comp ref="IC34">
       <value>MC14050BCP</value>
       <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/ON%20Semiconductor%20PDFs/MC14049B,50B_Rev7.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">296-2056-ND</field>
+        <field name="Note">obsolete use CD4050B or convert MC14050BDG</field>
+      </fields>
       <libsource lib="Motorola PIA" part="MC14050BCP" description=""/>
+      <property name="DigiKey" value="296-2056-ND"/>
+      <property name="Note" value="obsolete use CD4050B or convert MC14050BDG"/>
       <property name="Sheetname" value="PIA2"/>
       <property name="Sheetfile" value="pia2.kicad_sch"/>
       <sheetpath names="/PIA2/" tstamps="/28dac1c2-804e-40fd-9ff5-acdb4226ab76/"/>
@@ -1330,6 +1728,7 @@
     <comp ref="PL4">
       <value>DIN-5 (180) Cassette</value>
       <footprint>Dragon:DIN-5_DELTRON_671-0501_45deg_Horizontal</footprint>
+      <datasheet>https://www.dem-uk.com/deltron-components/Data/Product_Downloads/deltron-671-0501-5-way-din-socket-data.pdf</datasheet>
       <libsource lib="Connector" part="DIN-5_180degree" description="5-pin DIN connector (5-pin DIN-5 stereo)"/>
       <property name="Sheetname" value="PIA2"/>
       <property name="Sheetfile" value="pia2.kicad_sch"/>
@@ -1525,7 +1924,17 @@
       <sheetpath names="/PIA2/" tstamps="/28dac1c2-804e-40fd-9ff5-acdb4226ab76/"/>
       <tstamps>b0f6ec55-ba20-4cdd-a66f-cd271a2af2b4</tstamps>
     </comp>
-    <comp ref="R71">
+    <comp ref="RL1">
+      <value>OJS HM FORM A</value>
+      <footprint>Dragon:OJS HM 10A Relay</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=OJS_10A&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <libsource lib="Relay" part="ADW11" description="Panasonic, 8A/16A, Small Polarized Latching Power Relays, Single coil, 1 Form A"/>
+      <property name="Sheetname" value="PIA2"/>
+      <property name="Sheetfile" value="pia2.kicad_sch"/>
+      <sheetpath names="/PIA2/" tstamps="/28dac1c2-804e-40fd-9ff5-acdb4226ab76/"/>
+      <tstamps>3ce91ef0-5007-4a09-bddf-70dcb1862c82</tstamps>
+    </comp>
+    <comp ref="RV3">
       <value>270R-470R</value>
       <footprint>Varistor:RV_Disc_D7mm_W3.4mm_P5mm</footprint>
       <libsource lib="Device" part="Varistor" description="Voltage dependent resistor"/>
@@ -1534,39 +1943,45 @@
       <sheetpath names="/PIA2/" tstamps="/28dac1c2-804e-40fd-9ff5-acdb4226ab76/"/>
       <tstamps>d923325d-91c1-4e44-9bbe-df33cc10d9d8</tstamps>
     </comp>
-    <comp ref="RL1">
-      <value>ADW11</value>
-      <footprint>Relay_THT:Relay_1P1T_NO_10x24x18.8mm_Panasonic_ADW11xxxxW_THT</footprint>
-      <datasheet>https://www.panasonic-electric-works.com/pew/es/downloads/ds_dw_hl_en.pdf</datasheet>
-      <libsource lib="Relay" part="ADW11" description="Panasonic, 8A/16A, Small Polarized Latching Power Relays, Single coil, 1 Form A"/>
-      <property name="Sheetname" value="PIA2"/>
-      <property name="Sheetfile" value="pia2.kicad_sch"/>
-      <sheetpath names="/PIA2/" tstamps="/28dac1c2-804e-40fd-9ff5-acdb4226ab76/"/>
-      <tstamps>3ce91ef0-5007-4a09-bddf-70dcb1862c82</tstamps>
-    </comp>
     <comp ref="TR1">
       <value>BC141</value>
       <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
       <datasheet>http://www.farnell.com/datasheets/296634.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">KSD1616AYTACT-ND</field>
+        <field name="Note">use KSD1616AYTA instead</field>
+      </fields>
       <libsource lib="Transistor_BJT" part="BC141" description="1A Ic, 60V Vce, NPN Transistor, TO-39"/>
+      <property name="DigiKey" value="KSD1616AYTACT-ND"/>
+      <property name="Note" value="use KSD1616AYTA instead"/>
       <property name="Sheetname" value="PIA2"/>
       <property name="Sheetfile" value="pia2.kicad_sch"/>
       <sheetpath names="/PIA2/" tstamps="/28dac1c2-804e-40fd-9ff5-acdb4226ab76/"/>
       <tstamps>31d3792e-9c4c-42c7-8ee1-37b8e1889e95</tstamps>
     </comp>
     <comp ref="C2">
-      <value>1uF</value>
-      <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <value>0.1uF</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <datasheet>https://www.vishay.com/docs/45171/kseries.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">BC1101CT-ND</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="DigiKey" value="BC1101CT-ND"/>
       <property name="Sheetname" value="VIDEO"/>
       <property name="Sheetfile" value="video.kicad_sch"/>
       <sheetpath names="/VIDEO/" tstamps="/d9dba8db-e731-4cb4-b2de-fefd65b288bc/"/>
       <tstamps>8839a64d-5dfb-4dbe-a692-a4d39bfe2b83</tstamps>
     </comp>
     <comp ref="C3">
-      <value>11pF</value>
+      <value>33pF</value>
       <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <datasheet>https://www.vishay.com/docs/45171/kseries.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">BC1007CT-ND</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="DigiKey" value="BC1007CT-ND"/>
       <property name="Sheetname" value="VIDEO"/>
       <property name="Sheetfile" value="video.kicad_sch"/>
       <sheetpath names="/VIDEO/" tstamps="/d9dba8db-e731-4cb4-b2de-fefd65b288bc/"/>
@@ -1575,61 +1990,97 @@
     <comp ref="C5">
       <value>33pF</value>
       <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <datasheet>https://www.vishay.com/docs/45171/kseries.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">BC1007CT-ND</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="DigiKey" value="BC1007CT-ND"/>
       <property name="Sheetname" value="VIDEO"/>
       <property name="Sheetfile" value="video.kicad_sch"/>
       <sheetpath names="/VIDEO/" tstamps="/d9dba8db-e731-4cb4-b2de-fefd65b288bc/"/>
       <tstamps>6d10df73-f425-41b0-aaf0-61657b9575fd</tstamps>
     </comp>
     <comp ref="C6">
-      <value>4.7uF</value>
+      <value>4.7pF</value>
       <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <fields>
+        <field name="DigiKey">445-180473-1-ND</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="DigiKey" value="445-180473-1-ND"/>
       <property name="Sheetname" value="VIDEO"/>
       <property name="Sheetfile" value="video.kicad_sch"/>
       <sheetpath names="/VIDEO/" tstamps="/d9dba8db-e731-4cb4-b2de-fefd65b288bc/"/>
       <tstamps>c8be3727-a6de-4c5a-89e2-cd1f61570e9d</tstamps>
     </comp>
     <comp ref="C7">
-      <value>2-22pF</value>
-      <footprint>Potentiometer_THT:Potentiometer_ACP_CA6-H2,5_Horizontal</footprint>
-      <libsource lib="Device" part="C_Trim_Small" description="Trimmable capacitor, small symbol"/>
+      <value>22pF</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <datasheet>https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C315C220K2G5TA7301</datasheet>
+      <fields>
+        <field name="DigiKey">399-13930-1-ND</field>
+        <field name="Note">Spec is 2-22pF</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Note" value="Spec is 2-22pF"/>
+      <property name="DigiKey" value="399-13930-1-ND"/>
       <property name="Sheetname" value="VIDEO"/>
       <property name="Sheetfile" value="video.kicad_sch"/>
       <sheetpath names="/VIDEO/" tstamps="/d9dba8db-e731-4cb4-b2de-fefd65b288bc/"/>
-      <tstamps>a42864d3-9d11-4c6f-b9fb-2ce524e27527</tstamps>
+      <tstamps>9d6302f6-9594-4e61-a34a-019c6b546c2b</tstamps>
     </comp>
     <comp ref="C8">
       <value>0.01uF</value>
-      <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <datasheet>https://www.vishay.com/docs/45171/kseries.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">BC2662CT-ND</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="DigiKey" value="BC2662CT-ND"/>
       <property name="Sheetname" value="VIDEO"/>
       <property name="Sheetfile" value="video.kicad_sch"/>
       <sheetpath names="/VIDEO/" tstamps="/d9dba8db-e731-4cb4-b2de-fefd65b288bc/"/>
       <tstamps>4576208a-4641-405f-abbe-be0fb1f97e7e</tstamps>
     </comp>
     <comp ref="C9">
-      <value>3.3pF</value>
+      <value>22pF</value>
       <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <datasheet>https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C315C220K2G5TA7301</datasheet>
+      <fields>
+        <field name="DigiKey">399-13930-1-ND</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="DigiKey" value="399-13930-1-ND"/>
       <property name="Sheetname" value="VIDEO"/>
       <property name="Sheetfile" value="video.kicad_sch"/>
       <sheetpath names="/VIDEO/" tstamps="/d9dba8db-e731-4cb4-b2de-fefd65b288bc/"/>
       <tstamps>8be98d49-a238-4ec5-9e8c-8387a3eba9f4</tstamps>
     </comp>
     <comp ref="C24">
-      <value>47uF</value>
-      <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <value>4.7uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <datasheet>https://datasheets.kyocera-avx.com/tap.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">478-8984-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="DigiKey" value="478-8984-1-ND"/>
       <property name="Sheetname" value="VIDEO"/>
       <property name="Sheetfile" value="video.kicad_sch"/>
       <sheetpath names="/VIDEO/" tstamps="/d9dba8db-e731-4cb4-b2de-fefd65b288bc/"/>
-      <tstamps>70e8484b-fc54-4c82-855a-83205050a26c</tstamps>
+      <tstamps>5a4440a0-261f-4c3f-9774-b61db1b54430</tstamps>
     </comp>
     <comp ref="C25">
       <value>0.01uF</value>
-      <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <datasheet>https://www.vishay.com/docs/45171/kseries.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">BC2662CT-ND</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="DigiKey" value="BC2662CT-ND"/>
       <property name="Sheetname" value="VIDEO"/>
       <property name="Sheetfile" value="video.kicad_sch"/>
       <sheetpath names="/VIDEO/" tstamps="/d9dba8db-e731-4cb4-b2de-fefd65b288bc/"/>
@@ -1637,17 +2088,27 @@
     </comp>
     <comp ref="C28">
       <value>4.7uF</value>
-      <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <datasheet>https://datasheets.kyocera-avx.com/tap.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">478-8984-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="DigiKey" value="478-8984-1-ND"/>
       <property name="Sheetname" value="VIDEO"/>
       <property name="Sheetfile" value="video.kicad_sch"/>
       <sheetpath names="/VIDEO/" tstamps="/d9dba8db-e731-4cb4-b2de-fefd65b288bc/"/>
-      <tstamps>eba74d2a-bf1a-4881-97f9-ecbfc5564a84</tstamps>
+      <tstamps>84e52618-1654-457a-97ea-11c9dad53e88</tstamps>
     </comp>
     <comp ref="C29">
-      <value>4.7uF</value>
+      <value>1uF</value>
       <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/860020772005.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">732-8966-1-ND</field>
+      </fields>
       <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="DigiKey" value="732-8966-1-ND"/>
       <property name="Sheetname" value="VIDEO"/>
       <property name="Sheetfile" value="video.kicad_sch"/>
       <sheetpath names="/VIDEO/" tstamps="/d9dba8db-e731-4cb4-b2de-fefd65b288bc/"/>
@@ -1656,7 +2117,12 @@
     <comp ref="C34">
       <value>330pF</value>
       <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <datasheet>https://www.vishay.com/docs/45171/kseries.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">BC1045CT-ND</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="DigiKey" value="BC1045CT-ND"/>
       <property name="Sheetname" value="VIDEO"/>
       <property name="Sheetfile" value="video.kicad_sch"/>
       <sheetpath names="/VIDEO/" tstamps="/d9dba8db-e731-4cb4-b2de-fefd65b288bc/"/>
@@ -1665,16 +2131,26 @@
     <comp ref="C46">
       <value>180pF</value>
       <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <datasheet>https://www.vishay.com/docs/45171/kseries.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">BC1016CT-ND</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="DigiKey" value="BC1016CT-ND"/>
       <property name="Sheetname" value="VIDEO"/>
       <property name="Sheetfile" value="video.kicad_sch"/>
       <sheetpath names="/VIDEO/" tstamps="/d9dba8db-e731-4cb4-b2de-fefd65b288bc/"/>
       <tstamps>4667f0d3-cd5f-447a-aba1-6b97ef3599e3</tstamps>
     </comp>
     <comp ref="C47">
-      <value>180pF</value>
+      <value>100pF</value>
       <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <datasheet>https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C316C101J5G5TA7303</datasheet>
+      <fields>
+        <field name="DigiKey">399-C316C101J5G5TA7303CT-ND</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="DigiKey" value="399-C316C101J5G5TA7303CT-ND"/>
       <property name="Sheetname" value="VIDEO"/>
       <property name="Sheetfile" value="video.kicad_sch"/>
       <sheetpath names="/VIDEO/" tstamps="/d9dba8db-e731-4cb4-b2de-fefd65b288bc/"/>
@@ -1683,7 +2159,12 @@
     <comp ref="C49">
       <value>22pF</value>
       <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <datasheet>https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C315C220K2G5TA7301</datasheet>
+      <fields>
+        <field name="DigiKey">399-13930-1-ND</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="DigiKey" value="399-13930-1-ND"/>
       <property name="Sheetname" value="VIDEO"/>
       <property name="Sheetfile" value="video.kicad_sch"/>
       <sheetpath names="/VIDEO/" tstamps="/d9dba8db-e731-4cb4-b2de-fefd65b288bc/"/>
@@ -1692,7 +2173,12 @@
     <comp ref="C71">
       <value>180pF</value>
       <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <datasheet>https://www.vishay.com/docs/45171/kseries.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">BC1016CT-ND</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="DigiKey" value="BC1016CT-ND"/>
       <property name="Sheetname" value="VIDEO"/>
       <property name="Sheetfile" value="video.kicad_sch"/>
       <sheetpath names="/VIDEO/" tstamps="/d9dba8db-e731-4cb4-b2de-fefd65b288bc/"/>
@@ -1701,7 +2187,12 @@
     <comp ref="IC9">
       <value>LM1889N</value>
       <footprint>Package_DIP:DIP-18_W7.62mm</footprint>
+      <datasheet>https://www.alldatasheet.com/datasheet-pdf/pdf/8687/NSC/LM1889N.html</datasheet>
+      <fields>
+        <field name="Note">donor / NOS</field>
+      </fields>
       <libsource lib="vdg" part="LM1889N" description=""/>
+      <property name="Note" value="donor / NOS"/>
       <property name="Sheetname" value="VIDEO"/>
       <property name="Sheetfile" value="video.kicad_sch"/>
       <sheetpath names="/VIDEO/" tstamps="/d9dba8db-e731-4cb4-b2de-fefd65b288bc/"/>
@@ -1710,7 +2201,12 @@
     <comp ref="IC10">
       <value>2318</value>
       <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
+      <fields>
+        <field name="Note">donor only</field>
+      </fields>
       <libsource lib="vdg" part="SFC2318DC" description=""/>
+      <property name="DigiKey" value=""/>
+      <property name="Note" value="donor only"/>
       <property name="Sheetname" value="VIDEO"/>
       <property name="Sheetfile" value="video.kicad_sch"/>
       <sheetpath names="/VIDEO/" tstamps="/d9dba8db-e731-4cb4-b2de-fefd65b288bc/"/>
@@ -1719,66 +2215,100 @@
     <comp ref="IC11">
       <value>MC14053</value>
       <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
+      <datasheet>https://rocelec.widen.net/view/pdf/kdbfj5guvk/MOTOS09506-1.pdf?t.download=true&amp;u=5oefqw</datasheet>
+      <fields>
+        <field name="DigiKey">296-2059-ND</field>
+        <field name="Note">obsolete use CD4053B</field>
+      </fields>
       <libsource lib="vdg" part="MC14053" description=""/>
+      <property name="DigiKey" value="296-2059-ND"/>
+      <property name="Note" value="obsolete use CD4053B"/>
       <property name="Sheetname" value="VIDEO"/>
       <property name="Sheetfile" value="video.kicad_sch"/>
       <sheetpath names="/VIDEO/" tstamps="/d9dba8db-e731-4cb4-b2de-fefd65b288bc/"/>
       <tstamps>80fc4bb3-c9e6-45e6-9b08-ec1cf1e97ed0</tstamps>
     </comp>
     <comp ref="IC21">
-      <value>74LS123</value>
+      <value>74LS123N</value>
       <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
       <datasheet>http://www.ti.com/lit/gpn/sn74LS123</datasheet>
+      <fields>
+        <field name="DigiKey">296-1636-5-ND</field>
+      </fields>
       <libsource lib="74xx" part="74LS123" description="Dual retriggerable Monostable"/>
+      <property name="DigiKey" value="296-1636-5-ND"/>
       <property name="Sheetname" value="VIDEO"/>
       <property name="Sheetfile" value="video.kicad_sch"/>
       <sheetpath names="/VIDEO/" tstamps="/d9dba8db-e731-4cb4-b2de-fefd65b288bc/"/>
-      <tstamps>983fab00-d7e8-42b7-9f62-b060734280f0 a4810410-b504-4c51-bcb1-420b8194d15e 607d1da9-8383-4847-8778-b9e4de1a3ec3</tstamps>
+      <tstamps>a4810410-b504-4c51-bcb1-420b8194d15e 983fab00-d7e8-42b7-9f62-b060734280f0 607d1da9-8383-4847-8778-b9e4de1a3ec3</tstamps>
     </comp>
     <comp ref="IC27">
-      <value>74LS20</value>
+      <value>74LS20N</value>
       <footprint>Package_DIP:DIP-14_W7.62mm</footprint>
       <datasheet>http://www.ti.com/lit/gpn/sn74LS20</datasheet>
+      <fields>
+        <field name="DigiKey">296-3670-5-ND</field>
+      </fields>
       <libsource lib="74xx" part="74LS20" description="Dual 4-input NAND"/>
+      <property name="DigiKey" value="296-3670-5-ND"/>
       <property name="Sheetname" value="VIDEO"/>
       <property name="Sheetfile" value="video.kicad_sch"/>
       <sheetpath names="/VIDEO/" tstamps="/d9dba8db-e731-4cb4-b2de-fefd65b288bc/"/>
-      <tstamps>fb0fe1e5-77ab-48e1-8e55-194be166cec7 79763bac-bd94-4b61-981b-26fb6440c1fd 0a64d4d5-5f6d-4bbb-8af7-06e406753679</tstamps>
+      <tstamps>79763bac-bd94-4b61-981b-26fb6440c1fd fb0fe1e5-77ab-48e1-8e55-194be166cec7 0a64d4d5-5f6d-4bbb-8af7-06e406753679</tstamps>
     </comp>
     <comp ref="IC29">
-      <value>74LS393</value>
+      <value>74LS393N</value>
       <footprint>Package_DIP:DIP-14_W7.62mm</footprint>
-      <datasheet>74xx\74LS393.pdf</datasheet>
+      <datasheet>https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74ls390</datasheet>
+      <fields>
+        <field name="DigiKey">296-1665-5-ND</field>
+      </fields>
       <libsource lib="74xx" part="74LS393" description="Dual BCD 4-bit counter"/>
+      <property name="DigiKey" value="296-1665-5-ND"/>
       <property name="Sheetname" value="VIDEO"/>
       <property name="Sheetfile" value="video.kicad_sch"/>
       <sheetpath names="/VIDEO/" tstamps="/d9dba8db-e731-4cb4-b2de-fefd65b288bc/"/>
-      <tstamps>550b19f4-512c-4c3d-915c-1009d4ca21fa f59c1634-6eb2-4f26-98cc-0e4a737dd0ea 4fc6b82d-73c0-4d15-a372-aa5b9ffad75a</tstamps>
+      <tstamps>f59c1634-6eb2-4f26-98cc-0e4a737dd0ea 550b19f4-512c-4c3d-915c-1009d4ca21fa 4fc6b82d-73c0-4d15-a372-aa5b9ffad75a</tstamps>
     </comp>
     <comp ref="IC30">
-      <value>74LS32</value>
+      <value>74LS32N</value>
       <footprint>Package_DIP:DIP-14_W7.62mm</footprint>
       <datasheet>http://www.ti.com/lit/gpn/sn74LS32</datasheet>
+      <fields>
+        <field name="DigiKey">296-1658-5-ND</field>
+      </fields>
       <libsource lib="74xx" part="74LS32" description="Quad 2-input OR"/>
+      <property name="DigiKey" value="296-1658-5-ND"/>
       <property name="Sheetname" value="VIDEO"/>
       <property name="Sheetfile" value="video.kicad_sch"/>
       <sheetpath names="/VIDEO/" tstamps="/d9dba8db-e731-4cb4-b2de-fefd65b288bc/"/>
-      <tstamps>ad9c236e-bc99-4c14-a98d-6497c553eb20 e7c6388f-2b44-4a8c-8d29-c0c474e5ace4 4e9b3a30-09b6-48a7-bd8a-8094c67852ca ef5cd4d4-677b-409e-90f1-7646056b3a08 2eeb83d6-e586-4798-9225-07d8d79320ff</tstamps>
+      <tstamps>ef5cd4d4-677b-409e-90f1-7646056b3a08 e7c6388f-2b44-4a8c-8d29-c0c474e5ace4 4e9b3a30-09b6-48a7-bd8a-8094c67852ca ad9c236e-bc99-4c14-a98d-6497c553eb20 2eeb83d6-e586-4798-9225-07d8d79320ff</tstamps>
     </comp>
     <comp ref="IC32">
       <value>74LS390</value>
       <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
       <datasheet>http://www.ti.com/lit/gpn/sn74LS390</datasheet>
+      <fields>
+        <field name="DigiKey">296-26516-5-ND</field>
+      </fields>
       <libsource lib="74xx" part="74LS390" description="Dual BCD 4-bit counter"/>
+      <property name="DigiKey" value="296-26516-5-ND"/>
       <property name="Sheetname" value="VIDEO"/>
       <property name="Sheetfile" value="video.kicad_sch"/>
       <sheetpath names="/VIDEO/" tstamps="/d9dba8db-e731-4cb4-b2de-fefd65b288bc/"/>
-      <tstamps>f64746ff-ee39-47f3-bc53-e91d8aa0bf6d ac65c809-152f-4c9f-b7ca-d18e6f6a8960 7f591585-6237-472b-9074-177af2f895e7</tstamps>
+      <tstamps>ac65c809-152f-4c9f-b7ca-d18e6f6a8960 f64746ff-ee39-47f3-bc53-e91d8aa0bf6d 7f591585-6237-472b-9074-177af2f895e7</tstamps>
     </comp>
     <comp ref="PL6">
       <value>Conn_01x09_Male</value>
       <footprint>Connector_Molex:Molex_KK-396_A-41791-0009_1x09_P3.96mm_Vertical</footprint>
+      <datasheet>https://app.adam-tech.com/products/download/data_sheet/241222/lhd-xx-ts-data-sheet.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">2057-LHD-09-TS-ND</field>
+        <field name="Toby">WH396-09S-010</field>
+      </fields>
       <libsource lib="Connector" part="Conn_01x09_Male" description="Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="DigiKey" value="2057-LHD-09-TS-ND"/>
+      <property name="Toby" value="WH396-09S-010"/>
       <property name="Sheetname" value="VIDEO"/>
       <property name="Sheetfile" value="video.kicad_sch"/>
       <sheetpath names="/VIDEO/" tstamps="/d9dba8db-e731-4cb4-b2de-fefd65b288bc/"/>
@@ -1794,7 +2324,7 @@
       <tstamps>088dcaef-5bd1-48a1-8668-3406e2dd0153</tstamps>
     </comp>
     <comp ref="R3">
-      <value>2K7</value>
+      <value>5K6</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Sheetname" value="VIDEO"/>
@@ -1821,7 +2351,7 @@
       <tstamps>4b9a2efe-fc0a-4180-b26c-ac5bcf0ffb03</tstamps>
     </comp>
     <comp ref="R6">
-      <value>1K2</value>
+      <value>1K</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Sheetname" value="VIDEO"/>
@@ -1830,7 +2360,7 @@
       <tstamps>c067f46d-f016-49ef-8892-6589d51fe9e6</tstamps>
     </comp>
     <comp ref="R7">
-      <value>1K</value>
+      <value>22K</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Sheetname" value="VIDEO"/>
@@ -1839,7 +2369,7 @@
       <tstamps>3e9bb930-22fc-4bb5-b4a9-8cec34973804</tstamps>
     </comp>
     <comp ref="R8">
-      <value>470R</value>
+      <value>270R</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Sheetname" value="VIDEO"/>
@@ -1857,7 +2387,7 @@
       <tstamps>702774f8-7292-4603-b11b-4276acb9d2bd</tstamps>
     </comp>
     <comp ref="R10">
-      <value>3K3</value>
+      <value>2K7</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Sheetname" value="VIDEO"/>
@@ -1866,7 +2396,7 @@
       <tstamps>c96cdb05-7bc0-4c91-87d4-346d9f009292</tstamps>
     </comp>
     <comp ref="R11">
-      <value>1K2</value>
+      <value>2K7</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Sheetname" value="VIDEO"/>
@@ -1893,7 +2423,7 @@
       <tstamps>e21f47d6-99b0-42e3-8cf0-a77d3381f627</tstamps>
     </comp>
     <comp ref="R33">
-      <value>1K8</value>
+      <value>3K3</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Sheetname" value="VIDEO"/>
@@ -1902,7 +2432,7 @@
       <tstamps>aec2a2aa-218c-4a7b-a72f-88b21232ab86</tstamps>
     </comp>
     <comp ref="R34">
-      <value>8K2</value>
+      <value>6K8</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Sheetname" value="VIDEO"/>
@@ -1911,7 +2441,7 @@
       <tstamps>05f8a837-db1f-4053-9c7c-1a9e2c6fc2c5</tstamps>
     </comp>
     <comp ref="R35">
-      <value>12K</value>
+      <value>15K</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Sheetname" value="VIDEO"/>
@@ -1929,7 +2459,7 @@
       <tstamps>b15be049-5acc-446f-b45d-f4e940c5df62</tstamps>
     </comp>
     <comp ref="R65">
-      <value>680R</value>
+      <value>2K7</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Sheetname" value="VIDEO"/>
@@ -1986,7 +2516,13 @@
       <value>2N2369</value>
       <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
       <datasheet>http://www.farnell.com/datasheets/296634.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">2N4401D26ZCT-ND</field>
+        <field name="Note">use 2N4401TFR</field>
+      </fields>
       <libsource lib="Transistor_BJT" part="BC141" description="1A Ic, 60V Vce, NPN Transistor, TO-39"/>
+      <property name="DigiKey" value="2N4401D26ZCT-ND"/>
+      <property name="Note" value="use 2N4401TFR"/>
       <property name="Sheetname" value="VIDEO"/>
       <property name="Sheetfile" value="video.kicad_sch"/>
       <sheetpath names="/VIDEO/" tstamps="/d9dba8db-e731-4cb4-b2de-fefd65b288bc/"/>
@@ -1996,7 +2532,13 @@
       <value>2N2369</value>
       <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
       <datasheet>http://www.farnell.com/datasheets/296634.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">2N4401D26ZCT-ND</field>
+        <field name="Note">use 2N4401TFR</field>
+      </fields>
       <libsource lib="Transistor_BJT" part="BC141" description="1A Ic, 60V Vce, NPN Transistor, TO-39"/>
+      <property name="DigiKey" value="2N4401D26ZCT-ND"/>
+      <property name="Note" value="use 2N4401TFR"/>
       <property name="Sheetname" value="VIDEO"/>
       <property name="Sheetfile" value="video.kicad_sch"/>
       <sheetpath names="/VIDEO/" tstamps="/d9dba8db-e731-4cb4-b2de-fefd65b288bc/"/>
@@ -2006,7 +2548,13 @@
       <value>BC212</value>
       <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
       <datasheet>https://www.onsemi.com/pub/Collateral/2N3906-D.PDF</datasheet>
+      <fields>
+        <field name="DigiKey">2N3906D26ZCT-ND</field>
+        <field name="Note">use 2N3906</field>
+      </fields>
       <libsource lib="Transistor_BJT" part="2N3906" description="-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"/>
+      <property name="DigiKey" value="2N3906D26ZCT-ND"/>
+      <property name="Note" value="use 2N3906"/>
       <property name="Sheetname" value="VIDEO"/>
       <property name="Sheetfile" value="video.kicad_sch"/>
       <sheetpath names="/VIDEO/" tstamps="/d9dba8db-e731-4cb4-b2de-fefd65b288bc/"/>
@@ -2014,8 +2562,13 @@
     </comp>
     <comp ref="XL1">
       <value>4.433619MHz</value>
-      <footprint>Crystal:Crystal_HC18-U_Horizontal</footprint>
+      <footprint>Crystal:Crystal_HC49-U_Horizontal</footprint>
+      <datasheet>https://www.we-online.com/catalog/datasheet/830003099B.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">1923-830003099B-ND</field>
+      </fields>
       <libsource lib="Device" part="Crystal_Small" description="Two pin crystal, small symbol"/>
+      <property name="DigiKey" value="1923-830003099B-ND"/>
       <property name="Sheetname" value="VIDEO"/>
       <property name="Sheetfile" value="video.kicad_sch"/>
       <sheetpath names="/VIDEO/" tstamps="/d9dba8db-e731-4cb4-b2de-fefd65b288bc/"/>
@@ -2685,22 +3238,6 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Device" part="C_Trim_Small">
-      <description>Trimmable capacitor, small symbol</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>C_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">C</field>
-        <field name="Value">C_Trim_Small</field>
-        <field name="Datasheet">~</field>
-      </fields>
-      <pins>
-        <pin num="1" name="" type="passive"/>
-        <pin num="2" name="" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="Device" part="Crystal_Small">
       <description>Two pin crystal, small symbol</description>
       <docs>~</docs>
@@ -3292,7 +3829,7 @@
     <net code="1" name="+5V">
       <node ref="C13" pin="1" pintype="passive"/>
       <node ref="C22" pin="1" pintype="passive"/>
-      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="C24" pin="1" pintype="passive"/>
       <node ref="C36" pin="1" pintype="passive"/>
       <node ref="C37" pin="1" pintype="passive"/>
       <node ref="C42" pin="1" pintype="passive"/>
@@ -3385,6 +3922,7 @@
       <node ref="RL1" pin="3" pintype="passive"/>
     </net>
     <net code="3" name="-5V">
+      <node ref="C10" pin="2" pintype="passive"/>
       <node ref="C28" pin="2" pintype="passive"/>
       <node ref="C7" pin="2" pintype="passive"/>
       <node ref="IC9" pin="5" pinfunction="GND" pintype="power_in"/>
@@ -3711,7 +4249,7 @@
     </net>
     <net code="52" name="EAR">
       <node ref="PL4" pin="4" pintype="passive"/>
-      <node ref="R71" pin="1" pintype="passive"/>
+      <node ref="RV3" pin="1" pintype="passive"/>
     </net>
     <net code="53" name="ESND">
       <node ref="IC20" pin="12" pinfunction="Y2" pintype="input"/>
@@ -3741,7 +4279,7 @@
     </net>
     <net code="59" name="GND">
       <node ref="C1" pin="1" pintype="passive"/>
-      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C10" pin="1" pintype="passive"/>
       <node ref="C11" pin="2" pintype="passive"/>
       <node ref="C12" pin="2" pintype="passive"/>
       <node ref="C13" pin="2" pintype="passive"/>
@@ -3755,7 +4293,7 @@
       <node ref="C21" pin="1" pintype="passive"/>
       <node ref="C22" pin="2" pintype="passive"/>
       <node ref="C23" pin="2" pintype="passive"/>
-      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="C24" pin="2" pintype="passive"/>
       <node ref="C25" pin="2" pintype="passive"/>
       <node ref="C26" pin="1" pintype="passive"/>
       <node ref="C28" pin="1" pintype="passive"/>
@@ -4001,7 +4539,7 @@
       <node ref="C44" pin="2" pintype="passive"/>
       <node ref="R46" pin="2" pintype="passive"/>
       <node ref="R47" pin="1" pintype="passive"/>
-      <node ref="R71" pin="2" pintype="passive"/>
+      <node ref="RV3" pin="2" pintype="passive"/>
     </net>
     <net code="84" name="Net-(C40-Pad2)">
       <node ref="C40" pin="2" pintype="passive"/>
@@ -4516,7 +5054,6 @@
       <node ref="PL7" pin="32" pinfunction="Pin_32" pintype="passive"/>
     </net>
     <net code="200" name="RAM VBB">
-      <node ref="C10" pin="1" pintype="passive"/>
       <node ref="C50" pin="1" pintype="passive"/>
       <node ref="C51" pin="1" pintype="passive"/>
       <node ref="C52" pin="1" pintype="passive"/>
