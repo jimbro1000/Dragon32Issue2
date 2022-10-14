@@ -2290,6 +2290,9 @@
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf" (id 3) (at 98.425 51.054 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "DigiKey" "296-1398-5-ND" (id 4) (at 98.425 51.054 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "4" (uuid 0c18c697-ce4b-4809-b89f-340996344fa8))
     (pin "8" (uuid 443e420d-46ba-4ca5-a478-b3e4f28a762f))
   )
@@ -2340,7 +2343,10 @@
     (property "Footprint" "Package_DIP:DIP-14_W7.62mm" (id 2) (at 67.056 97.917 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "74xx\\74LS393.pdf" (id 3) (at 67.056 97.917 0)
+    (property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74ls390" (id 3) (at 67.056 97.917 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "DigiKey" "296-1665-5-ND" (id 4) (at 67.056 97.917 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "14" (uuid f812bf02-bb27-4792-a9e8-bff50261d428))
@@ -2376,6 +2382,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/sn74ls00" (id 3) (at 68.072 144.145 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "DigiKey" "296-1626-ND" (id 4) (at 68.072 144.145 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "14" (uuid 2a8acd70-d504-451b-a49e-d6f1c92df495))
@@ -2428,7 +2437,13 @@
     (property "Footprint" "Package_DIP:DIP-14_W7.62mm" (id 2) (at 33.655 96.139 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "74xx/74hc_hct74.pdf" (id 3) (at 33.655 96.139 0)
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74als74a.pdf" (id 3) (at 33.655 96.139 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "DigiKey" "296-1506-5-ND" (id 4) (at 33.655 96.139 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Note" "LS74 no longer produced, ALS or HCT instead" (id 5) (at 33.655 96.139 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "14" (uuid 96f0d19e-6963-42e5-8392-f78d6aa5504a))
@@ -2635,13 +2650,16 @@
     (property "Reference" "IC14" (id 0) (at 37.973 45.2119 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "74LS86N" (id 1) (at 37.973 47.7519 0)
+    (property "Value" "74LS86AN" (id 1) (at 37.973 47.7519 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_DIP:DIP-14_W7.62mm" (id 2) (at 31.877 46.482 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/DM74LS86.pdf" (id 3) (at 31.877 46.482 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "DigiKey" "296-1669-5-ND" (id 4) (at 31.877 46.482 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "14" (uuid 03a24617-13e6-4922-ab6c-5cb103d61f18))
@@ -3386,7 +3404,7 @@
       (reference "C3") (unit 1) (value "33pF") (footprint "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm")
     )
     (path "/02be2094-fd60-4d2f-9ad9-43f982c1e650/bdc26b2a-cc5d-4b8f-834d-fdd908ee9e38"
-      (reference "C4") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm")
+      (reference "C4") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
     )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/6d10df73-f425-41b0-aaf0-61657b9575fd"
       (reference "C5") (unit 1) (value "33pF") (footprint "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm")
@@ -3398,7 +3416,7 @@
       (reference "C7") (unit 1) (value "22pF") (footprint "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm")
     )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/4576208a-4641-405f-abbe-be0fb1f97e7e"
-      (reference "C8") (unit 1) (value "0.01uF") (footprint "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm")
+      (reference "C8") (unit 1) (value "0.01uF") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
     )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/8be98d49-a238-4ec5-9e8c-8387a3eba9f4"
       (reference "C9") (unit 1) (value "22pF") (footprint "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm")
@@ -3455,7 +3473,7 @@
       (reference "C26") (unit 1) (value "2.2nF") (footprint "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm")
     )
     (path "/28dac1c2-804e-40fd-9ff5-acdb4226ab76/13721273-5edf-4c02-8365-2119af88901d"
-      (reference "C27") (unit 1) (value ".1uF") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
+      (reference "C27") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
     )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/84e52618-1654-457a-97ea-11c9dad53e88"
       (reference "C28") (unit 1) (value "4.7uF") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
@@ -3464,25 +3482,25 @@
       (reference "C29") (unit 1) (value "1uF") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
     )
     (path "/64d8d7b7-14ab-4042-9ee8-f1aec24a139c/f076a6e5-4e08-4f1f-8dc6-7e2bee495b9d"
-      (reference "C30") (unit 1) (value "0.022uF") (footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm")
+      (reference "C30") (unit 1) (value "22nF") (footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm")
     )
     (path "/64d8d7b7-14ab-4042-9ee8-f1aec24a139c/c6e604b7-a2c3-4a97-b5af-8aded89888e4"
-      (reference "C31") (unit 1) (value "0.022uF") (footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm")
+      (reference "C31") (unit 1) (value "22nF") (footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm")
     )
     (path "/64d8d7b7-14ab-4042-9ee8-f1aec24a139c/9c56590c-4054-4c69-aa3a-f0cbe8988a43"
-      (reference "C32") (unit 1) (value "0.022uF") (footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm")
+      (reference "C32") (unit 1) (value "22nF") (footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm")
     )
     (path "/64d8d7b7-14ab-4042-9ee8-f1aec24a139c/e31a6e36-7351-4082-8b97-e2b761a12480"
-      (reference "C33") (unit 1) (value "0.022uF") (footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm")
+      (reference "C33") (unit 1) (value "22nF") (footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm")
     )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/0ff9f8c0-d012-49a3-8b0f-385df0ad232c"
       (reference "C34") (unit 1) (value "330pF") (footprint "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm")
     )
     (path "/28dac1c2-804e-40fd-9ff5-acdb4226ab76/de51aa43-d1a8-4a39-bda7-e663c7b1e1e0"
-      (reference "C35") (unit 1) (value "100uF") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
+      (reference "C35") (unit 1) (value "10uF") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
     )
     (path "/bad72f01-5d56-4b17-b882-ee331bb76ff2/5aa0e0d8-ecac-4ee4-a032-8f86322b439c"
-      (reference "C36") (unit 1) (value "100uF") (footprint "Capacitor_THT:CP_Radial_D7.5mm_P2.50mm")
+      (reference "C36") (unit 1) (value "100uF") (footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm")
     )
     (path "/c0eaba02-6b8d-4a7f-b51d-5746c573781a/4f93e9fe-f8d4-4f76-92c8-cdc0ed23c638"
       (reference "C37") (unit 1) (value "4.7uF") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
@@ -3524,28 +3542,28 @@
       (reference "C49") (unit 1) (value "22pF") (footprint "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm")
     )
     (path "/c0eaba02-6b8d-4a7f-b51d-5746c573781a/c188b8e6-72e8-4763-98f7-21e2940732cd"
-      (reference "C50") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm")
+      (reference "C50") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
     )
     (path "/c0eaba02-6b8d-4a7f-b51d-5746c573781a/ff8043b1-9f5e-415e-8818-8dcae601e01c"
-      (reference "C51") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm")
+      (reference "C51") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
     )
     (path "/c0eaba02-6b8d-4a7f-b51d-5746c573781a/e851a474-7a42-4009-a4ef-1867c50172e1"
-      (reference "C52") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm")
+      (reference "C52") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
     )
     (path "/c0eaba02-6b8d-4a7f-b51d-5746c573781a/facb1575-c898-43bf-b404-f9c779379e1c"
-      (reference "C53") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm")
+      (reference "C53") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
     )
     (path "/c0eaba02-6b8d-4a7f-b51d-5746c573781a/0d086d39-a36a-4faf-ac1d-895b89168c5c"
-      (reference "C54") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm")
+      (reference "C54") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
     )
     (path "/c0eaba02-6b8d-4a7f-b51d-5746c573781a/b50e3f42-0958-497a-b9d7-7090b4cd5377"
-      (reference "C55") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm")
+      (reference "C55") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
     )
     (path "/c0eaba02-6b8d-4a7f-b51d-5746c573781a/99c66f49-664e-44fc-b839-f44f9159dee0"
-      (reference "C56") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm")
+      (reference "C56") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
     )
     (path "/c0eaba02-6b8d-4a7f-b51d-5746c573781a/e3d0a082-de0a-42b7-b83b-2dfa90d060ef"
-      (reference "C57") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm")
+      (reference "C57") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
     )
     (path "/c0eaba02-6b8d-4a7f-b51d-5746c573781a/db11e630-f064-480b-bbf8-ce2990a44494"
       (reference "C58") (unit 1) (value "0.01uF") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
@@ -3629,19 +3647,19 @@
       (reference "IC13") (unit 1) (value "74LS273N") (footprint "Package_DIP:DIP-20_W7.62mm")
     )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/196e3808-2076-45b5-b9a7-10beae505375"
-      (reference "IC14") (unit 1) (value "74LS86N") (footprint "Package_DIP:DIP-14_W7.62mm")
+      (reference "IC14") (unit 1) (value "74LS86AN") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/c13c8aab-3734-4a53-a0b6-c9ca16e10550"
-      (reference "IC14") (unit 2) (value "74LS86N") (footprint "Package_DIP:DIP-14_W7.62mm")
+      (reference "IC14") (unit 2) (value "74LS86AN") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/601346dd-773e-4783-b4fa-51ba92db080f"
-      (reference "IC14") (unit 3) (value "74LS86N") (footprint "Package_DIP:DIP-14_W7.62mm")
+      (reference "IC14") (unit 3) (value "74LS86AN") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/5339dafe-c49d-4052-a8a5-614f5f68aa4a"
-      (reference "IC14") (unit 4) (value "74LS86N") (footprint "Package_DIP:DIP-14_W7.62mm")
+      (reference "IC14") (unit 4) (value "74LS86AN") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/e6601025-e11a-4f37-84ae-d48e6efd271e"
-      (reference "IC14") (unit 5) (value "74LS86N") (footprint "Package_DIP:DIP-14_W7.62mm")
+      (reference "IC14") (unit 5) (value "74LS86AN") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/c0eaba02-6b8d-4a7f-b51d-5746c573781a/f83f27f8-c025-4260-a1f2-eabec9a98706"
       (reference "IC15") (unit 1) (value "MC6883") (footprint "Package_DIP:DIP-40_W15.24mm")
@@ -4049,7 +4067,7 @@
       (reference "R76") (unit 1) (value "10R") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/28dac1c2-804e-40fd-9ff5-acdb4226ab76/3ce91ef0-5007-4a09-bddf-70dcb1862c82"
-      (reference "RL1") (unit 1) (value "ADW11") (footprint "Relay_THT:Relay_1P1T_NO_10x24x18.8mm_Panasonic_ADW11xxxxW_THT")
+      (reference "RL1") (unit 1) (value "OJS HM FORM A") (footprint "Dragon:OJS HM 10A Relay")
     )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/bd858468-5f85-422e-90d4-c2954e21bd13"
       (reference "RV1") (unit 1) (value "10K") (footprint "Potentiometer_THT:Potentiometer_ACP_CA9-H5_Horizontal")
@@ -4073,10 +4091,10 @@
       (reference "TR4") (unit 1) (value "BC212") (footprint "Package_TO_SOT_THT:TO-92_Inline")
     )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/6307c07a-e337-43d7-b9e5-9a4024edc71d"
-      (reference "XL1") (unit 1) (value "4.433619MHz") (footprint "Crystal:Crystal_HC18-U_Horizontal")
+      (reference "XL1") (unit 1) (value "4.433619MHz") (footprint "Crystal:Crystal_HC49-U_Horizontal")
     )
     (path "/c0eaba02-6b8d-4a7f-b51d-5746c573781a/9fd0d67a-ed83-442e-81a7-d6181a4675b0"
-      (reference "XL2") (unit 1) (value "14.31818MHz") (footprint "Crystal:Crystal_HC18-U_Horizontal")
+      (reference "XL2") (unit 1) (value "14.31818MHz") (footprint "Crystal:Crystal_HC49-U_Horizontal")
     )
   )
 )
