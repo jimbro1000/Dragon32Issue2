@@ -6,8 +6,8 @@
 
   (title_block
     (title "Dragon 32 CPU UK Issue 2")
-    (date "2022-09-30")
-    (rev "1.3")
+    (date "2022-10-15")
+    (rev "1.4")
     (company "Dragon Data")
     (comment 1 "Reproduced and Modified by Julian Brown")
     (comment 2 "Reposition dram and buffer")
