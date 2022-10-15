@@ -9,3 +9,4 @@
 * footprint RL1 - updated
 * footprint RV1 - updated
 * IC35 - IC20 restored missing connection CB2 <-> STy
+* Fix mixup of Q and E on 6883 (IC15)
