@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>C:\Users\Julian\Documents\KiCad\6.0\projects\Dragon32\Dragon32.kicad_sch</source>
-    <date>14/10/2022 15:14:26</date>
-    <tool>Eeschema (6.0.1)</tool>
+    <source>C:\Users\jimbr\Documents\KiCad\6.0\projects\Dragon32Issue2\Dragon32.kicad_sch</source>
+    <date>15/10/2022 12:56:31</date>
+    <tool>Eeschema (6.0.6)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Dragon 32 CPU UK Issue 2</title>
@@ -349,54 +349,78 @@
       <tstamps>fb256c68-3c79-4a8e-a56c-e9920d041772</tstamps>
     </comp>
     <comp ref="R13">
-      <value>4k7</value>
+      <value>4K7</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT4K70CT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT4K70CT-ND"/>
       <property name="Sheetname" value="MPU"/>
       <property name="Sheetfile" value="mpu.kicad_sch"/>
       <sheetpath names="/MPU/" tstamps="/02be2094-fd60-4d2f-9ad9-43f982c1e650/"/>
       <tstamps>45bb5947-2d88-4434-b907-c093d16eabfb</tstamps>
     </comp>
     <comp ref="R14">
-      <value>4k7</value>
+      <value>4K7</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT4K70CT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT4K70CT-ND"/>
       <property name="Sheetname" value="MPU"/>
       <property name="Sheetfile" value="mpu.kicad_sch"/>
       <sheetpath names="/MPU/" tstamps="/02be2094-fd60-4d2f-9ad9-43f982c1e650/"/>
       <tstamps>bf4ec54c-8d7a-4d8f-a9ef-62a4b15d2a96</tstamps>
     </comp>
     <comp ref="R15">
-      <value>100k</value>
+      <value>100K</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT100KCT-ND</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="DigiKey" value="CF14JT100KCT-ND"/>
       <property name="Sheetname" value="MPU"/>
       <property name="Sheetfile" value="mpu.kicad_sch"/>
       <sheetpath names="/MPU/" tstamps="/02be2094-fd60-4d2f-9ad9-43f982c1e650/"/>
       <tstamps>70999ba6-381e-45f9-905a-96e4a9413aa7</tstamps>
     </comp>
     <comp ref="R36">
-      <value>100k</value>
+      <value>100K</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT100KCT-ND</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="DigiKey" value="CF14JT100KCT-ND"/>
       <property name="Sheetname" value="MPU"/>
       <property name="Sheetfile" value="mpu.kicad_sch"/>
       <sheetpath names="/MPU/" tstamps="/02be2094-fd60-4d2f-9ad9-43f982c1e650/"/>
       <tstamps>73c922f7-203e-4726-b324-818cc8ad5371</tstamps>
     </comp>
     <comp ref="R40">
-      <value>4k7</value>
+      <value>4K7</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT4K70CT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT4K70CT-ND"/>
       <property name="Sheetname" value="MPU"/>
       <property name="Sheetfile" value="mpu.kicad_sch"/>
       <sheetpath names="/MPU/" tstamps="/02be2094-fd60-4d2f-9ad9-43f982c1e650/"/>
       <tstamps>cbc94c83-63a9-4253-a0d9-60b1f33186ac</tstamps>
     </comp>
     <comp ref="R41">
-      <value>4k7</value>
+      <value>4K7</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT4K70CT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT4K70CT-ND"/>
       <property name="Sheetname" value="MPU"/>
       <property name="Sheetfile" value="mpu.kicad_sch"/>
       <sheetpath names="/MPU/" tstamps="/02be2094-fd60-4d2f-9ad9-43f982c1e650/"/>
@@ -951,7 +975,11 @@
     <comp ref="JP1-2">
       <value>1 low</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="DigiKey">952-2521-ND</field>
+      </fields>
       <libsource lib="Jumper" part="Jumper_3_Bridged12" description="Jumper, 3-pole, pins 1+2 closed/bridged"/>
+      <property name="DigiKey" value="952-2521-ND"/>
       <property name="Sheetname" value="SAM"/>
       <property name="Sheetfile" value="sam.kicad_sch"/>
       <sheetpath names="/SAM/" tstamps="/c0eaba02-6b8d-4a7f-b51d-5746c573781a/"/>
@@ -996,7 +1024,11 @@
     <comp ref="R12">
       <value>22R</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT22R0CT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT22R0CT-ND"/>
       <property name="Sheetname" value="SAM"/>
       <property name="Sheetfile" value="sam.kicad_sch"/>
       <sheetpath names="/SAM/" tstamps="/c0eaba02-6b8d-4a7f-b51d-5746c573781a/"/>
@@ -1005,7 +1037,11 @@
     <comp ref="R19">
       <value>22R</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT22R0CT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT22R0CT-ND"/>
       <property name="Sheetname" value="SAM"/>
       <property name="Sheetfile" value="sam.kicad_sch"/>
       <sheetpath names="/SAM/" tstamps="/c0eaba02-6b8d-4a7f-b51d-5746c573781a/"/>
@@ -1014,7 +1050,11 @@
     <comp ref="R20">
       <value>22R</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT22R0CT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT22R0CT-ND"/>
       <property name="Sheetname" value="SAM"/>
       <property name="Sheetfile" value="sam.kicad_sch"/>
       <sheetpath names="/SAM/" tstamps="/c0eaba02-6b8d-4a7f-b51d-5746c573781a/"/>
@@ -1023,7 +1063,11 @@
     <comp ref="R21">
       <value>22R</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT22R0CT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT22R0CT-ND"/>
       <property name="Sheetname" value="SAM"/>
       <property name="Sheetfile" value="sam.kicad_sch"/>
       <sheetpath names="/SAM/" tstamps="/c0eaba02-6b8d-4a7f-b51d-5746c573781a/"/>
@@ -1032,7 +1076,11 @@
     <comp ref="R22">
       <value>22R</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT22R0CT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT22R0CT-ND"/>
       <property name="Sheetname" value="SAM"/>
       <property name="Sheetfile" value="sam.kicad_sch"/>
       <sheetpath names="/SAM/" tstamps="/c0eaba02-6b8d-4a7f-b51d-5746c573781a/"/>
@@ -1041,7 +1089,11 @@
     <comp ref="R23">
       <value>22R</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT22R0CT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT22R0CT-ND"/>
       <property name="Sheetname" value="SAM"/>
       <property name="Sheetfile" value="sam.kicad_sch"/>
       <sheetpath names="/SAM/" tstamps="/c0eaba02-6b8d-4a7f-b51d-5746c573781a/"/>
@@ -1050,7 +1102,11 @@
     <comp ref="R24">
       <value>22R</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT22R0CT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT22R0CT-ND"/>
       <property name="Sheetname" value="SAM"/>
       <property name="Sheetfile" value="sam.kicad_sch"/>
       <sheetpath names="/SAM/" tstamps="/c0eaba02-6b8d-4a7f-b51d-5746c573781a/"/>
@@ -1059,7 +1115,11 @@
     <comp ref="R25">
       <value>22R</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT22R0CT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT22R0CT-ND"/>
       <property name="Sheetname" value="SAM"/>
       <property name="Sheetfile" value="sam.kicad_sch"/>
       <sheetpath names="/SAM/" tstamps="/c0eaba02-6b8d-4a7f-b51d-5746c573781a/"/>
@@ -1068,7 +1128,11 @@
     <comp ref="R26">
       <value>22R</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT22R0CT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT22R0CT-ND"/>
       <property name="Sheetname" value="SAM"/>
       <property name="Sheetfile" value="sam.kicad_sch"/>
       <sheetpath names="/SAM/" tstamps="/c0eaba02-6b8d-4a7f-b51d-5746c573781a/"/>
@@ -1077,7 +1141,11 @@
     <comp ref="R27">
       <value>22R</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT22R0CT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT22R0CT-ND"/>
       <property name="Sheetname" value="SAM"/>
       <property name="Sheetfile" value="sam.kicad_sch"/>
       <sheetpath names="/SAM/" tstamps="/c0eaba02-6b8d-4a7f-b51d-5746c573781a/"/>
@@ -1086,7 +1154,11 @@
     <comp ref="R28">
       <value>22R</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT22R0CT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT22R0CT-ND"/>
       <property name="Sheetname" value="SAM"/>
       <property name="Sheetfile" value="sam.kicad_sch"/>
       <sheetpath names="/SAM/" tstamps="/c0eaba02-6b8d-4a7f-b51d-5746c573781a/"/>
@@ -1095,7 +1167,11 @@
     <comp ref="R37">
       <value>1K5</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT1K50CT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT1K50CT-ND"/>
       <property name="Sheetname" value="SAM"/>
       <property name="Sheetfile" value="sam.kicad_sch"/>
       <sheetpath names="/SAM/" tstamps="/c0eaba02-6b8d-4a7f-b51d-5746c573781a/"/>
@@ -1104,7 +1180,11 @@
     <comp ref="R39">
       <value>4K7</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT4K70CT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT4K70CT-ND"/>
       <property name="Sheetname" value="SAM"/>
       <property name="Sheetfile" value="sam.kicad_sch"/>
       <sheetpath names="/SAM/" tstamps="/c0eaba02-6b8d-4a7f-b51d-5746c573781a/"/>
@@ -1113,7 +1193,11 @@
     <comp ref="R66">
       <value>1K5</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT1K50CT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT1K50CT-ND"/>
       <property name="Sheetname" value="SAM"/>
       <property name="Sheetfile" value="sam.kicad_sch"/>
       <sheetpath names="/SAM/" tstamps="/c0eaba02-6b8d-4a7f-b51d-5746c573781a/"/>
@@ -1360,7 +1444,13 @@
     <comp ref="IC20">
       <value>MC14529B</value>
       <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
+      <fields>
+        <field name="DigiKey">CD4529BCN-ND</field>
+        <field name="Note">obsolete, use donor</field>
+      </fields>
       <libsource lib="Motorola PIA" part="MC14529B" description=""/>
+      <property name="DigiKey" value="CD4529BCN-ND"/>
+      <property name="Note" value="obsolete, use donor"/>
       <property name="Sheetname" value="PIA1"/>
       <property name="Sheetfile" value="pia1.kicad_sch"/>
       <sheetpath names="/PIA1/" tstamps="/64d8d7b7-14ab-4042-9ee8-f1aec24a139c/"/>
@@ -1383,7 +1473,13 @@
     <comp ref="IC26">
       <value>MC6821</value>
       <footprint>Package_DIP:DIP-40_W15.24mm</footprint>
+      <fields>
+        <field name="DigiKey">2156-MC6821CS-2156-ND</field>
+        <field name="Note">donor is preferable</field>
+      </fields>
       <libsource lib="Motorola PIA" part="MC6821" description=""/>
+      <property name="DigiKey" value="2156-MC6821CS-2156-ND"/>
+      <property name="Note" value="donor is preferable"/>
       <property name="Sheetname" value="PIA1"/>
       <property name="Sheetfile" value="pia1.kicad_sch"/>
       <sheetpath names="/PIA1/" tstamps="/64d8d7b7-14ab-4042-9ee8-f1aec24a139c/"/>
@@ -1392,7 +1488,11 @@
     <comp ref="L1">
       <value>3.3uH</value>
       <footprint>Inductor_THT:L_Axial_L7.0mm_D3.3mm_P10.16mm_Horizontal_Fastron_MICC</footprint>
+      <fields>
+        <field name="DigiKey">495-5561-1-ND</field>
+      </fields>
       <libsource lib="Device" part="FerriteBead_Small" description="Ferrite bead, small symbol"/>
+      <property name="DigiKey" value="495-5561-1-ND"/>
       <property name="Sheetname" value="PIA1"/>
       <property name="Sheetfile" value="pia1.kicad_sch"/>
       <sheetpath names="/PIA1/" tstamps="/64d8d7b7-14ab-4042-9ee8-f1aec24a139c/"/>
@@ -1401,7 +1501,11 @@
     <comp ref="L2">
       <value>3.3uH</value>
       <footprint>Inductor_THT:L_Axial_L7.0mm_D3.3mm_P10.16mm_Horizontal_Fastron_MICC</footprint>
+      <fields>
+        <field name="DigiKey">495-5561-1-ND</field>
+      </fields>
       <libsource lib="Device" part="FerriteBead_Small" description="Ferrite bead, small symbol"/>
+      <property name="DigiKey" value="495-5561-1-ND"/>
       <property name="Sheetname" value="PIA1"/>
       <property name="Sheetfile" value="pia1.kicad_sch"/>
       <sheetpath names="/PIA1/" tstamps="/64d8d7b7-14ab-4042-9ee8-f1aec24a139c/"/>
@@ -1410,7 +1514,11 @@
     <comp ref="L3">
       <value>3.3uH</value>
       <footprint>Inductor_THT:L_Axial_L7.0mm_D3.3mm_P10.16mm_Horizontal_Fastron_MICC</footprint>
+      <fields>
+        <field name="DigiKey">495-5561-1-ND</field>
+      </fields>
       <libsource lib="Device" part="FerriteBead_Small" description="Ferrite bead, small symbol"/>
+      <property name="DigiKey" value="495-5561-1-ND"/>
       <property name="Sheetname" value="PIA1"/>
       <property name="Sheetfile" value="pia1.kicad_sch"/>
       <sheetpath names="/PIA1/" tstamps="/64d8d7b7-14ab-4042-9ee8-f1aec24a139c/"/>
@@ -1419,7 +1527,11 @@
     <comp ref="L4">
       <value>3.3uH</value>
       <footprint>Inductor_THT:L_Axial_L7.0mm_D3.3mm_P10.16mm_Horizontal_Fastron_MICC</footprint>
+      <fields>
+        <field name="DigiKey">495-5561-1-ND</field>
+      </fields>
       <libsource lib="Device" part="FerriteBead_Small" description="Ferrite bead, small symbol"/>
+      <property name="DigiKey" value="495-5561-1-ND"/>
       <property name="Sheetname" value="PIA1"/>
       <property name="Sheetfile" value="pia1.kicad_sch"/>
       <sheetpath names="/PIA1/" tstamps="/64d8d7b7-14ab-4042-9ee8-f1aec24a139c/"/>
@@ -1428,7 +1540,11 @@
     <comp ref="PL1">
       <value>Conn_01x16_Male</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="DigiKey">952-2521-ND</field>
+      </fields>
       <libsource lib="Connector" part="Conn_01x16_Male" description="Generic connector, single row, 01x16, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="DigiKey" value="952-2521-ND"/>
       <property name="Sheetname" value="PIA1"/>
       <property name="Sheetfile" value="pia1.kicad_sch"/>
       <sheetpath names="/PIA1/" tstamps="/64d8d7b7-14ab-4042-9ee8-f1aec24a139c/"/>
@@ -1454,7 +1570,11 @@
       <value>DIN-6 J/S R</value>
       <footprint>Dragon:DIN-6_DELTRON_671-0601_Horizontal</footprint>
       <datasheet>https://www.dem-uk.com/deltron-components/Data/Product_Downloads/deltron-671-0501-5-way-din-socket-data.pdf</datasheet>
+      <fields>
+        <field name="Note">RS Components</field>
+      </fields>
       <libsource lib="Connector" part="DIN-6" description="6-pin DIN connector"/>
+      <property name="Note" value="RS Components"/>
       <property name="Sheetname" value="PIA1"/>
       <property name="Sheetfile" value="pia1.kicad_sch"/>
       <sheetpath names="/PIA1/" tstamps="/64d8d7b7-14ab-4042-9ee8-f1aec24a139c/"/>
@@ -1464,7 +1584,11 @@
       <value>DIN-6 J/S L</value>
       <footprint>Dragon:DIN-6_DELTRON_671-0601_Horizontal</footprint>
       <datasheet>https://www.dem-uk.com/deltron-components/Data/Product_Downloads/deltron-671-0501-5-way-din-socket-data.pdf</datasheet>
+      <fields>
+        <field name="Note">RS Components</field>
+      </fields>
       <libsource lib="Connector" part="DIN-6" description="6-pin DIN connector"/>
+      <property name="Note" value="RS Components"/>
       <property name="Sheetname" value="PIA1"/>
       <property name="Sheetfile" value="pia1.kicad_sch"/>
       <sheetpath names="/PIA1/" tstamps="/64d8d7b7-14ab-4042-9ee8-f1aec24a139c/"/>
@@ -1473,7 +1597,11 @@
     <comp ref="R1">
       <value>100R</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT100RCT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT100RCT-ND"/>
       <property name="Sheetname" value="PIA1"/>
       <property name="Sheetfile" value="pia1.kicad_sch"/>
       <sheetpath names="/PIA1/" tstamps="/64d8d7b7-14ab-4042-9ee8-f1aec24a139c/"/>
@@ -1482,7 +1610,11 @@
     <comp ref="R30">
       <value>4K7</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT4K70CT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT4K70CT-ND"/>
       <property name="Sheetname" value="PIA1"/>
       <property name="Sheetfile" value="pia1.kicad_sch"/>
       <sheetpath names="/PIA1/" tstamps="/64d8d7b7-14ab-4042-9ee8-f1aec24a139c/"/>
@@ -1491,7 +1623,11 @@
     <comp ref="R31">
       <value>4K7</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT4K70CT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT4K70CT-ND"/>
       <property name="Sheetname" value="PIA1"/>
       <property name="Sheetfile" value="pia1.kicad_sch"/>
       <sheetpath names="/PIA1/" tstamps="/64d8d7b7-14ab-4042-9ee8-f1aec24a139c/"/>
@@ -1500,7 +1636,11 @@
     <comp ref="R42">
       <value>10K</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT10K0CT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT10K0CT-ND"/>
       <property name="Sheetname" value="PIA1"/>
       <property name="Sheetfile" value="pia1.kicad_sch"/>
       <sheetpath names="/PIA1/" tstamps="/64d8d7b7-14ab-4042-9ee8-f1aec24a139c/"/>
@@ -1509,7 +1649,11 @@
     <comp ref="R43">
       <value>10K</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT10K0CT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT10K0CT-ND"/>
       <property name="Sheetname" value="PIA1"/>
       <property name="Sheetfile" value="pia1.kicad_sch"/>
       <sheetpath names="/PIA1/" tstamps="/64d8d7b7-14ab-4042-9ee8-f1aec24a139c/"/>
@@ -1518,7 +1662,11 @@
     <comp ref="R53">
       <value>10M</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT10M0CT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT10M0CT-ND"/>
       <property name="Sheetname" value="PIA1"/>
       <property name="Sheetfile" value="pia1.kicad_sch"/>
       <sheetpath names="/PIA1/" tstamps="/64d8d7b7-14ab-4042-9ee8-f1aec24a139c/"/>
@@ -1527,7 +1675,11 @@
     <comp ref="R54">
       <value>1K</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT1K00CT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT1K00CT-ND"/>
       <property name="Sheetname" value="PIA1"/>
       <property name="Sheetfile" value="pia1.kicad_sch"/>
       <sheetpath names="/PIA1/" tstamps="/64d8d7b7-14ab-4042-9ee8-f1aec24a139c/"/>
@@ -1536,7 +1688,11 @@
     <comp ref="R55">
       <value>10K</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT10K0CT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT10K0CT-ND"/>
       <property name="Sheetname" value="PIA1"/>
       <property name="Sheetfile" value="pia1.kicad_sch"/>
       <sheetpath names="/PIA1/" tstamps="/64d8d7b7-14ab-4042-9ee8-f1aec24a139c/"/>
@@ -1701,7 +1857,13 @@
     <comp ref="IC35">
       <value>MC6821</value>
       <footprint>Package_DIP:DIP-40_W15.24mm</footprint>
+      <fields>
+        <field name="DigiKey">2156-MC6821CS-2156-ND</field>
+        <field name="Note">donor is preferable</field>
+      </fields>
       <libsource lib="Motorola PIA" part="MC6821" description=""/>
+      <property name="DigiKey" value="2156-MC6821CS-2156-ND"/>
+      <property name="Note" value="donor is preferable"/>
       <property name="Sheetname" value="PIA2"/>
       <property name="Sheetfile" value="pia2.kicad_sch"/>
       <sheetpath names="/PIA2/" tstamps="/28dac1c2-804e-40fd-9ff5-acdb4226ab76/"/>
@@ -1729,7 +1891,11 @@
       <value>DIN-5 (180) Cassette</value>
       <footprint>Dragon:DIN-5_DELTRON_671-0501_45deg_Horizontal</footprint>
       <datasheet>https://www.dem-uk.com/deltron-components/Data/Product_Downloads/deltron-671-0501-5-way-din-socket-data.pdf</datasheet>
+      <fields>
+        <field name="Note">RS Components</field>
+      </fields>
       <libsource lib="Connector" part="DIN-5_180degree" description="5-pin DIN connector (5-pin DIN-5 stereo)"/>
+      <property name="Note" value="RS Components"/>
       <property name="Sheetname" value="PIA2"/>
       <property name="Sheetfile" value="pia2.kicad_sch"/>
       <sheetpath names="/PIA2/" tstamps="/28dac1c2-804e-40fd-9ff5-acdb4226ab76/"/>
@@ -1738,7 +1904,11 @@
     <comp ref="R16">
       <value>33K</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT33K0CT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT33K0CT-ND"/>
       <property name="Sheetname" value="PIA2"/>
       <property name="Sheetfile" value="pia2.kicad_sch"/>
       <sheetpath names="/PIA2/" tstamps="/28dac1c2-804e-40fd-9ff5-acdb4226ab76/"/>
@@ -1747,7 +1917,11 @@
     <comp ref="R29">
       <value>68K</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT68K0CT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT68K0CT-ND"/>
       <property name="Sheetname" value="PIA2"/>
       <property name="Sheetfile" value="pia2.kicad_sch"/>
       <sheetpath names="/PIA2/" tstamps="/28dac1c2-804e-40fd-9ff5-acdb4226ab76/"/>
@@ -1756,7 +1930,11 @@
     <comp ref="R32">
       <value>4K7</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT4K70CT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT4K70CT-ND"/>
       <property name="Sheetname" value="PIA2"/>
       <property name="Sheetfile" value="pia2.kicad_sch"/>
       <sheetpath names="/PIA2/" tstamps="/28dac1c2-804e-40fd-9ff5-acdb4226ab76/"/>
@@ -1765,7 +1943,11 @@
     <comp ref="R38">
       <value>4K7</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT4K70CT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT4K70CT-ND"/>
       <property name="Sheetname" value="PIA2"/>
       <property name="Sheetfile" value="pia2.kicad_sch"/>
       <sheetpath names="/PIA2/" tstamps="/28dac1c2-804e-40fd-9ff5-acdb4226ab76/"/>
@@ -1774,7 +1956,11 @@
     <comp ref="R45">
       <value>6K8</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT6K80CT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT6K80CT-ND"/>
       <property name="Sheetname" value="PIA2"/>
       <property name="Sheetfile" value="pia2.kicad_sch"/>
       <sheetpath names="/PIA2/" tstamps="/28dac1c2-804e-40fd-9ff5-acdb4226ab76/"/>
@@ -1783,7 +1969,11 @@
     <comp ref="R46">
       <value>220R</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT220RCT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT220RCT-ND"/>
       <property name="Sheetname" value="PIA2"/>
       <property name="Sheetfile" value="pia2.kicad_sch"/>
       <sheetpath names="/PIA2/" tstamps="/28dac1c2-804e-40fd-9ff5-acdb4226ab76/"/>
@@ -1792,7 +1982,11 @@
     <comp ref="R47">
       <value>8K2</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT8K20CT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT8K20CT-ND"/>
       <property name="Sheetname" value="PIA2"/>
       <property name="Sheetfile" value="pia2.kicad_sch"/>
       <sheetpath names="/PIA2/" tstamps="/28dac1c2-804e-40fd-9ff5-acdb4226ab76/"/>
@@ -1801,7 +1995,11 @@
     <comp ref="R48">
       <value>15K</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT15K0CT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT15K0CT-ND"/>
       <property name="Sheetname" value="PIA2"/>
       <property name="Sheetfile" value="pia2.kicad_sch"/>
       <sheetpath names="/PIA2/" tstamps="/28dac1c2-804e-40fd-9ff5-acdb4226ab76/"/>
@@ -1810,7 +2008,11 @@
     <comp ref="R49">
       <value>1K</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT1K00CT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT1K00CT-ND"/>
       <property name="Sheetname" value="PIA2"/>
       <property name="Sheetfile" value="pia2.kicad_sch"/>
       <sheetpath names="/PIA2/" tstamps="/28dac1c2-804e-40fd-9ff5-acdb4226ab76/"/>
@@ -1819,7 +2021,11 @@
     <comp ref="R50">
       <value>56K</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT56K0CT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT56K0CT-ND"/>
       <property name="Sheetname" value="PIA2"/>
       <property name="Sheetfile" value="pia2.kicad_sch"/>
       <sheetpath names="/PIA2/" tstamps="/28dac1c2-804e-40fd-9ff5-acdb4226ab76/"/>
@@ -1828,7 +2034,11 @@
     <comp ref="R51">
       <value>1M5</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT1M50CT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT1M50CT-ND"/>
       <property name="Sheetname" value="PIA2"/>
       <property name="Sheetfile" value="pia2.kicad_sch"/>
       <sheetpath names="/PIA2/" tstamps="/28dac1c2-804e-40fd-9ff5-acdb4226ab76/"/>
@@ -1837,7 +2047,11 @@
     <comp ref="R52">
       <value>56K</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT56K0CT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT56K0CT-ND"/>
       <property name="Sheetname" value="PIA2"/>
       <property name="Sheetfile" value="pia2.kicad_sch"/>
       <sheetpath names="/PIA2/" tstamps="/28dac1c2-804e-40fd-9ff5-acdb4226ab76/"/>
@@ -1846,7 +2060,11 @@
     <comp ref="R56">
       <value>10K</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT10K0CT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT10K0CT-ND"/>
       <property name="Sheetname" value="PIA2"/>
       <property name="Sheetfile" value="pia2.kicad_sch"/>
       <sheetpath names="/PIA2/" tstamps="/28dac1c2-804e-40fd-9ff5-acdb4226ab76/"/>
@@ -1855,7 +2073,11 @@
     <comp ref="R57">
       <value>20K 1%</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">RNF14FTD20K0CT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="RNF14FTD20K0CT-ND"/>
       <property name="Sheetname" value="PIA2"/>
       <property name="Sheetfile" value="pia2.kicad_sch"/>
       <sheetpath names="/PIA2/" tstamps="/28dac1c2-804e-40fd-9ff5-acdb4226ab76/"/>
@@ -1864,7 +2086,11 @@
     <comp ref="R58">
       <value>80K6 1%</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">RNF14FTD80K6CT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="RNF14FTD80K6CT-ND"/>
       <property name="Sheetname" value="PIA2"/>
       <property name="Sheetfile" value="pia2.kicad_sch"/>
       <sheetpath names="/PIA2/" tstamps="/28dac1c2-804e-40fd-9ff5-acdb4226ab76/"/>
@@ -1873,7 +2099,11 @@
     <comp ref="R59">
       <value>160K 1%</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">S160CACT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="S160CACT-ND"/>
       <property name="Sheetname" value="PIA2"/>
       <property name="Sheetfile" value="pia2.kicad_sch"/>
       <sheetpath names="/PIA2/" tstamps="/28dac1c2-804e-40fd-9ff5-acdb4226ab76/"/>
@@ -1882,7 +2112,11 @@
     <comp ref="R60">
       <value>330K 1%</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">S330KCACT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="S330KCACT-ND"/>
       <property name="Sheetname" value="PIA2"/>
       <property name="Sheetfile" value="pia2.kicad_sch"/>
       <sheetpath names="/PIA2/" tstamps="/28dac1c2-804e-40fd-9ff5-acdb4226ab76/"/>
@@ -1891,7 +2125,13 @@
     <comp ref="R61">
       <value>40K2 1%</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">RNF14FTD41K2CT-ND</field>
+        <field name="Note">40K2 not availalbe from digikey in 1% tolerance</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="RNF14FTD41K2CT-ND"/>
+      <property name="Note" value="40K2 not availalbe from digikey in 1% tolerance"/>
       <property name="Sheetname" value="PIA2"/>
       <property name="Sheetfile" value="pia2.kicad_sch"/>
       <sheetpath names="/PIA2/" tstamps="/28dac1c2-804e-40fd-9ff5-acdb4226ab76/"/>
@@ -1900,7 +2140,11 @@
     <comp ref="R62">
       <value>10K 1%</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">RNF14FTD10K0CT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="RNF14FTD10K0CT-ND"/>
       <property name="Sheetname" value="PIA2"/>
       <property name="Sheetfile" value="pia2.kicad_sch"/>
       <sheetpath names="/PIA2/" tstamps="/28dac1c2-804e-40fd-9ff5-acdb4226ab76/"/>
@@ -1909,7 +2153,11 @@
     <comp ref="R63">
       <value>4K7</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT4K70CT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT4K70CT-ND"/>
       <property name="Sheetname" value="PIA2"/>
       <property name="Sheetfile" value="pia2.kicad_sch"/>
       <sheetpath names="/PIA2/" tstamps="/28dac1c2-804e-40fd-9ff5-acdb4226ab76/"/>
@@ -1918,7 +2166,11 @@
     <comp ref="R64">
       <value>100K</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT100KCT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT100KCT-ND"/>
       <property name="Sheetname" value="PIA2"/>
       <property name="Sheetfile" value="pia2.kicad_sch"/>
       <sheetpath names="/PIA2/" tstamps="/28dac1c2-804e-40fd-9ff5-acdb4226ab76/"/>
@@ -1928,7 +2180,11 @@
       <value>OJS HM FORM A</value>
       <footprint>Dragon:OJS HM 10A Relay</footprint>
       <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=OJS_10A&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="DigiKey">41-OJS-SH-105HMF,00000-ND</field>
+      </fields>
       <libsource lib="Relay" part="ADW11" description="Panasonic, 8A/16A, Small Polarized Latching Power Relays, Single coil, 1 Form A"/>
+      <property name="DigiKey" value="41-OJS-SH-105HMF,00000-ND"/>
       <property name="Sheetname" value="PIA2"/>
       <property name="Sheetfile" value="pia2.kicad_sch"/>
       <sheetpath names="/PIA2/" tstamps="/28dac1c2-804e-40fd-9ff5-acdb4226ab76/"/>
@@ -2317,7 +2573,11 @@
     <comp ref="R2">
       <value>1K</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT1K00CT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT1K00CT-ND"/>
       <property name="Sheetname" value="VIDEO"/>
       <property name="Sheetfile" value="video.kicad_sch"/>
       <sheetpath names="/VIDEO/" tstamps="/d9dba8db-e731-4cb4-b2de-fefd65b288bc/"/>
@@ -2326,7 +2586,11 @@
     <comp ref="R3">
       <value>5K6</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT5K60CT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT5K60CT-ND"/>
       <property name="Sheetname" value="VIDEO"/>
       <property name="Sheetfile" value="video.kicad_sch"/>
       <sheetpath names="/VIDEO/" tstamps="/d9dba8db-e731-4cb4-b2de-fefd65b288bc/"/>
@@ -2335,7 +2599,11 @@
     <comp ref="R4">
       <value>3K3</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT3K30CT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT3K30CT-ND"/>
       <property name="Sheetname" value="VIDEO"/>
       <property name="Sheetfile" value="video.kicad_sch"/>
       <sheetpath names="/VIDEO/" tstamps="/d9dba8db-e731-4cb4-b2de-fefd65b288bc/"/>
@@ -2344,7 +2612,11 @@
     <comp ref="R5">
       <value>1K</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT1K00CT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT1K00CT-ND"/>
       <property name="Sheetname" value="VIDEO"/>
       <property name="Sheetfile" value="video.kicad_sch"/>
       <sheetpath names="/VIDEO/" tstamps="/d9dba8db-e731-4cb4-b2de-fefd65b288bc/"/>
@@ -2353,7 +2625,11 @@
     <comp ref="R6">
       <value>1K</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT1K00CT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT1K00CT-ND"/>
       <property name="Sheetname" value="VIDEO"/>
       <property name="Sheetfile" value="video.kicad_sch"/>
       <sheetpath names="/VIDEO/" tstamps="/d9dba8db-e731-4cb4-b2de-fefd65b288bc/"/>
@@ -2362,7 +2638,11 @@
     <comp ref="R7">
       <value>22K</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT22K0CT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT22K0CT-ND"/>
       <property name="Sheetname" value="VIDEO"/>
       <property name="Sheetfile" value="video.kicad_sch"/>
       <sheetpath names="/VIDEO/" tstamps="/d9dba8db-e731-4cb4-b2de-fefd65b288bc/"/>
@@ -2371,7 +2651,11 @@
     <comp ref="R8">
       <value>270R</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT270RCT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT270RCT-ND"/>
       <property name="Sheetname" value="VIDEO"/>
       <property name="Sheetfile" value="video.kicad_sch"/>
       <sheetpath names="/VIDEO/" tstamps="/d9dba8db-e731-4cb4-b2de-fefd65b288bc/"/>
@@ -2380,7 +2664,11 @@
     <comp ref="R9">
       <value>270R</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT270RCT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT270RCT-ND"/>
       <property name="Sheetname" value="VIDEO"/>
       <property name="Sheetfile" value="video.kicad_sch"/>
       <sheetpath names="/VIDEO/" tstamps="/d9dba8db-e731-4cb4-b2de-fefd65b288bc/"/>
@@ -2389,7 +2677,11 @@
     <comp ref="R10">
       <value>2K7</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT2K70CT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT2K70CT-ND"/>
       <property name="Sheetname" value="VIDEO"/>
       <property name="Sheetfile" value="video.kicad_sch"/>
       <sheetpath names="/VIDEO/" tstamps="/d9dba8db-e731-4cb4-b2de-fefd65b288bc/"/>
@@ -2398,7 +2690,11 @@
     <comp ref="R11">
       <value>2K7</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT2K70CT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT2K70CT-ND"/>
       <property name="Sheetname" value="VIDEO"/>
       <property name="Sheetfile" value="video.kicad_sch"/>
       <sheetpath names="/VIDEO/" tstamps="/d9dba8db-e731-4cb4-b2de-fefd65b288bc/"/>
@@ -2407,7 +2703,11 @@
     <comp ref="R17">
       <value>10K</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT10K0CT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT10K0CT-ND"/>
       <property name="Sheetname" value="VIDEO"/>
       <property name="Sheetfile" value="video.kicad_sch"/>
       <sheetpath names="/VIDEO/" tstamps="/d9dba8db-e731-4cb4-b2de-fefd65b288bc/"/>
@@ -2416,7 +2716,11 @@
     <comp ref="R18">
       <value>10K</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT10K0CT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT10K0CT-ND"/>
       <property name="Sheetname" value="VIDEO"/>
       <property name="Sheetfile" value="video.kicad_sch"/>
       <sheetpath names="/VIDEO/" tstamps="/d9dba8db-e731-4cb4-b2de-fefd65b288bc/"/>
@@ -2425,7 +2729,11 @@
     <comp ref="R33">
       <value>3K3</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT3K30CT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT3K30CT-ND"/>
       <property name="Sheetname" value="VIDEO"/>
       <property name="Sheetfile" value="video.kicad_sch"/>
       <sheetpath names="/VIDEO/" tstamps="/d9dba8db-e731-4cb4-b2de-fefd65b288bc/"/>
@@ -2434,7 +2742,11 @@
     <comp ref="R34">
       <value>6K8</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT6K80CT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT6K80CT-ND"/>
       <property name="Sheetname" value="VIDEO"/>
       <property name="Sheetfile" value="video.kicad_sch"/>
       <sheetpath names="/VIDEO/" tstamps="/d9dba8db-e731-4cb4-b2de-fefd65b288bc/"/>
@@ -2443,16 +2755,24 @@
     <comp ref="R35">
       <value>15K</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT15K0CT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT15K0CT-ND"/>
       <property name="Sheetname" value="VIDEO"/>
       <property name="Sheetfile" value="video.kicad_sch"/>
       <sheetpath names="/VIDEO/" tstamps="/d9dba8db-e731-4cb4-b2de-fefd65b288bc/"/>
       <tstamps>61d41ee1-6f4e-4cda-940f-d39f41615f84</tstamps>
     </comp>
     <comp ref="R44">
-      <value>27k</value>
+      <value>27K</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT27K0CT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT27K0CT-ND"/>
       <property name="Sheetname" value="VIDEO"/>
       <property name="Sheetfile" value="video.kicad_sch"/>
       <sheetpath names="/VIDEO/" tstamps="/d9dba8db-e731-4cb4-b2de-fefd65b288bc/"/>
@@ -2461,7 +2781,11 @@
     <comp ref="R65">
       <value>2K7</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT2K70CT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT2K70CT-ND"/>
       <property name="Sheetname" value="VIDEO"/>
       <property name="Sheetfile" value="video.kicad_sch"/>
       <sheetpath names="/VIDEO/" tstamps="/d9dba8db-e731-4cb4-b2de-fefd65b288bc/"/>
@@ -2470,7 +2794,11 @@
     <comp ref="R67">
       <value>1K2</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT1K20CT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT1K20CT-ND"/>
       <property name="Sheetname" value="VIDEO"/>
       <property name="Sheetfile" value="video.kicad_sch"/>
       <sheetpath names="/VIDEO/" tstamps="/d9dba8db-e731-4cb4-b2de-fefd65b288bc/"/>
@@ -2479,7 +2807,11 @@
     <comp ref="R68">
       <value>5K6</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT5K60CT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT5K60CT-ND"/>
       <property name="Sheetname" value="VIDEO"/>
       <property name="Sheetfile" value="video.kicad_sch"/>
       <sheetpath names="/VIDEO/" tstamps="/d9dba8db-e731-4cb4-b2de-fefd65b288bc/"/>
@@ -2488,7 +2820,11 @@
     <comp ref="R69">
       <value>330R</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT330RCT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT330RCT-ND"/>
       <property name="Sheetname" value="VIDEO"/>
       <property name="Sheetfile" value="video.kicad_sch"/>
       <sheetpath names="/VIDEO/" tstamps="/d9dba8db-e731-4cb4-b2de-fefd65b288bc/"/>
@@ -2497,7 +2833,11 @@
     <comp ref="R76">
       <value>10R</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">CF14JT10R0CT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value="CF14JT10R0CT-ND"/>
       <property name="Sheetname" value="VIDEO"/>
       <property name="Sheetfile" value="video.kicad_sch"/>
       <sheetpath names="/VIDEO/" tstamps="/d9dba8db-e731-4cb4-b2de-fefd65b288bc/"/>
@@ -2505,8 +2845,12 @@
     </comp>
     <comp ref="RV1">
       <value>10K</value>
-      <footprint>Potentiometer_THT:Potentiometer_ACP_CA9-H5_Horizontal</footprint>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3386X_Horizontal</footprint>
+      <fields>
+        <field name="DigiKey">3386H-103LF-ND</field>
+      </fields>
       <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="DigiKey" value="3386H-103LF-ND"/>
       <property name="Sheetname" value="VIDEO"/>
       <property name="Sheetfile" value="video.kicad_sch"/>
       <sheetpath names="/VIDEO/" tstamps="/d9dba8db-e731-4cb4-b2de-fefd65b288bc/"/>
@@ -3910,7 +4254,7 @@
       <node ref="R64" pin="2" pintype="passive"/>
       <node ref="R67" pin="2" pintype="passive"/>
       <node ref="R8" pin="2" pintype="passive"/>
-      <node ref="RV1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="RV1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="TR2" pin="3" pinfunction="C" pintype="passive"/>
     </net>
     <net code="2" name="+12V">
@@ -4408,7 +4752,7 @@
       <node ref="R48" pin="1" pintype="passive"/>
       <node ref="R66" pin="1" pintype="passive"/>
       <node ref="R7" pin="2" pintype="passive"/>
-      <node ref="RV1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RV1" pin="3" pinfunction="3" pintype="passive"/>
       <node ref="SW1" pin="5" pinfunction="B" pintype="passive"/>
       <node ref="TR1" pin="1" pinfunction="E" pintype="passive"/>
       <node ref="TR3" pin="1" pinfunction="E" pintype="passive"/>

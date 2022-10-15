@@ -6,6 +6,10 @@
 * Moved board mounting holes to ease fitting
 * Review passive component values vs original board
 * Added more detail to front and back silkscreen
+* Changed RL1 to use foorprint for available part
+* Changed RV1 to use common bourns footprint
+* Aligned DIN sockets to edge of board (slight overhang)
+* Identify parts with DigiKey part numbers for verification
 
 # Revision 1.3 #
 # Published 30/09/2022
