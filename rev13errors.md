@@ -6,3 +6,6 @@
 * C28 - changed to polarized and rewired
 * C37 - changed to polarized and rewired
 * C43 - moved to more efficient position
+* footprint RL1 - updated
+* footprint RV1 - updated
+* IC35 - IC20 restored missing connection CB2 <-> STy
