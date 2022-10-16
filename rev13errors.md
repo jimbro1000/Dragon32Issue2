@@ -10,3 +10,4 @@
 * footprint RV1 - updated
 * IC35 - IC20 restored missing connection CB2 <-> STy
 * Fix mixup of Q and E on 6883 (IC15)
+* R4 pad 2 routed to -5V instead of GND

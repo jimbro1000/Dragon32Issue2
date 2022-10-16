@@ -2872,9 +2872,6 @@
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/e2f12a08-365c-457f-a7c5-ba903d14d74c"
       (reference "#PWR04") (unit 1) (value "GND") (footprint "")
     )
-    (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/2cb9009b-6643-43f9-8cf4-94d36552ef69"
-      (reference "#PWR05") (unit 1) (value "GND") (footprint "")
-    )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/77903537-8e09-42eb-ad24-06280d7ad1c0"
       (reference "#PWR06") (unit 1) (value "-5V") (footprint "")
     )
