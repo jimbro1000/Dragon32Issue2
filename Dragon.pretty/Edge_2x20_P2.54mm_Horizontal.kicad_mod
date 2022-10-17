@@ -1,6 +1,6 @@
 (footprint "Edge_2x20_P2.54mm_Horizontal" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 5FC919D5)
+  (tedit 634D1EB9)
   (descr "Edge Connector 2x20 2.54mm pitch, 5.08mm row pitch")
   (attr through_hole)
   (fp_text reference "REF**" (at -1.27 -11.176) (layer "F.SilkS")
@@ -98,8 +98,8 @@
   (pad "38" thru_hole circle (at 5.08 45.72) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp 7c5f3091-7791-43b3-8d50-43f6a72274c9))
   (pad "39" thru_hole circle (at 0 48.26) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp 8ac400bf-c9b3-4af4-b0a7-9aa9ab4ad17e))
   (pad "40" thru_hole circle (at 5.08 48.26) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp 97dcf785-3264-40a1-a36e-8842acab24fb))
-  (pad "MP" thru_hole circle (at 13.716 56.134) (size 7 7) (drill 3.25) (layers *.Cu *.Mask) (tstamp 0cc9bf07-55b9-458f-b8aa-41b2f51fa940))
-  (pad "MP" thru_hole circle (at 13.716 -7.874) (size 7 7) (drill 3.25) (layers *.Cu *.Mask) (tstamp 363945f6-fbef-42be-99cf-4a8a48434d92))
+  (pad "MP" thru_hole circle (at 13.716 55.134) (size 7 7) (drill 3.25) (layers *.Cu *.Mask) (tstamp 0cc9bf07-55b9-458f-b8aa-41b2f51fa940))
+  (pad "MP" thru_hole circle (at 13.716 -6.874) (size 7 7) (drill 3.25) (layers *.Cu *.Mask) (tstamp 363945f6-fbef-42be-99cf-4a8a48434d92))
   (model "${KIPRJMOD}/dragon64.3dshapes/EDAC_395-040-558-812_P2.54mm.step"
     (offset (xyz 6.25 11.875 9.5))
     (scale (xyz 1 1 1))

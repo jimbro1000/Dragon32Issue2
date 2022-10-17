@@ -12,3 +12,4 @@
 * Fix mixup of Q and E on 6883 (IC15)
 * R4 pad 2 routed to -5V instead of GND
 * IC25 - IC26 restored missing connection to PA7
+* IC10 -V connected to -5V instead of GND

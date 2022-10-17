@@ -32,6 +32,6 @@
   (lib (name "Transistor_BJT_Motorola")(type "Legacy")(uri "/home/georg/github/bit-preserve/symbol-libs/Transistor_BJT_Motorola.lib")(options "")(descr "")(disabled))
   (lib (name "Video_Atari")(type "Legacy")(uri "/home/georg/github/bit-preserve/symbol-libs/Video_Atari.lib")(options "")(descr "")(disabled))
   (lib (name "Video_MOSTechnology")(type "Legacy")(uri "/home/georg/github/bit-preserve/symbol-libs/Video_MOSTechnology.lib")(options "")(descr "")(disabled))
-  (lib (name "vdg")(type "KiCad")(uri "C:/Users/Julian/Documents/KiCad/6.0/projects/timer/vdg.kicad_sym")(options "")(descr ""))
-  (lib (name "Motorola PIA")(type "KiCad")(uri "C:/Users/Julian/Documents/KiCad/6.0/projects/timer/Motorola PIA.kicad_sym")(options "")(descr ""))
+  (lib (name "vdg")(type "KiCad")(uri "${KIPRJMOD}/vdg.kicad_sym")(options "")(descr ""))
+  (lib (name "Motorola PIA")(type "KiCad")(uri "${KIPRJMOD}/Motorola PIA.kicad_sym")(options "")(descr ""))
 )
