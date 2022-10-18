@@ -2570,7 +2570,7 @@
     (property "DigiKey" "151-395-040-558-201-ND" (id 5) (at 376.809 85.979 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mouser" "587-395-040-558-201" (id 5) (at 376.809 85.979 0)
+    (property "Mouser" "587-395-040-558-201" (id 6) (at 376.809 85.979 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a1466cde-f926-4464-a948-54198d659a88))
@@ -3818,7 +3818,7 @@
       (reference "JP11-12") (unit 1) (value "printer/comms") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/c0eaba02-6b8d-4a7f-b51d-5746c573781a/118a4ba8-2d1e-4b84-b32b-428f469598f2"
-      (reference "JP13-14") (unit 1) (value "16k/32k") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+      (reference "JP13-14") (unit 1) (value "32k/64k") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/64d8d7b7-14ab-4042-9ee8-f1aec24a139c/f5bf5a18-fba1-47cc-bd81-826923cdc9aa"
       (reference "L1") (unit 1) (value "3.3uH") (footprint "Inductor_THT:L_Axial_L7.0mm_D3.3mm_P10.16mm_Horizontal_Fastron_MICC")
