@@ -5,8 +5,8 @@
   (paper "A3")
 
   (title_block
-    (date "2022-10-15")
-    (rev "1.4")
+    (date "2022-10-19")
+    (rev "1.5")
     (comment 2 "Reposition dram and buffer")
   )
 
@@ -5059,7 +5059,7 @@
   (symbol (lib_id "power:-5V") (at 224.536 213.614 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 65540af4-6ec0-423b-907a-875b0504385c)
-    (property "Reference" "#PWR?" (id 0) (at 224.536 216.154 0)
+    (property "Reference" "#PWR0256" (id 0) (at 224.536 216.154 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "-5V" (id 1) (at 224.536 217.297 0))
