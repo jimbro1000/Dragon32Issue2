@@ -1,3 +1,4 @@
-Dragon32-backups/
+*-backups/
 gerbers/
 production/
+*.bak

@@ -30,7 +30,7 @@ The values of passive components are taken from observation of
 an original production board, in most cases those values do
 match the schematics, but not always
 
-Revision 1 of this board is effectively untested and unproven
+Revision 1.x of this board is effectively untested and unproven
 
 ## Modifications ##
 ### Joysticks ###
@@ -123,7 +123,10 @@ FPGA (assuming such chips are readily available again)
 
 The ROMs can be replaced with a single EPROM/EEPROM, even
 opening up the option of switchable ROM images given the
-size of a modern EPROM's addressable memory
+size of a modern EPROM's addressable memory. I have a
+mini conversion board that fits into a single socket with
+a jumper to the E pin of the second socket. (see 
+https://github.com/jimbro1000/Dragon32RomFix)
 
 The one thing that isn't so quickly removed from the
 equation is that MC14529 - a dual 4-channel data

@@ -2561,7 +2561,7 @@
     (property "Value" "EDAC 392-040-558-201" (id 1) (at 379.349 88.5189 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Dragon:Edge_2x20_P2.54mm_Horizontal" (id 2) (at 376.809 85.979 0)
+    (property "Footprint" "Dragon:Edge_2x20_P2.54mm_OvalMP" (id 2) (at 376.809 85.979 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://files.edac.net/edac/content/342/342-040-558-212%20-%20EDAC%20Card%20Edge%20Connector.PDF" (id 3) (at 376.809 85.979 0)
@@ -3851,7 +3851,7 @@
       (reference "PL6") (unit 1) (value "Conn_01x09_Male") (footprint "Connector_Molex:Molex_KK-396_A-41791-0009_1x09_P3.96mm_Vertical")
     )
     (path "/cc0da426-fd7d-4d0f-a9ed-1df25f1a0b1a"
-      (reference "PL7") (unit 1) (value "EDAC 392-040-558-201") (footprint "Dragon:Edge_2x20_P2.54mm_Horizontal")
+      (reference "PL7") (unit 1) (value "EDAC 392-040-558-201") (footprint "Dragon:Edge_2x20_P2.54mm_OvalMP")
     )
     (path "/64d8d7b7-14ab-4042-9ee8-f1aec24a139c/9c1d484a-ffa8-4b83-ab66-23bb097dbcf0"
       (reference "R1") (unit 1) (value "100R") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")

@@ -1,5 +1,11 @@
-# Revision 1.4 #
+# Revision 1.5 #
 # Unreleased
+
+* Fix RL1 footprint
+* Redesign PL7 mounting points
+
+# Revision 1.4 #
+# Published 15/10/2022
 
 * Fix incorrect wiring on C10
 * Fix connection between IC35 and IC20 CB2 <-> STy
