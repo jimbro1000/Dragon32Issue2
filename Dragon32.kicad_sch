@@ -3799,6 +3799,9 @@
     (path "/28dac1c2-804e-40fd-9ff5-acdb4226ab76/d59bdf7e-5ba8-4273-89cc-889d145674a8"
       (reference "IC35") (unit 1) (value "MC6821") (footprint "Package_DIP:DIP-40_W15.24mm")
     )
+    (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/d506d9d3-befd-426d-b44d-145155e891c0"
+      (reference "JP1") (unit 1) (value "bypass video amp") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm")
+    )
     (path "/c0eaba02-6b8d-4a7f-b51d-5746c573781a/a3308347-f945-45cb-8e26-bb4a0fedc769"
       (reference "JP1-2") (unit 1) (value "1 low") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
