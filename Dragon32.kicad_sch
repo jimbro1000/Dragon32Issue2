@@ -6,8 +6,8 @@
 
   (title_block
     (title "Dragon 32 CPU UK Issue 2")
-    (date "2022-10-19")
-    (rev "1.5")
+    (date "2022-11-08")
+    (rev "1.6")
     (company "Dragon Data")
     (comment 1 "Reproduced and Modified by Julian Brown")
     (comment 2 "Reposition dram and buffer")
@@ -3386,10 +3386,10 @@
       (reference "#PWR0280") (unit 1) (value "GND") (footprint "")
     )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/2a72c98c-56be-488f-bb98-4c8597e6d0f6"
-      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+      (reference "#PWR0281") (unit 1) (value "+5V") (footprint "")
     )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/78ddbef3-8398-4316-b4e7-4703caa8ca04"
-      (reference "#PWR?") (unit 1) (value "-5V") (footprint "")
+      (reference "#PWR0282") (unit 1) (value "-5V") (footprint "")
     )
     (path "/64d8d7b7-14ab-4042-9ee8-f1aec24a139c/4818ed6d-32a2-406d-951d-2e9a9511d8c8"
       (reference "C1") (unit 1) (value "0.01uF") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
@@ -3410,7 +3410,7 @@
       (reference "C6") (unit 1) (value "4.7pF") (footprint "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm")
     )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/9d6302f6-9594-4e61-a34a-019c6b546c2b"
-      (reference "C7") (unit 1) (value "22pF") (footprint "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm")
+      (reference "C7") (unit 1) (value "22pF") (footprint "Dragon:Trimmer-7.5mm")
     )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/4576208a-4641-405f-abbe-be0fb1f97e7e"
       (reference "C8") (unit 1) (value "0.01uF") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
