@@ -1,8 +1,15 @@
 # Revision 1.5 #
-# Unreleased
+# Published 08/11/2022
 
 * Fix RL1 footprint
 * Redesign PL7 mounting points
+* Fix PL6 connections
+* Improve trace spacing to reduce crosstalk
+* Add secondary video amp bypass circuit
+* Reposition RV1 to improve access for adjustment
+* Change C7 footprint to accomodate trimmer
+* Change TR1 footprint to use wider pitch
+* Improve silkscreen text for clarity
 
 # Revision 1.4 #
 # Published 15/10/2022
