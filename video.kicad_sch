@@ -4076,6 +4076,10 @@
     (uuid ff54adbe-506e-4f19-a78a-7289c88731dd)
   )
 
+  (label "Divide by 50" (at 93.2688 223.8248 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 77356800-64a4-4b2e-9553-9e5077b947bb)
+  )
   (label "FS" (at 96.012 200.8595 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c05c6344-cf8d-4406-a5f6-13e8fdc7d548)
