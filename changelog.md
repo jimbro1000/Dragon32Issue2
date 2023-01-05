@@ -1,5 +1,14 @@
+# Revision 1.6 #
+# Unpublished 
+
+* Add missing lumcontrol trace
+* Correct carry trace between block A and B of IC32
+* Revise position and orientation of IC17 and IC18
+* Rework traces for all RAM wiring
+* Use suitable footprint for C7
+
 # Revision 1.5 #
-# Unreleased
+# Published 08/11/2022
 
 * Fix RL1 footprint
 * Redesign PL7 mounting points
