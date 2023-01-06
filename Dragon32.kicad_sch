@@ -4134,8 +4134,8 @@
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/bd858468-5f85-422e-90d4-c2954e21bd13"
       (reference "RV1") (unit 1) (value "10K") (footprint "Potentiometer_THT:Potentiometer_Bourns_3386X_Horizontal")
     )
-    (path "/28dac1c2-804e-40fd-9ff5-acdb4226ab76/d923325d-91c1-4e44-9bbe-df33cc10d9d8"
-      (reference "RV3") (unit 1) (value "270R-470R") (footprint "Varistor:RV_Disc_D7mm_W3.4mm_P5mm")
+    (path "/28dac1c2-804e-40fd-9ff5-acdb4226ab76/9e34f8bb-3f64-4f8b-b829-e997fce3ce60"
+      (reference "RV3") (unit 1) (value "470R") (footprint "Potentiometer_THT:Potentiometer_Bourns_3386X_Horizontal")
     )
     (path "/02be2094-fd60-4d2f-9ad9-43f982c1e650/a6fa7d41-148e-46a6-824a-afc345091146"
       (reference "SW1") (unit 1) (value "RESET") (footprint "Dragon:Button_AlpsAlpine_SPUN190900")
