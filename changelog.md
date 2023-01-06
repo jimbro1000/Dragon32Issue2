@@ -4,8 +4,9 @@
 * Add missing lumcontrol trace
 * Correct carry trace between block A and B of IC32
 * Revise position and orientation of IC17 and IC18
-* Rework traces for all RAM wiring
+* Rework traces for all RAM wiring including ground plane provision
 * Use suitable footprint for C7
+* Update README with notes on using 4164s instead of 4116s
 
 # Revision 1.5 #
 # Published 08/11/2022

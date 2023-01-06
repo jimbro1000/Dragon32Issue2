@@ -62,7 +62,7 @@ fitted in IC1 to IC8.
 Jumper 9/10 has been added for consistency with some of the
 other early designs and for compatibility with the 64k
 upgrade. It is important to avoid populating C50-57 when
-using this option
+using this option, along with C12, C58, C59 and R66.
 
 See [World of Dragon: Dragon 32 - 64k Upgrade]
 (http://archive.worldofdragon.org/index.php?title=Dragon_32_-_64K_Upgrade)
