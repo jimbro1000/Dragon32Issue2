@@ -3568,10 +3568,10 @@
       (reference "C37") (unit 1) (value "4.7uF") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
     )
     (path "/64d8d7b7-14ab-4042-9ee8-f1aec24a139c/75696535-1dfa-40bc-9e5c-8551efce923e"
-      (reference "C38") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
+      (reference "C38") (unit 1) (value "0.01uF") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
     )
     (path "/64d8d7b7-14ab-4042-9ee8-f1aec24a139c/eb75ce7a-4eaa-442c-b107-9c4203f96948"
-      (reference "C39") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
+      (reference "C39") (unit 1) (value "0.01uF") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
     )
     (path "/c0eaba02-6b8d-4a7f-b51d-5746c573781a/74b33dfd-79da-4bd8-8c61-13faf2c245cb"
       (reference "C40") (unit 1) (value "22pF") (footprint "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm")
@@ -3634,10 +3634,10 @@
       (reference "C59") (unit 1) (value "33pF") (footprint "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm")
     )
     (path "/64d8d7b7-14ab-4042-9ee8-f1aec24a139c/a7aa9a67-feac-41c4-914a-c58036c2dd5a"
-      (reference "C68") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
+      (reference "C68") (unit 1) (value "0.01uF") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
     )
     (path "/64d8d7b7-14ab-4042-9ee8-f1aec24a139c/55f93ffe-7501-44a6-a7a0-96eaa3e886dc"
-      (reference "C69") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
+      (reference "C69") (unit 1) (value "0.01uF") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
     )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/9ce68ee5-469e-4dfd-ba61-58474cdd1081"
       (reference "C71") (unit 1) (value "180pF") (footprint "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm")
