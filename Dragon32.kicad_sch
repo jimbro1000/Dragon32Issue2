@@ -3901,7 +3901,7 @@
       (reference "PL1") (unit 1) (value "Conn_01x16_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical")
     )
     (path "/64d8d7b7-14ab-4042-9ee8-f1aec24a139c/c29ebab7-2dd7-4b6d-9d41-08442ae356ab"
-      (reference "PL2") (unit 1) (value "Conn_02x10_Top_Bottom") (footprint "Connector_IDC:IDC-Header_2x10-1MP_P2.54mm_Latch_Horizontal")
+      (reference "PL2") (unit 1) (value "Printer") (footprint "Connector_IDC:IDC-Header_2x10-1MP_P2.54mm_Latch_Horizontal")
     )
     (path "/64d8d7b7-14ab-4042-9ee8-f1aec24a139c/7582d2da-9f0e-4c80-a67c-119b73dbbbf1"
       (reference "PL3") (unit 1) (value "DIN-6 J/S R") (footprint "Dragon:DIN-6_DELTRON_671-0601_Horizontal")
