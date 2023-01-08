@@ -7,6 +7,7 @@
 * Rework traces for all RAM wiring including ground plane provision
 * Use suitable footprint for C7
 * Update README with notes on using 4164s instead of 4116s
+* Correct +v on IC25 from +5 to +12
 
 # Revision 1.5 #
 # Published 08/11/2022
