@@ -2355,7 +2355,7 @@
   (symbol (lib_id "power:+12V") (at 95.885 43.434 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 30605f93-a143-4209-a512-f9742e15308c)
-    (property "Reference" "#PWR?" (id 0) (at 95.885 47.244 0)
+    (property "Reference" "#PWR0105" (id 0) (at 95.885 47.244 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (id 1) (at 95.885 38.862 0))
@@ -2861,6 +2861,9 @@
     )
     (path "/a355c9dc-4f60-4195-b2f8-890c7c2b9cea"
       (reference "#PWR0104") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/30605f93-a143-4209-a512-f9742e15308c"
+      (reference "#PWR0105") (unit 1) (value "+12V") (footprint "")
     )
     (path "/e3077c75-344f-4987-9a9b-210a58ea8b73"
       (reference "#PWR0106") (unit 1) (value "GND") (footprint "")
@@ -3386,9 +3389,6 @@
     )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/fb77c9a3-65d3-46ad-bb81-f6fa852b6704"
       (reference "#PWR0280") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/30605f93-a143-4209-a512-f9742e15308c"
-      (reference "#PWR?") (unit 1) (value "+12V") (footprint "")
     )
     (path "/64d8d7b7-14ab-4042-9ee8-f1aec24a139c/4818ed6d-32a2-406d-951d-2e9a9511d8c8"
       (reference "C1") (unit 1) (value "0.01uF") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
