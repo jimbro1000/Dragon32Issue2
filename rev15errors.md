@@ -2,3 +2,4 @@
 * correct carry trace between block A and B of IC32
 * correct +v to IC25
 * correct PIA2/IC35 output to DAC ladder
+* revise values for R33, R34 and R35

@@ -9,6 +9,7 @@
 * Update README with notes on using 4164s instead of 4116s
 * Correct +v on IC25 from +5 to +12
 * Reverse DAC ladder output from IC35
+* Revise resistor values for line pulse padding
 
 # Revision 1.5 #
 # Published 08/11/2022
