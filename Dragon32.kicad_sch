@@ -6,11 +6,10 @@
 
   (title_block
     (title "Dragon 32 CPU UK Issue 2")
-    (date "2022-11-08")
+    (date "2022-12-29")
     (rev "1.6")
     (company "Dragon Data")
     (comment 1 "Reproduced and Modified by Julian Brown")
-    (comment 2 "Reposition dram and buffer")
   )
 
   (lib_symbols
@@ -2293,6 +2292,12 @@
     (property "DigiKey" "296-1398-5-ND" (id 4) (at 98.425 51.054 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 4ea0ea87-0508-4bb2-90de-4567559955b1))
+    (pin "2" (uuid c3828c14-c82f-49be-9336-0748e3061c45))
+    (pin "3" (uuid 9998aa98-1eb1-4487-871a-34b778f907fe))
+    (pin "5" (uuid ce89cc1a-9a1a-4ee0-b369-78d420286116))
+    (pin "6" (uuid 7fd877f2-78a1-4e1a-af0b-c57a88d2f63a))
+    (pin "7" (uuid b0059a0e-105a-4805-9f90-b93d49afe40b))
     (pin "4" (uuid 0c18c697-ce4b-4809-b89f-340996344fa8))
     (pin "8" (uuid 443e420d-46ba-4ca5-a478-b3e4f28a762f))
   )
@@ -2349,8 +2354,36 @@
     (property "DigiKey" "296-1665-5-ND" (id 4) (at 67.056 97.917 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 9ddb61ad-a730-4079-8942-d3eb01cf9f05))
+    (pin "2" (uuid c8d9c6f1-f5ba-45e7-9a84-0afdeba42944))
+    (pin "3" (uuid 827a0238-afb2-4d8f-a658-8983bf731c80))
+    (pin "4" (uuid a05b59b4-b02b-41e8-b708-50812e522e9e))
+    (pin "5" (uuid c3ed96bd-521a-4b72-953f-3ed7839462a9))
+    (pin "6" (uuid 6391c96f-e0b5-4ff1-be8b-6213db0b8248))
+    (pin "10" (uuid 4a799a77-1626-4ac0-b688-755e783a8fd4))
+    (pin "11" (uuid 6a0e297f-ad44-43ce-950d-5c7b76bdc7ae))
+    (pin "12" (uuid 676f5793-a888-4e7d-a5f2-757425d5f512))
+    (pin "13" (uuid 3195581d-3286-4000-8701-d84407d6e7e1))
+    (pin "8" (uuid 0f8f843a-6561-4f93-a6e9-ee236b6e65d6))
+    (pin "9" (uuid b93f06db-d39e-4b9d-9c69-e0b8adfa3bfa))
     (pin "14" (uuid f812bf02-bb27-4792-a9e8-bff50261d428))
     (pin "7" (uuid ad32a7c2-3177-4254-8c58-ae3f4bc5acc8))
+  )
+
+  (symbol (lib_id "power:+12V") (at 95.885 43.434 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 30605f93-a143-4209-a512-f9742e15308c)
+    (property "Reference" "#PWR0105" (id 0) (at 95.885 47.244 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+12V" (id 1) (at 95.885 38.862 0))
+    (property "Footprint" "" (id 2) (at 95.885 43.434 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 95.885 43.434 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e9595a7b-3b81-4171-9818-40a6bf1048c5))
   )
 
   (symbol (lib_id "power:GND") (at 67.056 110.617 0) (unit 1)
@@ -2387,6 +2420,18 @@
     (property "DigiKey" "296-1626-ND" (id 4) (at 68.072 144.145 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 5a6420ef-a323-430f-9e38-a0fa596f34bd))
+    (pin "2" (uuid 2e676bde-afb9-4ca3-97b1-23459a9d4060))
+    (pin "3" (uuid 3946aced-e9c4-4049-aeea-79aed470b0a6))
+    (pin "4" (uuid e9674fed-cd7b-449e-9369-53df1cba88e1))
+    (pin "5" (uuid ccbecd7e-6d30-4358-8ea3-8fc37a0b1ce8))
+    (pin "6" (uuid dd36945c-dce6-43ec-a6f8-517ce76d66fc))
+    (pin "10" (uuid f336d84e-1e83-4072-8acc-300a056d9201))
+    (pin "8" (uuid 0debcbff-5723-4ebb-a1be-1e26b75943fe))
+    (pin "9" (uuid da9e0ae0-4c99-4dd0-b5c9-d8e7df802361))
+    (pin "11" (uuid 7f606f22-baef-4fc3-8ab5-e97e14efa5f0))
+    (pin "12" (uuid 8e70197e-9259-4a66-bc7f-1c264bf03f77))
+    (pin "13" (uuid 7fb14811-c1c3-4689-99e1-337f8aa3628a))
     (pin "14" (uuid 2a8acd70-d504-451b-a49e-d6f1c92df495))
     (pin "7" (uuid 84f2774f-96a7-4a05-9052-98642af45cb1))
   )
@@ -2446,6 +2491,18 @@
     (property "Note" "LS74 no longer produced, ALS or HCT instead" (id 5) (at 33.655 96.139 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 8c9cbd43-df54-4462-9199-d1a66263b257))
+    (pin "2" (uuid 443fd2c2-7d21-4b2e-8374-3c442daec653))
+    (pin "3" (uuid 965d67fc-cc94-44b5-a2f9-33b934bf9fa5))
+    (pin "4" (uuid 9725af3f-bca2-4be9-bb8e-b5af92a293a3))
+    (pin "5" (uuid 91dc9e11-9dea-457e-b6ee-bde8995f9fec))
+    (pin "6" (uuid 56ca23e0-adbb-44be-8e56-9c04ead91afd))
+    (pin "10" (uuid af8e0c91-335d-4756-8729-618d3d6f8f9b))
+    (pin "11" (uuid fc97f976-3686-4254-9af0-17c327d26e5e))
+    (pin "12" (uuid 21236e49-21b8-461f-a74f-9fe65161d890))
+    (pin "13" (uuid e6b200cb-5884-464f-b894-0b6cfce75813))
+    (pin "8" (uuid 5a237138-b6e8-4181-b555-c0573064abb8))
+    (pin "9" (uuid 83fc48fe-2570-4438-9424-c180db62814c))
     (pin "14" (uuid 96f0d19e-6963-42e5-8392-f78d6aa5504a))
     (pin "7" (uuid 03386568-2cd5-4b30-84d1-3351041c5947))
   )
@@ -2484,6 +2541,18 @@
     (property "DigiKey" "296-1627-5-ND" (id 4) (at 65.913 49.911 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 2d70dc0b-5fef-41d2-9392-88377fddad96))
+    (pin "2" (uuid 63260868-f9ab-470c-b059-e068897a8cdc))
+    (pin "3" (uuid febb24d4-0ab3-4ee8-9de7-3af7238ffb55))
+    (pin "4" (uuid c6ed75d6-852f-4d0b-a81d-45cfec8a127f))
+    (pin "5" (uuid 35ad58c9-b18a-45d5-8287-bdf7e2767f48))
+    (pin "6" (uuid 77d94c86-d42d-4f7e-98ee-e85830c9e4fe))
+    (pin "10" (uuid 776544ea-3487-428c-8f4f-821c9fecc739))
+    (pin "8" (uuid 254fde81-5421-4783-b8dc-976cb7e507b8))
+    (pin "9" (uuid 077103ce-79d4-49b7-8847-571e507e7b60))
+    (pin "11" (uuid edfa6361-3fd5-46f5-8775-e8a13737d4f8))
+    (pin "12" (uuid 93322512-fbbe-4d22-8750-19f2ba945016))
+    (pin "13" (uuid a0dc531b-7e01-424e-aee8-e5044a5e0742))
     (pin "14" (uuid 2b80e0a1-2846-4aa0-8319-48c82f6f5610))
     (pin "7" (uuid 2dc12bc2-3a75-49ba-a554-af31e114c5dd))
   )
@@ -2665,24 +2734,20 @@
     (property "DigiKey" "296-1669-5-ND" (id 4) (at 31.877 46.482 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 7ed08dc6-cd41-4435-bae5-f5dad23fe9f1))
+    (pin "2" (uuid 37968b93-9043-4c7f-843a-150e525003b2))
+    (pin "3" (uuid 4ecb8bf0-7b16-429e-bc52-053fc469832f))
+    (pin "4" (uuid c9f5b7c7-377b-424f-bc1c-1c1b4242f1a8))
+    (pin "5" (uuid daf5c416-3542-4bf4-b814-4dc2da0e1ffb))
+    (pin "6" (uuid 6d2857e0-4971-4854-af2f-7bf4ca9650a9))
+    (pin "10" (uuid 863d4ddc-fdab-4581-a1d2-e57ee91beb8f))
+    (pin "8" (uuid 73e1e0dc-db7c-4b20-9ce0-d2fdb8fdc654))
+    (pin "9" (uuid 35b59e56-6ea6-497e-b8f5-836bcf0bcb58))
+    (pin "11" (uuid 77b6501d-cfb6-4486-91c4-ea196dfd5946))
+    (pin "12" (uuid 18178294-02bb-4978-b91f-adc3da579ebc))
+    (pin "13" (uuid 95af992f-2214-42aa-a1a6-97f21ba492cd))
     (pin "14" (uuid 03a24617-13e6-4922-ab6c-5cb103d61f18))
     (pin "7" (uuid 47b942fa-0152-4792-b6c4-a1daacc07e9f))
-  )
-
-  (symbol (lib_id "power:+5V") (at 95.885 43.434 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid f042d653-a362-45d0-92c1-de9c6a983d65)
-    (property "Reference" "#PWR0105" (id 0) (at 95.885 47.244 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (id 1) (at 95.885 37.973 0))
-    (property "Footprint" "" (id 2) (at 95.885 43.434 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 95.885 43.434 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 9ee9a5b5-3d79-4f24-a2d0-4a12c172afb0))
   )
 
   (symbol (lib_id "power:+12V") (at 371.729 32.258 0) (unit 1)
@@ -2842,6 +2907,12 @@
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/10f5b37c-d623-4fa4-8d31-3a14c48a7622"
       (reference "#PWR019") (unit 1) (value "GND") (footprint "")
     )
+    (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/80a19941-737d-4d31-a907-db1cf56cff31"
+      (reference "#PWR020") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/8fc793b7-d229-4a34-8977-0fd576956fb5"
+      (reference "#PWR021") (unit 1) (value "-5V") (footprint "")
+    )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/f5803f4a-52dd-41b1-abeb-8c5c940ab8ae"
       (reference "#PWR022") (unit 1) (value "+12V") (footprint "")
     )
@@ -2857,8 +2928,8 @@
     (path "/a355c9dc-4f60-4195-b2f8-890c7c2b9cea"
       (reference "#PWR0104") (unit 1) (value "+5V") (footprint "")
     )
-    (path "/f042d653-a362-45d0-92c1-de9c6a983d65"
-      (reference "#PWR0105") (unit 1) (value "+5V") (footprint "")
+    (path "/30605f93-a143-4209-a512-f9742e15308c"
+      (reference "#PWR0105") (unit 1) (value "+12V") (footprint "")
     )
     (path "/e3077c75-344f-4987-9a9b-210a58ea8b73"
       (reference "#PWR0106") (unit 1) (value "GND") (footprint "")
@@ -3385,12 +3456,6 @@
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/fb77c9a3-65d3-46ad-bb81-f6fa852b6704"
       (reference "#PWR0280") (unit 1) (value "GND") (footprint "")
     )
-    (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/2a72c98c-56be-488f-bb98-4c8597e6d0f6"
-      (reference "#PWR0281") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/78ddbef3-8398-4316-b4e7-4703caa8ca04"
-      (reference "#PWR0282") (unit 1) (value "-5V") (footprint "")
-    )
     (path "/64d8d7b7-14ab-4042-9ee8-f1aec24a139c/4818ed6d-32a2-406d-951d-2e9a9511d8c8"
       (reference "C1") (unit 1) (value "0.01uF") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
     )
@@ -3409,8 +3474,8 @@
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/c8be3727-a6de-4c5a-89e2-cd1f61570e9d"
       (reference "C6") (unit 1) (value "4.7pF") (footprint "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm")
     )
-    (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/9d6302f6-9594-4e61-a34a-019c6b546c2b"
-      (reference "C7") (unit 1) (value "22pF") (footprint "Dragon:Trimmer-7.5mm")
+    (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/abede97c-2f9d-48b2-8b0f-f0c1e23c7fe8"
+      (reference "C7") (unit 1) (value "2-22pF") (footprint "Potentiometer_THT:Potentiometer_ACP_CA6-H2,5_Horizontal")
     )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/4576208a-4641-405f-abbe-be0fb1f97e7e"
       (reference "C8") (unit 1) (value "0.01uF") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
@@ -3503,10 +3568,10 @@
       (reference "C37") (unit 1) (value "4.7uF") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
     )
     (path "/64d8d7b7-14ab-4042-9ee8-f1aec24a139c/75696535-1dfa-40bc-9e5c-8551efce923e"
-      (reference "C38") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
+      (reference "C38") (unit 1) (value "0.01uF") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
     )
     (path "/64d8d7b7-14ab-4042-9ee8-f1aec24a139c/eb75ce7a-4eaa-442c-b107-9c4203f96948"
-      (reference "C39") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
+      (reference "C39") (unit 1) (value "0.01uF") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
     )
     (path "/c0eaba02-6b8d-4a7f-b51d-5746c573781a/74b33dfd-79da-4bd8-8c61-13faf2c245cb"
       (reference "C40") (unit 1) (value "22pF") (footprint "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm")
@@ -3569,10 +3634,10 @@
       (reference "C59") (unit 1) (value "33pF") (footprint "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm")
     )
     (path "/64d8d7b7-14ab-4042-9ee8-f1aec24a139c/a7aa9a67-feac-41c4-914a-c58036c2dd5a"
-      (reference "C68") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
+      (reference "C68") (unit 1) (value "0.01uF") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
     )
     (path "/64d8d7b7-14ab-4042-9ee8-f1aec24a139c/55f93ffe-7501-44a6-a7a0-96eaa3e886dc"
-      (reference "C69") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
+      (reference "C69") (unit 1) (value "0.01uF") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
     )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/9ce68ee5-469e-4dfd-ba61-58474cdd1081"
       (reference "C71") (unit 1) (value "180pF") (footprint "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm")
@@ -3799,9 +3864,6 @@
     (path "/28dac1c2-804e-40fd-9ff5-acdb4226ab76/d59bdf7e-5ba8-4273-89cc-889d145674a8"
       (reference "IC35") (unit 1) (value "MC6821") (footprint "Package_DIP:DIP-40_W15.24mm")
     )
-    (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/d506d9d3-befd-426d-b44d-145155e891c0"
-      (reference "JP1") (unit 1) (value "bypass video amp") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm")
-    )
     (path "/c0eaba02-6b8d-4a7f-b51d-5746c573781a/a3308347-f945-45cb-8e26-bb4a0fedc769"
       (reference "JP1-2") (unit 1) (value "1 low") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
@@ -3839,7 +3901,7 @@
       (reference "PL1") (unit 1) (value "Conn_01x16_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical")
     )
     (path "/64d8d7b7-14ab-4042-9ee8-f1aec24a139c/c29ebab7-2dd7-4b6d-9d41-08442ae356ab"
-      (reference "PL2") (unit 1) (value "Conn_02x10_Top_Bottom") (footprint "Connector_IDC:IDC-Header_2x10-1MP_P2.54mm_Latch_Horizontal")
+      (reference "PL2") (unit 1) (value "Printer") (footprint "Connector_IDC:IDC-Header_2x10-1MP_P2.54mm_Latch_Horizontal")
     )
     (path "/64d8d7b7-14ab-4042-9ee8-f1aec24a139c/7582d2da-9f0e-4c80-a67c-119b73dbbbf1"
       (reference "PL3") (unit 1) (value "DIN-6 J/S R") (footprint "Dragon:DIN-6_DELTRON_671-0601_Horizontal")
@@ -3953,13 +4015,13 @@
       (reference "R32") (unit 1) (value "4K7") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/aec2a2aa-218c-4a7b-a72f-88b21232ab86"
-      (reference "R33") (unit 1) (value "3K3") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R33") (unit 1) (value "1K2") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/05f8a837-db1f-4053-9c7c-1a9e2c6fc2c5"
-      (reference "R34") (unit 1) (value "6K8") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R34") (unit 1) (value "8K8") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/61d41ee1-6f4e-4cda-940f-d39f41615f84"
-      (reference "R35") (unit 1) (value "15K") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R35") (unit 1) (value "12K") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/02be2094-fd60-4d2f-9ad9-43f982c1e650/73c922f7-203e-4726-b324-818cc8ad5371"
       (reference "R36") (unit 1) (value "100K") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
@@ -4072,8 +4134,8 @@
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/bd858468-5f85-422e-90d4-c2954e21bd13"
       (reference "RV1") (unit 1) (value "10K") (footprint "Potentiometer_THT:Potentiometer_Bourns_3386X_Horizontal")
     )
-    (path "/28dac1c2-804e-40fd-9ff5-acdb4226ab76/d923325d-91c1-4e44-9bbe-df33cc10d9d8"
-      (reference "RV3") (unit 1) (value "270R-470R") (footprint "Varistor:RV_Disc_D7mm_W3.4mm_P5mm")
+    (path "/28dac1c2-804e-40fd-9ff5-acdb4226ab76/9e34f8bb-3f64-4f8b-b829-e997fce3ce60"
+      (reference "RV3") (unit 1) (value "470R") (footprint "Potentiometer_THT:Potentiometer_Bourns_3386X_Horizontal")
     )
     (path "/02be2094-fd60-4d2f-9ad9-43f982c1e650/a6fa7d41-148e-46a6-824a-afc345091146"
       (reference "SW1") (unit 1) (value "RESET") (footprint "Dragon:Button_AlpsAlpine_SPUN190900")
