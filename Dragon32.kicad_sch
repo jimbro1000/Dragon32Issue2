@@ -2907,12 +2907,6 @@
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/10f5b37c-d623-4fa4-8d31-3a14c48a7622"
       (reference "#PWR019") (unit 1) (value "GND") (footprint "")
     )
-    (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/80a19941-737d-4d31-a907-db1cf56cff31"
-      (reference "#PWR020") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/8fc793b7-d229-4a34-8977-0fd576956fb5"
-      (reference "#PWR021") (unit 1) (value "-5V") (footprint "")
-    )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/f5803f4a-52dd-41b1-abeb-8c5c940ab8ae"
       (reference "#PWR022") (unit 1) (value "+12V") (footprint "")
     )
@@ -3455,6 +3449,12 @@
     )
     (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/fb77c9a3-65d3-46ad-bb81-f6fa852b6704"
       (reference "#PWR0280") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/2a72c98c-56be-488f-bb98-4c8597e6d0f6"
+      (reference "#PWR0281") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/d9dba8db-e731-4cb4-b2de-fefd65b288bc/78ddbef3-8398-4316-b4e7-4703caa8ca04"
+      (reference "#PWR0282") (unit 1) (value "-5V") (footprint "")
     )
     (path "/64d8d7b7-14ab-4042-9ee8-f1aec24a139c/4818ed6d-32a2-406d-951d-2e9a9511d8c8"
       (reference "C1") (unit 1) (value "0.01uF") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
