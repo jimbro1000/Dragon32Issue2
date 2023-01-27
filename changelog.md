@@ -1,5 +1,11 @@
+# Revision 1.7 #
+# Unpublished
+
+* Fix rebase/merge errors from 1.6
+* +5v and -5v fixed (again)
+
 # Revision 1.6 #
-# Unpublished 
+# Published 14/01/2023 
 
 * Add missing lumcontrol trace
 * Correct carry trace between block A and B of IC32
