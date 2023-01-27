@@ -5,8 +5,8 @@
   (paper "A3")
 
   (title_block
-    (date "2022-12-29")
-    (rev "1.6")
+    (date "2023-01-27")
+    (rev "1.7")
     (comment 2 "Reposition dram and buffer")
   )
 
@@ -3500,20 +3500,9 @@
     (property "DigiKey" "296-1627-5-ND" (id 4) (at 115.824 46.482 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ade86564-5ed6-4983-b74a-70b57a8db651))
-    (pin "2" (uuid 4d902754-29b8-4521-9e10-fad73ea5bb00))
-    (pin "3" (uuid 180d4e75-9243-487b-b98d-42ead89993ac))
-    (pin "4" (uuid 907184c8-43b1-4fac-a65e-57859c353466))
-    (pin "5" (uuid 7795bbd4-03b5-4739-86cb-12dd49c9ece0))
-    (pin "6" (uuid 10f2a6eb-297d-4b75-845b-610a521d0027))
     (pin "10" (uuid 5fe25ffe-16bc-4b57-badb-b4cdc754f5c0))
     (pin "8" (uuid 16adace0-49f6-41ac-bdc5-a30c43d43e75))
     (pin "9" (uuid 3a1e9972-9f23-4c81-9347-478825e6a29e))
-    (pin "11" (uuid 3a814fd8-7012-467d-8f22-47c083f29874))
-    (pin "12" (uuid 6e3fb5fd-b283-4f67-8e08-bfaeb2603789))
-    (pin "13" (uuid e5a3948b-6b9c-4043-98c8-e1314b94b598))
-    (pin "14" (uuid 31c3407f-7ac8-4f9e-bad2-33c5e1a6899f))
-    (pin "7" (uuid de67811f-56b9-40d0-acff-8609d612f5ea))
   )
 
   (symbol (lib_id "Jumper:Jumper_3_Bridged12") (at 91.44 40.132 270) (mirror x) (unit 1)
@@ -3616,11 +3605,6 @@
     (pin "1" (uuid 1d2a7591-2954-4ff4-b038-cb4da286c2cf))
     (pin "2" (uuid b2e3ab42-3b19-48d4-a972-70fe3ad2297c))
     (pin "3" (uuid f8cb56e4-f995-4831-b4f2-7cf161b012f3))
-    (pin "5" (uuid 343738ca-5504-4f5e-8633-0759a30ac1e5))
-    (pin "6" (uuid 7ecf268a-c878-4141-9d9a-6a409c280780))
-    (pin "7" (uuid 51be1b17-e0b2-495f-a9d2-721a09e71913))
-    (pin "4" (uuid f783b4b2-9d2d-4250-bbcc-2f40c7a38671))
-    (pin "8" (uuid 526f90bb-f8b5-4cfd-aa81-e19589b9a547))
   )
 
   (symbol (lib_id "Device:R_Small") (at 36.449 132.969 270) (unit 1)
