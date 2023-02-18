@@ -6,6 +6,7 @@
 * CL7 footprint design updated 
 * RV3 moved for clearance
 * Migrate to Kicad 7
+* Chome subcarrier of IC9 used instead of chnB
 
 # Revision 1.7 #
 # Published 14/01/2023 
