@@ -1,5 +1,15 @@
-# Revision 1.6 #
-# Unpublished 
+# Revision 1.8 #
+# Unpublished
+
+* Fix rebase/merge errors from between 1.6 and 1.7
+* +5v and -5v fixed (again)
+* CL7 footprint design updated 
+* RV3 moved for clearance
+* Migrate to Kicad 7
+* Chome subcarrier of IC9 used instead of chnB
+
+# Revision 1.7 #
+# Published 14/01/2023 
 
 * Add missing lumcontrol trace
 * Correct carry trace between block A and B of IC32
@@ -11,7 +21,7 @@
 * Reverse DAC ladder output from IC35
 * Revise resistor values for line pulse padding
 
-# Revision 1.5 #
+# Revision 1.6 #
 # Published 08/11/2022
 
 * Fix RL1 footprint
@@ -24,7 +34,7 @@
 * Change TR1 footprint to use wider pitch
 * Improve silkscreen text for clarity
 
-# Revision 1.4 #
+# Revision 1.5 #
 # Published 15/10/2022
 
 * Fix incorrect wiring on C10
@@ -45,7 +55,7 @@
 * Identify parts with DigiKey part numbers for verification
 * Trimmed bottom of board
 
-# Revision 1.3 #
+# Revision 1.4 #
 # Published 30/09/2022
 
 * Revise positions of IC1-8 and IC16 for compatibility with original riser board
