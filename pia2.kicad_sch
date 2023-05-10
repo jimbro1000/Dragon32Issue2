@@ -5,8 +5,8 @@
   (paper "A3")
 
   (title_block
-    (date "2023-01-27")
-    (rev "1.7")
+    (date "2023-02-22")
+    (rev "1.8")
     (comment 2 "Reposition dram and buffer")
   )
 
