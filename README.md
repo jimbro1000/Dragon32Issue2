@@ -35,12 +35,11 @@ Revision 1.x of this board is effectively untested and unproven
 ### Working ###
 
 In the current state (1.8) basic operation is tested working on
-CPU, RAM, Keyboard and Joystick
+CPU, RAM, Keyboard, Joystick and Video.
 
 ### Working with issues ###
 
-Video is operational but quality is not good enough to call it
-working. Audio appears to be good but not fully tested
+Audio appears to be good but not fully tested
 
 ### Untested ###
 
