@@ -34,7 +34,7 @@ Revision 1.x of this board is effectively untested and unproven
 
 ### Working ###
 
-In the current state (1.8) basic operation is tested working on
+In the current state (2.0) basic operation is tested working on
 CPU, RAM, Keyboard, Joystick and Video.
 
 ### Working with issues ###
