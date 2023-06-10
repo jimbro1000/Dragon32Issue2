@@ -3,6 +3,8 @@
 This project is a recreation of the SA2120 CPU Mainboard 
 for the 1982 Dragon Data **Dragon 32**
 
+![Render of reproduction board](Dragon32.png)
+
 Everything (excluding modifications) is taken from the SA2120
 schematics. Component positioning is as close to the original
 too. The DRAM positions are as close as possible to the 1982
