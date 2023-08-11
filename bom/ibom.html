@@ -812,6 +812,35 @@ a {
   border: 1px solid #00b9fd;
 }
 
+.bom-color {
+  width: 20%;
+}
+
+.color-column input {
+  width: 1.6rem;
+  height: 1rem;
+  border: 1px solid black;
+  cursor: pointer;
+  padding: 0;
+}
+
+/* removes default styling from input color element */
+::-webkit-color-swatch {
+  border: none;
+}
+
+::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+
+::-moz-color-swatch,
+::-moz-focus-inner {
+  border: none;
+}
+
+::-moz-focus-inner {
+  padding: 0;
+}
 
   </style>
   <script type="text/javascript" >
@@ -886,7 +915,7 @@ var d={x:c.clientX,y:c.clientY};b.push(d);var e=function(a,b){var c=a.indexOf(b)
 ///////////////////////////////////////////////
 
 ///////////////////////////////////////////////
-var config = {"dark_mode": false, "show_pads": true, "show_fabrication": false, "show_silkscreen": true, "highlight_pin1": false, "redraw_on_drag": true, "board_rotation": 0, "checkboxes": "Sourced,Placed", "bom_view": "left-right", "layer_view": "FB", "offset_back_rotation": false, "kicad_text_formatting": true, "fields": ["Value", "Footprint"]}
+var config = {"dark_mode": false, "show_pads": true, "show_fabrication": false, "show_silkscreen": true, "highlight_pin1": "none", "redraw_on_drag": true, "board_rotation": 0, "checkboxes": "Sourced,Placed", "bom_view": "left-right", "layer_view": "FB", "offset_back_rotation": false, "kicad_text_formatting": true, "fields": ["Value", "Footprint"]}
 ///////////////////////////////////////////////
 
 ///////////////////////////////////////////////
@@ -932,10 +961,10 @@ function writeStorage(key, value) {
 }
 
 function fancyDblClickHandler(el, onsingle, ondouble) {
-  return function() {
+  return function () {
     if (el.getAttribute("data-dblclick") == null) {
       el.setAttribute("data-dblclick", 1);
-      setTimeout(function() {
+      setTimeout(function () {
         if (el.getAttribute("data-dblclick") == 1) {
           onsingle();
         }
@@ -1067,7 +1096,7 @@ var units = {
     "FARAD", "Farad", "farad",
     "HENRY", "Henry", "henry"
   ],
-  getMultiplier: function(s) {
+  getMultiplier: function (s) {
     if (this.prefixes.giga.includes(s)) return 1e9;
     if (this.prefixes.mega.includes(s)) return 1e6;
     if (this.prefixes.kilo.includes(s)) return 1e3;
@@ -1256,7 +1285,7 @@ function loadSettings() {
   var input = document.createElement("input");
   input.type = "file";
   input.accept = ".settings.json";
-  input.onchange = function(e) {
+  input.onchange = function (e) {
     var file = e.target.files[0];
     var reader = new FileReader();
     reader.onload = readerEvent => {
@@ -1284,10 +1313,10 @@ function loadSettings() {
         var currentMetadata = JSON.stringify(pcbdata.metadata, null, 4);
         var fileMetadata = JSON.stringify(newSettings.pcbmetadata, null, 4);
         if (!confirm(
-            `Settins file metadata does not match current metadata.\n\n` +
-            `Page metadata:\n${currentMetadata}\n\n` +
-            `Settings file metadata:\n${fileMetadata}\n\n` +
-            `Press OK if you would like to import settings anyway.`)) {
+          `Settins file metadata does not match current metadata.\n\n` +
+          `Page metadata:\n${currentMetadata}\n\n` +
+          `Settings file metadata:\n${fileMetadata}\n\n` +
+          `Press OK if you would like to import settings anyway.`)) {
           return;
         }
       }
@@ -1296,6 +1325,23 @@ function loadSettings() {
     reader.readAsText(file, 'UTF-8');
   }
   input.click();
+}
+
+function resetSettings() {
+  if (!confirm(
+    `This will reset all checkbox states and other settings.\n\n` +
+    `Press OK if you want to continue.`)) {
+    return;
+  }
+  if (storage) {
+    var keys = [];
+    for (var i = 0; i < storage.length; i++) {
+      var key = storage.key(i);
+      if (key.startsWith(storagePrefix)) keys.push(key);
+    }
+    for (var key of keys) storage.removeItem(key);
+  }
+  location.reload();
 }
 
 function overwriteSettings(newSettings) {
@@ -1331,7 +1377,7 @@ function overwriteSettings(newSettings) {
   setDarkMode(settings.darkMode);
   document.getElementById("darkmodeCheckbox").checked = settings.darkMode;
   setHighlightPin1(settings.highlightpin1);
-  document.getElementById("highlightpin1Checkbox").checked = settings.highlightpin1;
+  document.forms.highlightpin1.highlightpin1.value = settings.highlightpin1;
   writeStorage("boardRotation", settings.boardRotation);
   document.getElementById("boardRotation").value = settings.boardRotation / 5;
   document.getElementById("rotationDegree").textContent = settings.boardRotation;
@@ -1365,13 +1411,13 @@ function dataURLtoBlob(dataurl) {
 }
 
 var settings = {
-  canvaslayout: "default",
-  bomlayout: "default",
+  canvaslayout: "FB",
+  bomlayout: "left-right",
   bommode: "grouped",
   checkboxes: [],
   checkboxStoredRefs: {},
   darkMode: false,
-  highlightpin1: false,
+  highlightpin1: "none",
   redrawOnDrag: true,
   boardRotation: 0,
   offsetBackRotation: false,
@@ -1384,7 +1430,8 @@ var settings = {
   renderTracks: true,
   renderZones: true,
   columnOrder: [],
-  hiddenColumns: []
+  hiddenColumns: [],
+  netColors: {},
 }
 
 function initDefaults() {
@@ -1397,6 +1444,9 @@ function initDefaults() {
   }
   settings.bommode = readStorage("bommode");
   if (settings.bommode === null) {
+    settings.bommode = "grouped";
+  }
+  if (settings.bommode == "netlist" && !pcbdata.nets) {
     settings.bommode = "grouped";
   }
   if (!["grouped", "ungrouped", "netlist"].includes(settings.bommode)) {
@@ -1412,6 +1462,12 @@ function initDefaults() {
   }
   settings.checkboxes = bomCheckboxes.split(",").filter((e) => e);
   document.getElementById("bomCheckboxes").value = bomCheckboxes;
+
+  var highlightpin1 = readStorage("highlightpin1") || config.highlight_pin1;
+  if (highlightpin1 === "false") highlightpin1 = "none";
+  if (highlightpin1 === "true") highlightpin1 = "all";
+  setHighlightPin1(highlightpin1);
+  document.forms.highlightpin1.highlightpin1.value = highlightpin1;
 
   settings.markWhenChecked = readStorage("markWhenChecked") || "";
   populateMarkWhenCheckedOptions();
@@ -1443,7 +1499,6 @@ function initDefaults() {
   initBooleanSetting("dnpOutline", false, "dnpOutlineCheckbox", dnpOutline);
   initBooleanSetting("redrawOnDrag", config.redraw_on_drag, "dragCheckbox", setRedrawOnDrag);
   initBooleanSetting("darkmode", config.dark_mode, "darkmodeCheckbox", setDarkMode);
-  initBooleanSetting("highlightpin1", config.highlight_pin1, "highlightpin1Checkbox", setHighlightPin1);
 
   var fields = ["checkboxes", "References"].concat(config.fields).concat(["Quantity"]);
   var hcols = JSON.parse(readStorage("hiddenColumns"));
@@ -1471,6 +1526,8 @@ function initDefaults() {
   document.getElementById("boardRotation").value = settings.boardRotation / 5;
   document.getElementById("rotationDegree").textContent = settings.boardRotation;
   initBooleanSetting("offsetBackRotation", config.offset_back_rotation, "offsetBackRotationCheckbox", setOffsetBackRotation);
+
+  settings.netColors = JSON.parse(readStorage("netColors")) || {};
 }
 
 // Helper classes for user js callbacks.
@@ -1484,14 +1541,14 @@ const IBOM_EVENT_TYPES = {
 
 const EventHandler = {
   callbacks: {},
-  init: function() {
+  init: function () {
     for (eventType of Object.values(IBOM_EVENT_TYPES))
       this.callbacks[eventType] = [];
   },
-  registerCallback: function(eventType, callback) {
+  registerCallback: function (eventType, callback) {
     this.callbacks[eventType].push(callback);
   },
-  emitEvent: function(eventType, eventArgs) {
+  emitEvent: function (eventType, eventArgs) {
     event = {
       eventType: eventType,
       args: eventArgs,
@@ -1856,7 +1913,9 @@ function drawFootprint(ctx, layer, scalefactor, footprint, colors, highlight, ou
     for (var pad of footprint.pads) {
       if (pad.layers.includes(layer)) {
         drawPad(ctx, pad, colors.pad, outline);
-        if (pad.pin1 && settings.highlightpin1) {
+        if (pad.pin1 &&
+          (settings.highlightpin1 == "all" ||
+            settings.highlightpin1 == "selected" && highlight)) {
           drawPad(ctx, pad, colors.outline, true);
         }
       }
@@ -1922,12 +1981,12 @@ function drawBgLayer(layername, canvas, layer, scalefactor, edgeColor, polygonCo
   }
 }
 
-function drawTracks(canvas, layer, color, highlight) {
+function drawTracks(canvas, layer, defaultColor, highlight) {
   ctx = canvas.getContext("2d");
-  ctx.strokeStyle = color;
   ctx.lineCap = "round";
   for (var track of pcbdata.tracks[layer]) {
     if (highlight && highlightedNet != track.net) continue;
+    ctx.strokeStyle = highlight ? defaultColor : settings.netColors[track.net] || defaultColor;
     ctx.lineWidth = track.width;
     ctx.beginPath();
     if ('radius' in track) {
@@ -1944,16 +2003,16 @@ function drawTracks(canvas, layer, color, highlight) {
   }
 }
 
-function drawZones(canvas, layer, color, highlight) {
+function drawZones(canvas, layer, defaultColor, highlight) {
   ctx = canvas.getContext("2d");
-  ctx.strokeStyle = color;
-  ctx.fillStyle = color;
   ctx.lineJoin = "round";
   for (var zone of pcbdata.zones[layer]) {
+    if (highlight && highlightedNet != zone.net) continue;
+    ctx.strokeStyle = highlight ? defaultColor : settings.netColors[zone.net] || defaultColor;
+    ctx.fillStyle = highlight ? defaultColor : settings.netColors[zone.net] || defaultColor;
     if (!zone.path2d) {
       zone.path2d = getPolygonsPath(zone);
     }
-    if (highlight && highlightedNet != zone.net) continue;
     ctx.fill(zone.path2d, zone.fillrule || "nonzero");
     if (zone.width > 0) {
       ctx.lineWidth = zone.width;
@@ -3005,6 +3064,9 @@ function setDarkMode(value) {
   writeStorage("darkmode", value);
   settings.darkMode = value;
   redrawIfInitDone();
+  if (initDone) {
+    populateBomTable();
+  }
 }
 
 function setShowBOMColumn(field, value) {
@@ -3188,6 +3250,33 @@ function createRowHighlightHandler(rowid, refs, net) {
   }
 }
 
+function updateNetColors() {
+  writeStorage("netColors", JSON.stringify(settings.netColors));
+  redrawIfInitDone();
+}
+
+function netColorChangeHandler(net) {
+  return (event) => {
+    settings.netColors[net] = event.target.value;
+    updateNetColors();
+  }
+}
+
+function netColorRightClick(net) {
+  return (event) => {
+    if(event.button == 2) {
+      event.preventDefault();
+      event.stopPropagation();
+
+      var style = getComputedStyle(topmostdiv);
+      var defaultNetColor = style.getPropertyValue('--track-color').trim();
+      event.target.value = defaultNetColor;
+      delete settings.netColors[net];
+      updateNetColors();
+    }
+  }
+}
+
 function entryMatches(entry) {
   if (settings.bommode == "netlist") {
     // entry is just a net name
@@ -3206,7 +3295,7 @@ function entryMatches(entry) {
     var f = config.fields[i];
     if (!settings.hiddenColumns.includes(f)) {
       for (var ref of entry) {
-        if (pcbdata.bom.fields[ref[1]][i].toLowerCase().indexOf(filter) >= 0) {
+        if (String(pcbdata.bom.fields[ref[1]][i]).toLowerCase().indexOf(filter) >= 0) {
           return true;
         }
       }
@@ -3421,12 +3510,14 @@ function populateBomHeader(placeHolderColumn = null, placeHolderElements = null)
     }
   }
   if (settings.bommode == "netlist") {
-    th = createColumnHeader("Net name", "bom-netname", (a, b) => {
+    tr.appendChild(createColumnHeader("Net name", "bom-netname", (a, b) => {
       if (a > b) return -1;
       if (a < b) return 1;
       return 0;
-    });
-    tr.appendChild(th);
+    }));
+    tr.appendChild(createColumnHeader("Color", "bom-color", (a, b) => {
+      return 0;
+    }));
   } else {
     // Filter hidden columns
     var columns = settings.columnOrder.filter(e => !settings.hiddenColumns.includes(e));
@@ -3495,6 +3586,8 @@ function populateBomBody(placeholderColumn = null, placeHolderElements = null) {
   netsToHandler = {};
   currentHighlightedRowId = null;
   var first = true;
+  var style = getComputedStyle(topmostdiv);
+  var defaultNetColor = style.getPropertyValue('--track-color').trim();
   if (settings.bommode == "netlist") {
     bomtable = pcbdata.nets.slice();
   } else {
@@ -3540,6 +3633,17 @@ function populateBomBody(placeholderColumn = null, placeHolderElements = null) {
       netname = bomentry;
       td = document.createElement("TD");
       td.innerHTML = highlightFilter(netname ? netname : "&lt;no net&gt;");
+      tr.appendChild(td);
+      var color = settings.netColors[netname] || defaultNetColor;
+      td = document.createElement("TD");
+      var colorBox = document.createElement("INPUT");
+      colorBox.type = "color";
+      colorBox.value = color;
+      colorBox.onchange = netColorChangeHandler(netname);
+      colorBox.onmouseup = netColorRightClick(netname);
+      colorBox.oncontextmenu = (e) => e.preventDefault();
+      td.appendChild(colorBox);
+      td.classList.add("color-column");
       tr.appendChild(td);
     } else {
       if (reflookup) {
@@ -3596,7 +3700,7 @@ function populateBomBody(placeholderColumn = null, placeHolderElements = null) {
           td = document.createElement("TD");
           var output = new Array();
           for (let item of valueSet) {
-            const visible = highlightFilter(item);
+            const visible = highlightFilter(String(item));
             if (typeof item === 'string' && item.match(urlRegex)) {
               output.push(`<a href="${item}" target="_blank">${visible}</a>`);
             } else {
@@ -4226,12 +4330,27 @@ window.matchMedia("print").addListener(resizeAll);
             DNP outlined
           </label>
           <label class="menu-label">
-            <input id="highlightpin1Checkbox" type="checkbox" onchange="setHighlightPin1(this.checked)">
-            Highlight first pin
-          </label>
-          <label class="menu-label">
             <input id="dragCheckbox" type="checkbox" checked onchange="setRedrawOnDrag(this.checked)">
             Continuous redraw on drag
+          </label>
+          <label class="menu-label">
+            Highlight first pin
+            <form id="highlightpin1">
+              <div class="flexbox">
+                <label>
+                  <input type="radio" name="highlightpin1" value="none" onchange="setHighlightPin1('none')">
+                  None
+                </label>
+                <label>
+                  <input type="radio" name="highlightpin1" value="all" onchange="setHighlightPin1('all')">
+                  All
+                </label>
+                <label>
+                  <input type="radio" name="highlightpin1" value="selected" onchange="setHighlightPin1('selected')">
+                  Selected
+                </label>
+              </div>
+            </form>
           </label>
           <label class="menu-label">
             <span>Board rotation</span>
@@ -4361,6 +4480,7 @@ window.matchMedia("print").addListener(resizeAll);
             <div class="flexbox">
               <button class="savebtn" onclick="saveSettings()">Export</button>
               <button class="savebtn" onclick="loadSettings()">Import</button>
+              <button class="savebtn" onclick="resetSettings()">Reset</button>
             </div>
           </div>
           <div class="menu-label">
