@@ -23,10 +23,10 @@ on a modern design but may still be hard to source
 
 ## Important - Read This Bit! ##
 
-July 2023: **In the year since I started developing this board the 
-availabilityof the MC6883P/74LS783N SAM chip has gone from "easy to 
-find" to completely unobtainable anywhere except from scavenging them 
-from original boards. Please make sure you can find one before starting 
+September 2023: **In the year since I started developing this board the 
+availability of the MC6883P/74LS783N SAM chip has gone from "easy to 
+find" to almost unobtainable. The only known and proven source is from
+DragonPlus Electronics. Please make sure you can find one before starting 
 your build**
 
 There is work being done to create a replacement for the SAM chip
