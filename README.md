@@ -21,6 +21,20 @@ The variable resistor (RV1) and motor relay (RL1) are adjusted
 for modern, available components. The cartridge port is based
 on a modern design but may still be hard to source
 
+## Important - Read This Bit! ##
+
+September 2023: **In the year since I started developing this board the 
+availability of the MC6883P/74LS783N SAM chip has gone from "easy to 
+find" to almost unobtainable. The only known and proven source is from
+DragonPlus Electronics. Please make sure you can find one before starting 
+your build**
+
+There is work being done to create a replacement for the SAM chip
+but this is yet to become available
+
+The rarer (but ironically easier to buy) 74LS785 should work as
+a substitute
+
 ## Caveat ##
 
 The scans on the original SA2120 schematics are not always clear
@@ -32,16 +46,19 @@ The values of passive components are taken from observation of
 an original production board, in most cases those values do
 match the schematics, but not always
 
-Revision 1.x of this board is effectively untested and unproven
+Revision 2.1 of this board is in a genuinely usable state but
+still with caveats
 
 ### Working ###
 
-In the current state (2.0) basic operation is tested working on
+In the current state (2.1) basic operation is tested working on
 CPU, RAM, Keyboard, Joystick and Video.
 
 ### Working with issues ###
 
-Audio appears to be good but not fully tested
+Audio appears to be good but not fully tested (given the joysticks
+work and the board produces audio there isn't much to go wrong
+here)
 
 ### Untested ###
 
@@ -83,6 +100,59 @@ using this option, along with C12, C58, C59 and R66.
 See [World of Dragon: Dragon 32 - 64k Upgrade]
 (http://archive.worldofdragon.org/index.php?title=Dragon_32_-_64K_Upgrade)
 
+## Video ##
+
+The Rev 2.1 board adds two (hidden) solder jumpers for adapting
+the board to NTSC output. By default these have a bridge putting
+the board in PAL mode so unless you want NTSC output there is
+nothing to be done.
+
+To change the configuration the bridge on both jumpers needs to be
+cut and the option pads bridged with solder. This bypasses the
+additional logic for video sync. The jumpers are JP15/16 and 
+JP17/18, these are positioned below IC15 and IC12 respectively. 
+The default position is marked.
+
+To complete the change an NTSC adapter board needs to be fitted.
+This piggybacks the 6847 position and adds in a suitable NTSC
+video modulator. The output of the NTSC board goes to PL8, next
+to the PAL colour crystal XL1.
+
+In this configuration there is no need to fit a number of components:
+
+* IC9
+* IC10
+* IC11
+* IC14
+* IC21
+* IC22
+* IC26
+* IC27
+* IC29
+* IC30
+* IC32
+* C2
+* C3
+* C5
+* C6
+* C7
+* C24
+* C25
+* C28
+* C46
+* C47
+* C71
+* R2
+* R3
+* R4
+* R17
+* R18
+* R33
+* R34
+* R35
+* R44
+* XL1
+
 ## Substitutions ##
 
 Many of the original components are simply unobtainable or
@@ -103,7 +173,7 @@ expensive) possibly cheaper than a real 2318D but not by
 much, some are stupidly expensive (nearly 100x that
 2318D). The HA-5111 should be about £0.90
 
-The CPU, SAM, PIAs and VDG are all fairly easy to obtain online
+The CPU, PIAs and VDG are all fairly easy to obtain online
 and possibly even new (MC6821s are still made and there
 are lots of compatible alternatives). A and B rated components
 should all be usable but make sure the processor is an "09e".
@@ -119,8 +189,9 @@ is now obsolete with no valid replacement
 The LM1889 is another hard to find chip but still reasonably
 cheap online when found
 
-The two ROMs are genuinely unavailable except from donor
-boards
+The SAM and the two ROMs are genuinely unavailable except 
+from donor boards but the ROMs can be replaced with 27C64
+eproms fitted with a suitable conversion shim board.
 
 ### The Future ###
 
