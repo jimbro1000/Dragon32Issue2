@@ -20,12 +20,32 @@ are using lead based solder set the temperature
 to between 360C and 370C. The board can tolerate
 higher for lead-free solder.
 
+A ready supply of solder flux can be really
+helpful if you find yourself having to remove a
+component from the board.
+
 You will need short tipped, angled wire cutters
 for trimming the component leads after soldering.
+Don't cut the leads right down to the board or deep
+into the solder.
 
 It is also a good idea to have a multimeter on hand
 to check component values and test for any shorts
 after soldering.
+
+The project repository on GitHub includes an
+interactive Bill Of Materials that allows you to
+cross-reference components against position on
+the board (and mark off all the parts that you've
+fitted). To use this download the ibom.html file
+to your computer and open it from the local file
+system (this should open up a web browser).
+
+If you can't or don't want to use the iBOM it is
+a good idea to print off the Dragon32__Assembly 
+PDF on to large form paper and mark the positions 
+off from there as they are fitted to help avoid
+getting lost.
 
 ## Build Order ##
 
