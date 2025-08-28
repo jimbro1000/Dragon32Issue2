@@ -8108,6 +8108,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey" "CP-7050-ND"
+			(at 123.698 172.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0f2eb888-f7b9-4bab-9937-aa340a3720ac")
 		)
@@ -9475,6 +9484,15 @@
 		)
 		(property "Description" ""
 			(at 105.029 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "538-22-28-5033"
+			(at 105.029 76.962 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10884,6 +10902,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" "538-22-28-5033"
+			(at 91.44 40.132 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "efd3a817-903c-4afc-9fd6-7761692318b5")
 		)
@@ -10957,7 +10984,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "2156-MC6821CS-2156-ND"
+		(property "DigiKey" ""
 			(at 59.69 64.262 0)
 			(effects
 				(font
@@ -10967,6 +10994,15 @@
 			)
 		)
 		(property "Note" "donor is preferable"
+			(at 59.69 64.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "517-4840-6000-CP"
 			(at 59.69 64.262 0)
 			(effects
 				(font

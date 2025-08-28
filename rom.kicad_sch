@@ -1776,6 +1776,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" "517-4824-6000-CP"
+			(at 116.205 90.551 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ea81382f-f72e-4db5-86e0-9461150e1880")
 		)
@@ -1994,6 +2003,15 @@
 			)
 		)
 		(property "SA2120" "Sheet 1"
+			(at 153.289 90.551 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "517-4824-6000-CP"
 			(at 153.289 90.551 0)
 			(effects
 				(font

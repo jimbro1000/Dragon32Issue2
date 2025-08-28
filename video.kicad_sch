@@ -13253,7 +13253,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "CF14JT6K80CT-ND"
+		(property "DigiKey" "CF14JT8K20CT-ND"
 			(at 197.7415 252.4836 0)
 			(effects
 				(font
@@ -13580,6 +13580,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 353.06 68.326 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "538-22-28-4024"
 			(at 353.06 68.326 0)
 			(effects
 				(font
@@ -20409,6 +20418,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" "517-4818-3000-CP"
+			(at 208.788 94.234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "31cb791a-246c-494d-ae06-5dae8d4a31cb")
 		)
@@ -20651,6 +20669,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 161.544 113.792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "4363-PPXE27000-ND"
 			(at 161.544 113.792 0)
 			(effects
 				(font
@@ -21453,7 +21480,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "3386H-103LF-ND"
+		(property "DigiKey" "3386C-103LF-ND"
 			(at 299.466 54.356 0)
 			(effects
 				(font

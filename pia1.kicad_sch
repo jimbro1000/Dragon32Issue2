@@ -8035,7 +8035,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "2156-MC6821CS-2156-ND"
+		(property "DigiKey" ""
 			(at 58.928 85.344 0)
 			(effects
 				(font
@@ -8045,6 +8045,15 @@
 			)
 		)
 		(property "Note" "donor is preferable"
+			(at 58.928 85.344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "517-4840-6000-CP"
 			(at 58.928 85.344 0)
 			(effects
 				(font
@@ -9357,7 +9366,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "BC1101CT-ND"
+		(property "DigiKey" "BC2662CT-ND"
 			(at 113.538 70.866 0)
 			(effects
 				(font
@@ -9572,6 +9581,15 @@
 			)
 		)
 		(property "Note" "RS Components"
+			(at 230.378 27.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "CP-7060-ND"
 			(at 230.378 27.686 0)
 			(effects
 				(font
@@ -10270,7 +10288,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "BC1101CT-ND"
+		(property "DigiKey" "BC2662CT-ND"
 			(at 84.328 70.866 0)
 			(effects
 				(font
@@ -10350,6 +10368,15 @@
 			)
 		)
 		(property "Note" "RS Components"
+			(at 230.378 74.676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "CP-7060-ND"
 			(at 230.378 74.676 0)
 			(effects
 				(font
@@ -11567,7 +11594,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "BC1101CT-ND"
+		(property "DigiKey" "BC2662CT-ND"
 			(at 103.378 70.866 0)
 			(effects
 				(font
@@ -12944,7 +12971,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "BC1101CT-ND"
+		(property "DigiKey" "BC2662CT-ND"
 			(at 94.488 70.866 0)
 			(effects
 				(font
@@ -13021,7 +13048,16 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "952-2521-ND"
+		(property "DigiKey" ""
+			(at 173.482 41.148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "538-22-28-8161"
 			(at 173.482 41.148 0)
 			(effects
 				(font

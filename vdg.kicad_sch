@@ -3071,6 +3071,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" "517-4840-6000-CP"
+			(at 162.56 101.092 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9d16b33a-84ff-42b7-99a4-bac72d9bf251")
 		)

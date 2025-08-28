@@ -10150,6 +10150,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" "517-4816-3000-CP"
+			(at 35.433 42.418 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "971c033b-cbe0-4082-8fef-de8438f83918")
 		)
@@ -10602,6 +10611,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" "538-22-28-5033"
+			(at 112.903 195.707 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9e1a6967-0507-426c-a859-94058489b829")
 		)
@@ -10948,6 +10966,15 @@
 			)
 		)
 		(property "SA2120" "Sheet 1"
+			(at 120.777 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "517-4816-3000-CP"
 			(at 120.777 42.545 0)
 			(effects
 				(font
@@ -11590,7 +11617,7 @@
 		(at 278.638 78.74 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -11859,6 +11886,15 @@
 		)
 		(property "Description" ""
 			(at 264.668 145.161 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "538-22-28-5033"
+			(at 264.668 145.161 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12884,6 +12920,15 @@
 			)
 		)
 		(property "SA2120" "Sheet 1"
+			(at 78.105 42.418 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "517-4816-3000-CP"
 			(at 78.105 42.418 0)
 			(effects
 				(font
@@ -14043,6 +14088,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" "517-4816-3000-CP"
+			(at 120.777 103.251 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0a6e93da-11d2-4888-838d-b9686a250e41")
 		)
@@ -14892,8 +14946,17 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "952-2521-ND"
+		(property "DigiKey" ""
 			(at 248.92 117.983 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "538-22-28-5033"
+			(at 248.92 117.983 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15181,6 +15244,15 @@
 			)
 		)
 		(property "SA2120" "Sheet 1"
+			(at 35.433 103.124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "517-4816-3000-CP"
 			(at 35.433 103.124 0)
 			(effects
 				(font
@@ -15590,6 +15662,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" "517-4816-3000-CP"
+			(at 163.449 103.251 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9463cd35-489d-4e1d-adb5-2a295f5c54bf")
 		)
@@ -15728,7 +15809,7 @@
 		(at 288.5311 70.2273 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -15858,6 +15939,15 @@
 			)
 		)
 		(property "SA2120" "Sheet 1"
+			(at 163.449 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "517-4816-3000-CP"
 			(at 163.449 42.545 0)
 			(effects
 				(font
@@ -17291,6 +17381,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" "517-4816-3000-CP"
+			(at 78.105 103.124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5ea2dbae-7331-425b-8f29-d5ad26fd82c7")
 		)
@@ -17784,6 +17883,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" "538-22-28-5033"
+			(at 262.128 111.633 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "53350711-d63e-4399-aef0-dae1fe35f075")
 		)
@@ -17873,6 +17981,15 @@
 			)
 		)
 		(property "SA2120" "Sheet 1"
+			(at 244.856 60.071 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "517-4840-6000-CP"
 			(at 244.856 60.071 0)
 			(effects
 				(font
@@ -18135,6 +18252,15 @@
 		)
 		(property "Description" ""
 			(at 224.663 145.542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "538-22-28-5033"
+			(at 224.663 145.542 90)
 			(effects
 				(font
 					(size 1.27 1.27)

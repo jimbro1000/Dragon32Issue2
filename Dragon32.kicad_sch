@@ -7603,7 +7603,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "151-395-040-558-201-ND"
+		(property "DigiKey" "151-342-040-558-201-ND"
 			(at 376.809 85.979 0)
 			(effects
 				(font
@@ -7612,7 +7612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "587-395-040-558-201"
+		(property "Mouser" "587-342-040-558-201"
 			(at 376.809 85.979 0)
 			(effects
 				(font
