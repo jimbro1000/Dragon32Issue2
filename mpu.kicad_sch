@@ -7,6 +7,8 @@
 	(title_block
 		(date "2023-06-03")
 		(rev "2.1")
+		(company "Dragon Data")
+		(comment 1 "Reproduced and Modified by Julian Brown")
 	)
 	(lib_symbols
 		(symbol "CPU_NXP_6800:MC6809E"
