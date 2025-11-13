@@ -46,15 +46,15 @@ The values of passive components are taken from observation of
 an original production board, in most cases those values do
 match the schematics, but not always
 
-Revision 2.1 of this board is in a genuinely usable state but
+Revision 2.3 of this board is in a genuinely usable state but
 still with caveats
 
 ### Working ###
 
-In the current state (2.1) basic operation is tested working on
+In the current state (2.3) basic operation is tested working on
 CPU, RAM, Keyboard, Joystick and Video.
 
-### Working with issues ###
+### Working with caveat ###
 
 Audio appears to be good but not fully tested (given the joysticks
 work and the board produces audio there isn't much to go wrong
@@ -62,8 +62,8 @@ here)
 
 ### Untested ###
 
-Cassette input/output is untested. Cassette motor relay is untested.
-Parallel port is untested in either mode
+Parallel port is untested in either mode beyond verifying signals
+to the port are present
 
 ## Modifications ##
 ### Joysticks ###
@@ -81,7 +81,9 @@ The two extra buttons can also be disabled by omitting L3 and L4
 
 An extra jumper has been introduced to bypass the logic inverter
 on the STROBE line. When bypassed the parallel port should 
-operate as a communication port for DRIVEWIRE
+operate as a communication port for DRIVEWIRE. In effect this
+enables the printer port to behave as a TTL serial connection. 
+Speed is limited by software and raw clock speed.
 
 ### Memory Addressing ###
 
@@ -223,3 +225,9 @@ recently that the chip became obsolete so there is
 stock out there but the chip is somewhat specialised and
 as such really isnt easily substituted even with a modern
 SMD package.
+
+The most likely candidate here is to use a GAL chip to 
+simulate the switching behaviour of the MC14529 combined
+with discrete analogue switches (such as 74LVC1G3157). This
+will necessitate a new board design or a plugin board to
+match the pinout of the 4529 chip
