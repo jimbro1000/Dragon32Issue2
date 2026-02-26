@@ -1,0 +1,1 @@
+* jumper 11/12 incorrectly wired to separate direct and inverted signals to STROBE *

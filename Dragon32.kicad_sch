@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "Dragon 32 CPU UK PAL Issue 2")
-		(date "2023-06-03")
-		(rev "2.1")
+		(date "2025-11-11")
+		(rev "2.3")
 		(company "Dragon Data")
 		(comment 1 "Reproduced and Modified by Julian Brown")
 	)

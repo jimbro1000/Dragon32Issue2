@@ -7,6 +7,8 @@
 	(title_block
 		(date "2023-06-03")
 		(rev "2.1")
+		(company "Dragon Data")
+		(comment 1 "Reproduced and Modified by Julian Brown")
 	)
 	(lib_symbols
 		(symbol "74xx:74LS02"
@@ -4551,7 +4553,7 @@
 		(uuid "7909f409-9d95-4c1c-8c30-777b11af0de6")
 	)
 	(junction
-		(at 228.6 121.793)
+		(at 228.6 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ac40d4e-d5e5-4f78-8439-a267dc357940")
@@ -4692,16 +4694,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 121.793) (xy 228.6 111.633)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "051afa23-a050-4ccf-bbad-8b989f50a2c0")
-	)
-	(wire
-		(pts
 			(xy 89.027 120.904) (xy 88.392 120.904)
 		)
 		(stroke
@@ -4749,6 +4741,16 @@
 			(type default)
 		)
 		(uuid "09221cc5-ceea-44ae-96f1-a5cc65c40a0e")
+	)
+	(wire
+		(pts
+			(xy 248.92 110.49) (xy 248.92 111.633)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d947739-8ddb-4959-9476-e6ddb59b70bc")
 	)
 	(wire
 		(pts
@@ -5022,7 +5024,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 111.633) (xy 248.92 111.633)
+			(xy 228.6 110.49) (xy 248.92 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5189,6 +5191,16 @@
 			(type default)
 		)
 		(uuid "6a4da2fc-8b77-48b4-a10e-a400069f9c36")
+	)
+	(wire
+		(pts
+			(xy 248.92 125.73) (xy 248.92 124.333)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c71c40b-3a68-4238-bb91-9436ac2981e8")
 	)
 	(wire
 		(pts
@@ -5552,6 +5564,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 110.49) (xy 228.6 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d24a12c8-1f20-4a68-b0f2-3ddf6a44c529")
+	)
+	(wire
+		(pts
 			(xy 46.355 120.904) (xy 45.72 120.904)
 		)
 		(stroke
@@ -5602,7 +5624,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 124.333) (xy 243.84 124.333)
+			(xy 248.92 125.73) (xy 243.84 125.73)
 		)
 		(stroke
 			(width 0)
@@ -5742,7 +5764,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 121.793) (xy 228.6 126.873)
+			(xy 228.6 123.19) (xy 228.6 128.27)
 		)
 		(stroke
 			(width 0)
@@ -5759,16 +5781,6 @@
 			(type default)
 		)
 		(uuid "fc6f47b9-de04-4af8-9d75-3c29284b83f1")
-	)
-	(wire
-		(pts
-			(xy 227.965 121.793) (xy 228.6 121.793)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd2cfde3-c800-45b5-983d-31a8fe4a371c")
 	)
 	(wire
 		(pts
@@ -8432,7 +8444,7 @@
 	)
 	(global_label "Z7"
 		(shape input)
-		(at 227.965 121.793 180)
+		(at 228.6 110.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8442,7 +8454,7 @@
 		)
 		(uuid "9e6cc41f-ebc6-4c8a-9b16-c093f0775698")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.2218 121.7136 0)
+			(at 223.8568 110.4106 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13556,7 +13568,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS02")
-		(at 236.22 124.333 0)
+		(at 236.22 125.73 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13565,7 +13577,7 @@
 		(fields_autoplaced yes)
 		(uuid "77018629-65ad-4faa-bd78-410ba7c95fa2")
 		(property "Reference" "IC31"
-			(at 236.22 115.57 0)
+			(at 236.22 116.967 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13573,7 +13585,7 @@
 			)
 		)
 		(property "Value" "74LS02N"
-			(at 236.22 118.11 0)
+			(at 236.22 119.507 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13581,7 +13593,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 236.22 124.333 0)
+			(at 236.22 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13590,7 +13602,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ls02"
-			(at 236.22 124.333 0)
+			(at 236.22 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13599,7 +13611,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 236.22 124.333 0)
+			(at 236.22 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13608,7 +13620,7 @@
 			)
 		)
 		(property "DigiKey" "296-1627-5-ND"
-			(at 236.22 124.333 0)
+			(at 236.22 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13617,7 +13629,7 @@
 			)
 		)
 		(property "SA2120" "Sheet 1"
-			(at 236.22 124.333 0)
+			(at 236.22 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)

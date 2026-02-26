@@ -7,6 +7,8 @@
 	(title_block
 		(date "2023-06-03")
 		(rev "2.1")
+		(company "Dragon Data")
+		(comment 1 "Reproduced and Modified by Julian Brown")
 	)
 	(lib_symbols
 		(symbol "74xx:74LS00"
@@ -16571,7 +16573,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "478-8984-1-ND"
+		(property "DigiKey" "478-8851-1-ND"
 			(at 216.154 62.23 90)
 			(effects
 				(font
